@@ -84,8 +84,8 @@ regenerate them by re-running the corresponding contrast section of
 figures, and TSV differential-expression outputs for every contrast are
 included.
 
-Raw sequencing reads, BAM files, and other large intermediates not covered
-above are available on request from the repository maintainer.
+Raw sequencing reads are deposited at the European Nucleotide Archive (ENA)
+under study accession [PRJEB124423](https://www.ebi.ac.uk/ena/browser/view/PRJEB124423).
 
 ## Repository layout
 
