@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0001655	urogenital system development	266	86	33.66	2.5e-16	2.5e-16
+GO:0010629	negative regulation of gene expression	1280	181	162	2.7e-13	2.7e-13
+GO:0045944	positive regulation of transcription by ...	684	149	86.57	4.1e-12	4.1e-12
+GO:0007419	ventral cord development	45	25	5.7	7.1e-12	7.1e-12
+GO:0006935	chemotaxis	492	126	62.27	1.2e-11	1.2e-11
+GO:0032989	cellular anatomical entity morphogenesis	943	175	119.35	3.3e-11	3.3e-11
+GO:0000122	negative regulation of transcription by ...	529	120	66.95	4.7e-11	4.7e-11
+GO:0007501	mesodermal cell fate specification	40	19	5.06	1.4e-10	1.4e-10
+GO:0021983	pituitary gland development	33	22	4.18	1.5e-09	1.5e-9
+GO:0032879	regulation of localization	1390	179	175.92	2.6e-09	2.6e-9
+GO:0007156	homophilic cell adhesion via plasma memb...	40	21	5.06	4.1e-09	4.1e-9
+GO:0061213	positive regulation of mesonephros devel...	14	11	1.77	3.2e-08	3.2e-8

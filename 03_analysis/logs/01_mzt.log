@@ -1,0 +1,1805 @@
+
+groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
+Genes in short count matrix: 14260
+Genes in long count matrix:  23460
+Samples in metadata:          54
+Warning messages:
+1: In mde(x) : NAs introduced by coercion
+2: In mde(x) : NAs introduced by coercion
+3: There were 2 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(where(is.character), trimws)`.
+Caused by warning in `grep()`:
+! unable to translate 'explanation<ca>' to a wide string
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 1 remaining warning. 
+
+============================
+Reference: short
+============================
+Genes retained after filtering: 7734
+  Contrast: unfert_vs_fert
+
+============================
+Reference: long
+============================
+Genes retained after filtering: 8454
+  Contrast: unfert_vs_fert
+  [DE stats] Q1 | short | unfert_vs_fert | up=2044 down=51
+  [DE stats] Q1 | long | unfert_vs_fert | up=1908 down=46
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 7161 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 19:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 18:	3 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	13 nodes to be scored	(6 eliminated genes)
+
+	 Level 16:	35 nodes to be scored	(15 eliminated genes)
+
+	 Level 15:	56 nodes to be scored	(76 eliminated genes)
+
+	 Level 14:	96 nodes to be scored	(262 eliminated genes)
+
+	 Level 13:	210 nodes to be scored	(671 eliminated genes)
+
+	 Level 12:	416 nodes to be scored	(1258 eliminated genes)
+
+	 Level 11:	633 nodes to be scored	(2169 eliminated genes)
+
+	 Level 10:	830 nodes to be scored	(3605 eliminated genes)
+
+	 Level 9:	1011 nodes to be scored	(4690 eliminated genes)
+
+	 Level 8:	1025 nodes to be scored	(5787 eliminated genes)
+
+	 Level 7:	979 nodes to be scored	(6695 eliminated genes)
+
+	 Level 6:	864 nodes to be scored	(7245 eliminated genes)
+
+	 Level 5:	581 nodes to be scored	(7772 eliminated genes)
+
+	 Level 4:	300 nodes to be scored	(8398 eliminated genes)
+
+	 Level 3:	90 nodes to be scored	(8535 eliminated genes)
+
+	 Level 2:	16 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8643 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1521 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	8 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	24 nodes to be scored	(13 eliminated genes)
+
+	 Level 9:	60 nodes to be scored	(48 eliminated genes)
+
+	 Level 8:	176 nodes to be scored	(176 eliminated genes)
+
+	 Level 7:	260 nodes to be scored	(897 eliminated genes)
+
+	 Level 6:	377 nodes to be scored	(2362 eliminated genes)
+
+	 Level 5:	312 nodes to be scored	(3389 eliminated genes)
+
+	 Level 4:	222 nodes to be scored	(4892 eliminated genes)
+
+	 Level 3:	61 nodes to be scored	(6330 eliminated genes)
+
+	 Level 2:	18 nodes to be scored	(6942 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7457 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 951 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 13:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 12:	10 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	46 nodes to be scored	(10 eliminated genes)
+
+	 Level 10:	120 nodes to be scored	(33 eliminated genes)
+
+	 Level 9:	154 nodes to be scored	(732 eliminated genes)
+
+	 Level 8:	152 nodes to be scored	(1728 eliminated genes)
+
+	 Level 7:	118 nodes to be scored	(3079 eliminated genes)
+
+	 Level 6:	120 nodes to be scored	(4765 eliminated genes)
+
+	 Level 5:	108 nodes to be scored	(5465 eliminated genes)
+
+	 Level 4:	68 nodes to be scored	(6470 eliminated genes)
+
+	 Level 3:	50 nodes to be scored	(7029 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7871 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1446 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 15:	6 nodes to be scored	(0 eliminated genes)
+
+	 Level 14:	15 nodes to be scored	(0 eliminated genes)
+
+	 Level 13:	27 nodes to be scored	(264 eliminated genes)
+
+	 Level 12:	47 nodes to be scored	(644 eliminated genes)
+
+	 Level 11:	70 nodes to be scored	(1095 eliminated genes)
+
+	 Level 10:	101 nodes to be scored	(2242 eliminated genes)
+
+	 Level 9:	141 nodes to be scored	(2905 eliminated genes)
+
+	 Level 8:	175 nodes to be scored	(3673 eliminated genes)
+
+	 Level 7:	222 nodes to be scored	(4816 eliminated genes)
+
+	 Level 6:	244 nodes to be scored	(5639 eliminated genes)
+
+	 Level 5:	197 nodes to be scored	(6937 eliminated genes)
+
+	 Level 4:	130 nodes to be scored	(8091 eliminated genes)
+
+	 Level 3:	56 nodes to be scored	(8413 eliminated genes)
+
+	 Level 2:	14 nodes to be scored	(8537 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8642 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 155 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 11:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 9:	5 nodes to be scored	(2 eliminated genes)
+
+	 Level 8:	7 nodes to be scored	(8 eliminated genes)
+
+	 Level 7:	12 nodes to be scored	(285 eliminated genes)
+
+	 Level 6:	20 nodes to be scored	(1011 eliminated genes)
+
+	 Level 5:	39 nodes to be scored	(1414 eliminated genes)
+
+	 Level 4:	37 nodes to be scored	(2036 eliminated genes)
+
+	 Level 3:	22 nodes to be scored	(3740 eliminated genes)
+
+	 Level 2:	9 nodes to be scored	(5460 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(6820 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 119 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 11:	3 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 9:	9 nodes to be scored	(272 eliminated genes)
+
+	 Level 8:	16 nodes to be scored	(305 eliminated genes)
+
+	 Level 7:	17 nodes to be scored	(1063 eliminated genes)
+
+	 Level 6:	20 nodes to be scored	(3070 eliminated genes)
+
+	 Level 5:	16 nodes to be scored	(4013 eliminated genes)
+
+	 Level 4:	14 nodes to be scored	(5611 eliminated genes)
+
+	 Level 3:	19 nodes to be scored	(6938 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7824 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8203 eliminated genes)
+
+Building most specific GOs .....
+	( 12359 GO terms found. )
+
+Build GO DAG topology ..........
+	( 12762 GO terms and 27865 relations. )
+
+Annotating nodes ...............
+	( 8993 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 6690 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 19:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 18:	3 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	10 nodes to be scored	(2 eliminated genes)
+
+	 Level 16:	33 nodes to be scored	(16 eliminated genes)
+
+	 Level 15:	55 nodes to be scored	(101 eliminated genes)
+
+	 Level 14:	85 nodes to be scored	(364 eliminated genes)
+
+	 Level 13:	185 nodes to be scored	(853 eliminated genes)
+
+	 Level 12:	369 nodes to be scored	(1473 eliminated genes)
+
+	 Level 11:	584 nodes to be scored	(2474 eliminated genes)
+
+	 Level 10:	773 nodes to be scored	(3942 eliminated genes)
+
+	 Level 9:	951 nodes to be scored	(5058 eliminated genes)
+
+	 Level 8:	970 nodes to be scored	(6178 eliminated genes)
+
+	 Level 7:	905 nodes to be scored	(7034 eliminated genes)
+
+	 Level 6:	819 nodes to be scored	(7624 eliminated genes)
+
+	 Level 5:	550 nodes to be scored	(8121 eliminated genes)
+
+	 Level 4:	289 nodes to be scored	(8716 eliminated genes)
+
+	 Level 3:	91 nodes to be scored	(8867 eliminated genes)
+
+	 Level 2:	16 nodes to be scored	(8899 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8974 eliminated genes)
+
+Building most specific GOs .....
+	( 3046 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3142 GO terms and 4101 relations. )
+
+Annotating nodes ...............
+	( 7825 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1345 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	8 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	20 nodes to be scored	(14 eliminated genes)
+
+	 Level 9:	52 nodes to be scored	(58 eliminated genes)
+
+	 Level 8:	152 nodes to be scored	(191 eliminated genes)
+
+	 Level 7:	224 nodes to be scored	(966 eliminated genes)
+
+	 Level 6:	315 nodes to be scored	(2481 eliminated genes)
+
+	 Level 5:	291 nodes to be scored	(3537 eliminated genes)
+
+	 Level 4:	202 nodes to be scored	(5042 eliminated genes)
+
+	 Level 3:	60 nodes to be scored	(6629 eliminated genes)
+
+	 Level 2:	18 nodes to be scored	(7266 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7778 eliminated genes)
+
+Building most specific GOs .....
+	( 1582 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1601 GO terms and 2689 relations. )
+
+Annotating nodes ...............
+	( 8517 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 905 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 13:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 12:	10 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	44 nodes to be scored	(13 eliminated genes)
+
+	 Level 10:	114 nodes to be scored	(37 eliminated genes)
+
+	 Level 9:	151 nodes to be scored	(753 eliminated genes)
+
+	 Level 8:	146 nodes to be scored	(1779 eliminated genes)
+
+	 Level 7:	110 nodes to be scored	(3205 eliminated genes)
+
+	 Level 6:	114 nodes to be scored	(4966 eliminated genes)
+
+	 Level 5:	98 nodes to be scored	(5765 eliminated genes)
+
+	 Level 4:	62 nodes to be scored	(6832 eliminated genes)
+
+	 Level 3:	51 nodes to be scored	(7368 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(8223 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8510 eliminated genes)
+
+Building most specific GOs .....
+	( 12359 GO terms found. )
+
+Build GO DAG topology ..........
+	( 12762 GO terms and 27865 relations. )
+
+Annotating nodes ...............
+	( 8993 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1266 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 17:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 16:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 15:	6 nodes to be scored	(19 eliminated genes)
+
+	 Level 14:	11 nodes to be scored	(20 eliminated genes)
+
+	 Level 13:	23 nodes to be scored	(176 eliminated genes)
+
+	 Level 12:	43 nodes to be scored	(746 eliminated genes)
+
+	 Level 11:	69 nodes to be scored	(1168 eliminated genes)
+
+	 Level 10:	93 nodes to be scored	(2364 eliminated genes)
+
+	 Level 9:	123 nodes to be scored	(3333 eliminated genes)
+
+	 Level 8:	159 nodes to be scored	(4352 eliminated genes)
+
+	 Level 7:	187 nodes to be scored	(5116 eliminated genes)
+
+	 Level 6:	204 nodes to be scored	(6151 eliminated genes)
+
+	 Level 5:	167 nodes to be scored	(7226 eliminated genes)
+
+	 Level 4:	111 nodes to be scored	(8050 eliminated genes)
+
+	 Level 3:	52 nodes to be scored	(8587 eliminated genes)
+
+	 Level 2:	14 nodes to be scored	(8871 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8959 eliminated genes)
+
+Building most specific GOs .....
+	( 3046 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3142 GO terms and 4101 relations. )
+
+Annotating nodes ...............
+	( 7825 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 135 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 9:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 8:	6 nodes to be scored	(0 eliminated genes)
+
+	 Level 7:	9 nodes to be scored	(311 eliminated genes)
+
+	 Level 6:	19 nodes to be scored	(798 eliminated genes)
+
+	 Level 5:	33 nodes to be scored	(1299 eliminated genes)
+
+	 Level 4:	37 nodes to be scored	(2800 eliminated genes)
+
+	 Level 3:	21 nodes to be scored	(3956 eliminated genes)
+
+	 Level 2:	7 nodes to be scored	(5791 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7019 eliminated genes)
+
+Building most specific GOs .....
+	( 1582 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1601 GO terms and 2689 relations. )
+
+Annotating nodes ...............
+	( 8517 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 141 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 11:	3 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	5 nodes to be scored	(0 eliminated genes)
+
+	 Level 9:	12 nodes to be scored	(275 eliminated genes)
+
+	 Level 8:	18 nodes to be scored	(474 eliminated genes)
+
+	 Level 7:	20 nodes to be scored	(1655 eliminated genes)
+
+	 Level 6:	23 nodes to be scored	(3612 eliminated genes)
+
+	 Level 5:	19 nodes to be scored	(4692 eliminated genes)
+
+	 Level 4:	17 nodes to be scored	(6504 eliminated genes)
+
+	 Level 3:	21 nodes to be scored	(7103 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(8048 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8505 eliminated genes)
+There were 12 warnings (use warnings() to see them)
+Warning messages:
+1: In grep("^[.][.](?:[.]|[1-9][0-9]*)$", names) :
+  unable to translate 'explanation<ca>' to a wide string
+2: In grep("^[.][.](?:[.]|[1-9][0-9]*)$", names) :
+  input string 9 is invalid
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Hierarchical clustering — fertilised egg samples' in 'mbcsToSbcs': - substituted for — (U+2014)
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Hierarchical clustering — fertilised egg samples' in 'mbcsToSbcs': - substituted for — (U+2014)
+
+============================
+Reference: short
+============================
+Genes retained after filtering: 10194
+  Contrast: early_vs_unfert
+  Contrast: late_vs_unfert
+  Contrast: late_vs_early
+  [DE stats] Q1 | short | early_vs_unfert | up=1441 down=1621
+  [DE stats] Q1 | short | late_vs_unfert | up=3731 down=2098
+  [DE stats] Q1 | short | late_vs_early | up=4004 down=1818
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 8613 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 18:	9 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	25 nodes to be scored	(0 eliminated genes)
+
+	 Level 16:	57 nodes to be scored	(15 eliminated genes)
+
+	 Level 15:	91 nodes to be scored	(93 eliminated genes)
+
+	 Level 14:	135 nodes to be scored	(340 eliminated genes)
+
+	 Level 13:	258 nodes to be scored	(795 eliminated genes)
+
+	 Level 12:	496 nodes to be scored	(1354 eliminated genes)
+
+	 Level 11:	791 nodes to be scored	(2175 eliminated genes)
+
+	 Level 10:	1045 nodes to be scored	(3555 eliminated genes)
+
+	 Level 9:	1261 nodes to be scored	(4713 eliminated genes)
+
+	 Level 8:	1234 nodes to be scored	(5778 eliminated genes)
+
+	 Level 7:	1150 nodes to be scored	(6672 eliminated genes)
+
+	 Level 6:	981 nodes to be scored	(7229 eliminated genes)
+
+	 Level 5:	639 nodes to be scored	(7771 eliminated genes)
+
+	 Level 4:	327 nodes to be scored	(8393 eliminated genes)
+
+	 Level 3:	96 nodes to be scored	(8531 eliminated genes)
+
+	 Level 2:	17 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8644 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1437 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	8 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	27 nodes to be scored	(2 eliminated genes)
+
+	 Level 9:	76 nodes to be scored	(35 eliminated genes)
+
+	 Level 8:	156 nodes to be scored	(173 eliminated genes)
+
+	 Level 7:	256 nodes to be scored	(911 eliminated genes)
+
+	 Level 6:	316 nodes to be scored	(2188 eliminated genes)
+
+	 Level 5:	294 nodes to be scored	(3236 eliminated genes)
+
+	 Level 4:	219 nodes to be scored	(4780 eliminated genes)
+
+	 Level 3:	63 nodes to be scored	(6092 eliminated genes)
+
+	 Level 2:	19 nodes to be scored	(6816 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7290 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1025 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 13:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 12:	6 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	46 nodes to be scored	(10 eliminated genes)
+
+	 Level 10:	126 nodes to be scored	(24 eliminated genes)
+
+	 Level 9:	170 nodes to be scored	(735 eliminated genes)
+
+	 Level 8:	169 nodes to be scored	(1697 eliminated genes)
+
+	 Level 7:	133 nodes to be scored	(3082 eliminated genes)
+
+	 Level 6:	127 nodes to be scored	(4769 eliminated genes)
+
+	 Level 5:	113 nodes to be scored	(5469 eliminated genes)
+
+	 Level 4:	72 nodes to be scored	(6470 eliminated genes)
+
+	 Level 3:	58 nodes to be scored	(7032 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7868 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 6349 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 19:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 18:	3 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	12 nodes to be scored	(6 eliminated genes)
+
+	 Level 16:	26 nodes to be scored	(15 eliminated genes)
+
+	 Level 15:	49 nodes to be scored	(72 eliminated genes)
+
+	 Level 14:	80 nodes to be scored	(228 eliminated genes)
+
+	 Level 13:	172 nodes to be scored	(650 eliminated genes)
+
+	 Level 12:	352 nodes to be scored	(1194 eliminated genes)
+
+	 Level 11:	550 nodes to be scored	(2085 eliminated genes)
+
+	 Level 10:	727 nodes to be scored	(3514 eliminated genes)
+
+	 Level 9:	866 nodes to be scored	(4614 eliminated genes)
+
+	 Level 8:	905 nodes to be scored	(5745 eliminated genes)
+
+	 Level 7:	875 nodes to be scored	(6699 eliminated genes)
+
+	 Level 6:	800 nodes to be scored	(7225 eliminated genes)
+
+	 Level 5:	531 nodes to be scored	(7762 eliminated genes)
+
+	 Level 4:	292 nodes to be scored	(8376 eliminated genes)
+
+	 Level 3:	90 nodes to be scored	(8533 eliminated genes)
+
+	 Level 2:	16 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8643 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1291 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	8 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	14 nodes to be scored	(1 eliminated genes)
+
+	 Level 9:	44 nodes to be scored	(30 eliminated genes)
+
+	 Level 8:	134 nodes to be scored	(135 eliminated genes)
+
+	 Level 7:	214 nodes to be scored	(839 eliminated genes)
+
+	 Level 6:	308 nodes to be scored	(2251 eliminated genes)
+
+	 Level 5:	279 nodes to be scored	(3259 eliminated genes)
+
+	 Level 4:	208 nodes to be scored	(4764 eliminated genes)
+
+	 Level 3:	61 nodes to be scored	(6285 eliminated genes)
+
+	 Level 2:	18 nodes to be scored	(6928 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7459 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 893 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 13:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 12:	10 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	45 nodes to be scored	(10 eliminated genes)
+
+	 Level 10:	110 nodes to be scored	(33 eliminated genes)
+
+	 Level 9:	143 nodes to be scored	(732 eliminated genes)
+
+	 Level 8:	145 nodes to be scored	(1682 eliminated genes)
+
+	 Level 7:	110 nodes to be scored	(3073 eliminated genes)
+
+	 Level 6:	119 nodes to be scored	(4766 eliminated genes)
+
+	 Level 5:	101 nodes to be scored	(5459 eliminated genes)
+
+	 Level 4:	59 nodes to be scored	(6472 eliminated genes)
+
+	 Level 3:	46 nodes to be scored	(7025 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7868 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 10865 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 18:	10 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	34 nodes to be scored	(0 eliminated genes)
+
+	 Level 16:	80 nodes to be scored	(17 eliminated genes)
+
+	 Level 15:	111 nodes to be scored	(115 eliminated genes)
+
+	 Level 14:	184 nodes to be scored	(360 eliminated genes)
+
+	 Level 13:	395 nodes to be scored	(811 eliminated genes)
+
+	 Level 12:	713 nodes to be scored	(1387 eliminated genes)
+
+	 Level 11:	1122 nodes to be scored	(2291 eliminated genes)
+
+	 Level 10:	1353 nodes to be scored	(3691 eliminated genes)
+
+	 Level 9:	1580 nodes to be scored	(4810 eliminated genes)
+
+	 Level 8:	1497 nodes to be scored	(5902 eliminated genes)
+
+	 Level 7:	1411 nodes to be scored	(6790 eliminated genes)
+
+	 Level 6:	1165 nodes to be scored	(7295 eliminated genes)
+
+	 Level 5:	736 nodes to be scored	(7781 eliminated genes)
+
+	 Level 4:	355 nodes to be scored	(8399 eliminated genes)
+
+	 Level 3:	101 nodes to be scored	(8537 eliminated genes)
+
+	 Level 2:	17 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8644 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 2187 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	10 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	24 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	47 nodes to be scored	(17 eliminated genes)
+
+	 Level 9:	135 nodes to be scored	(93 eliminated genes)
+
+	 Level 8:	239 nodes to be scored	(235 eliminated genes)
+
+	 Level 7:	381 nodes to be scored	(1057 eliminated genes)
+
+	 Level 6:	528 nodes to be scored	(2496 eliminated genes)
+
+	 Level 5:	448 nodes to be scored	(3569 eliminated genes)
+
+	 Level 4:	277 nodes to be scored	(5081 eliminated genes)
+
+	 Level 3:	78 nodes to be scored	(6382 eliminated genes)
+
+	 Level 2:	19 nodes to be scored	(6967 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7476 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1291 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 13:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 12:	8 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	46 nodes to be scored	(6 eliminated genes)
+
+	 Level 10:	156 nodes to be scored	(32 eliminated genes)
+
+	 Level 9:	222 nodes to be scored	(751 eliminated genes)
+
+	 Level 8:	234 nodes to be scored	(1819 eliminated genes)
+
+	 Level 7:	170 nodes to be scored	(3156 eliminated genes)
+
+	 Level 6:	161 nodes to be scored	(4807 eliminated genes)
+
+	 Level 5:	132 nodes to be scored	(5487 eliminated genes)
+
+	 Level 4:	87 nodes to be scored	(6497 eliminated genes)
+
+	 Level 3:	71 nodes to be scored	(7052 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7871 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 7424 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 19:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 18:	4 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	12 nodes to be scored	(2 eliminated genes)
+
+	 Level 16:	33 nodes to be scored	(17 eliminated genes)
+
+	 Level 15:	55 nodes to be scored	(74 eliminated genes)
+
+	 Level 14:	94 nodes to be scored	(282 eliminated genes)
+
+	 Level 13:	194 nodes to be scored	(703 eliminated genes)
+
+	 Level 12:	412 nodes to be scored	(1292 eliminated genes)
+
+	 Level 11:	643 nodes to be scored	(2139 eliminated genes)
+
+	 Level 10:	855 nodes to be scored	(3625 eliminated genes)
+
+	 Level 9:	1079 nodes to be scored	(4716 eliminated genes)
+
+	 Level 8:	1067 nodes to be scored	(5836 eliminated genes)
+
+	 Level 7:	1019 nodes to be scored	(6702 eliminated genes)
+
+	 Level 6:	917 nodes to be scored	(7285 eliminated genes)
+
+	 Level 5:	618 nodes to be scored	(7775 eliminated genes)
+
+	 Level 4:	312 nodes to be scored	(8398 eliminated genes)
+
+	 Level 3:	92 nodes to be scored	(8535 eliminated genes)
+
+	 Level 2:	16 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8643 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1773 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	5 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	26 nodes to be scored	(13 eliminated genes)
+
+	 Level 9:	83 nodes to be scored	(42 eliminated genes)
+
+	 Level 8:	209 nodes to be scored	(183 eliminated genes)
+
+	 Level 7:	331 nodes to be scored	(953 eliminated genes)
+
+	 Level 6:	437 nodes to be scored	(2437 eliminated genes)
+
+	 Level 5:	356 nodes to be scored	(3510 eliminated genes)
+
+	 Level 4:	238 nodes to be scored	(4956 eliminated genes)
+
+	 Level 3:	67 nodes to be scored	(6335 eliminated genes)
+
+	 Level 2:	18 nodes to be scored	(6953 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7459 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 992 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 13:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 12:	11 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	48 nodes to be scored	(10 eliminated genes)
+
+	 Level 10:	125 nodes to be scored	(34 eliminated genes)
+
+	 Level 9:	160 nodes to be scored	(730 eliminated genes)
+
+	 Level 8:	161 nodes to be scored	(1767 eliminated genes)
+
+	 Level 7:	126 nodes to be scored	(3104 eliminated genes)
+
+	 Level 6:	127 nodes to be scored	(4777 eliminated genes)
+
+	 Level 5:	106 nodes to be scored	(5480 eliminated genes)
+
+	 Level 4:	71 nodes to be scored	(6489 eliminated genes)
+
+	 Level 3:	52 nodes to be scored	(7032 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7868 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 10449 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 19:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 18:	10 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	29 nodes to be scored	(4 eliminated genes)
+
+	 Level 16:	71 nodes to be scored	(22 eliminated genes)
+
+	 Level 15:	104 nodes to be scored	(102 eliminated genes)
+
+	 Level 14:	173 nodes to be scored	(329 eliminated genes)
+
+	 Level 13:	371 nodes to be scored	(779 eliminated genes)
+
+	 Level 12:	674 nodes to be scored	(1373 eliminated genes)
+
+	 Level 11:	1050 nodes to be scored	(2256 eliminated genes)
+
+	 Level 10:	1285 nodes to be scored	(3656 eliminated genes)
+
+	 Level 9:	1493 nodes to be scored	(4786 eliminated genes)
+
+	 Level 8:	1452 nodes to be scored	(5895 eliminated genes)
+
+	 Level 7:	1370 nodes to be scored	(6779 eliminated genes)
+
+	 Level 6:	1157 nodes to be scored	(7300 eliminated genes)
+
+	 Level 5:	737 nodes to be scored	(7783 eliminated genes)
+
+	 Level 4:	352 nodes to be scored	(8400 eliminated genes)
+
+	 Level 3:	102 nodes to be scored	(8537 eliminated genes)
+
+	 Level 2:	17 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8644 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 2042 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	12 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	25 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	42 nodes to be scored	(32 eliminated genes)
+
+	 Level 9:	106 nodes to be scored	(95 eliminated genes)
+
+	 Level 8:	208 nodes to be scored	(230 eliminated genes)
+
+	 Level 7:	359 nodes to be scored	(994 eliminated genes)
+
+	 Level 6:	515 nodes to be scored	(2471 eliminated genes)
+
+	 Level 5:	427 nodes to be scored	(3574 eliminated genes)
+
+	 Level 4:	256 nodes to be scored	(5094 eliminated genes)
+
+	 Level 3:	72 nodes to be scored	(6372 eliminated genes)
+
+	 Level 2:	19 nodes to be scored	(6963 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7469 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1147 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	7 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	42 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	137 nodes to be scored	(24 eliminated genes)
+
+	 Level 9:	188 nodes to be scored	(737 eliminated genes)
+
+	 Level 8:	201 nodes to be scored	(1801 eliminated genes)
+
+	 Level 7:	154 nodes to be scored	(3127 eliminated genes)
+
+	 Level 6:	152 nodes to be scored	(4778 eliminated genes)
+
+	 Level 5:	120 nodes to be scored	(5488 eliminated genes)
+
+	 Level 4:	78 nodes to be scored	(6500 eliminated genes)
+
+	 Level 3:	65 nodes to be scored	(7051 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7871 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 8075 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 18:	3 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	10 nodes to be scored	(0 eliminated genes)
+
+	 Level 16:	37 nodes to be scored	(11 eliminated genes)
+
+	 Level 15:	63 nodes to be scored	(66 eliminated genes)
+
+	 Level 14:	93 nodes to be scored	(301 eliminated genes)
+
+	 Level 13:	208 nodes to be scored	(733 eliminated genes)
+
+	 Level 12:	432 nodes to be scored	(1307 eliminated genes)
+
+	 Level 11:	720 nodes to be scored	(2145 eliminated genes)
+
+	 Level 10:	970 nodes to be scored	(3500 eliminated genes)
+
+	 Level 9:	1174 nodes to be scored	(4713 eliminated genes)
+
+	 Level 8:	1181 nodes to be scored	(5839 eliminated genes)
+
+	 Level 7:	1120 nodes to be scored	(6745 eliminated genes)
+
+	 Level 6:	984 nodes to be scored	(7292 eliminated genes)
+
+	 Level 5:	645 nodes to be scored	(7783 eliminated genes)
+
+	 Level 4:	325 nodes to be scored	(8401 eliminated genes)
+
+	 Level 3:	92 nodes to be scored	(8536 eliminated genes)
+
+	 Level 2:	17 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8643 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1829 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	5 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	8 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	37 nodes to be scored	(19 eliminated genes)
+
+	 Level 9:	101 nodes to be scored	(53 eliminated genes)
+
+	 Level 8:	201 nodes to be scored	(206 eliminated genes)
+
+	 Level 7:	331 nodes to be scored	(985 eliminated genes)
+
+	 Level 6:	458 nodes to be scored	(2420 eliminated genes)
+
+	 Level 5:	375 nodes to be scored	(3456 eliminated genes)
+
+	 Level 4:	229 nodes to be scored	(4994 eliminated genes)
+
+	 Level 3:	65 nodes to be scored	(6366 eliminated genes)
+
+	 Level 2:	18 nodes to be scored	(6956 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7468 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 934 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 13:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 12:	12 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	46 nodes to be scored	(6 eliminated genes)
+
+	 Level 10:	104 nodes to be scored	(39 eliminated genes)
+
+	 Level 9:	153 nodes to be scored	(691 eliminated genes)
+
+	 Level 8:	160 nodes to be scored	(1643 eliminated genes)
+
+	 Level 7:	126 nodes to be scored	(2978 eliminated genes)
+
+	 Level 6:	114 nodes to be scored	(4772 eliminated genes)
+
+	 Level 5:	100 nodes to be scored	(5474 eliminated genes)
+
+	 Level 4:	61 nodes to be scored	(6488 eliminated genes)
+
+	 Level 3:	54 nodes to be scored	(7030 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7870 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+There were 18 warnings (use warnings() to see them)
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'log₂CPM' in 'mbcsToSbcs': for ₂ (U+2082)
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'log₂CPM' in 'mbcsToSbcs': for ₂ (U+2082)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 7882 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 18:	3 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	11 nodes to be scored	(0 eliminated genes)
+
+	 Level 16:	46 nodes to be scored	(6 eliminated genes)
+
+	 Level 15:	80 nodes to be scored	(64 eliminated genes)
+
+	 Level 14:	125 nodes to be scored	(266 eliminated genes)
+
+	 Level 13:	235 nodes to be scored	(689 eliminated genes)
+
+	 Level 12:	435 nodes to be scored	(1198 eliminated genes)
+
+	 Level 11:	715 nodes to be scored	(1962 eliminated genes)
+
+	 Level 10:	935 nodes to be scored	(3245 eliminated genes)
+
+	 Level 9:	1090 nodes to be scored	(4390 eliminated genes)
+
+	 Level 8:	1135 nodes to be scored	(5598 eliminated genes)
+
+	 Level 7:	1077 nodes to be scored	(6575 eliminated genes)
+
+	 Level 6:	949 nodes to be scored	(7210 eliminated genes)
+
+	 Level 5:	626 nodes to be scored	(7756 eliminated genes)
+
+	 Level 4:	306 nodes to be scored	(8388 eliminated genes)
+
+	 Level 3:	96 nodes to be scored	(8534 eliminated genes)
+
+	 Level 2:	17 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8644 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1235 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	10 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	15 nodes to be scored	(12 eliminated genes)
+
+	 Level 9:	47 nodes to be scored	(54 eliminated genes)
+
+	 Level 8:	110 nodes to be scored	(160 eliminated genes)
+
+	 Level 7:	191 nodes to be scored	(854 eliminated genes)
+
+	 Level 6:	313 nodes to be scored	(2189 eliminated genes)
+
+	 Level 5:	282 nodes to be scored	(3178 eliminated genes)
+
+	 Level 4:	191 nodes to be scored	(4758 eliminated genes)
+
+	 Level 3:	57 nodes to be scored	(6187 eliminated genes)
+
+	 Level 2:	16 nodes to be scored	(6915 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7387 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 665 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 11:	28 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	62 nodes to be scored	(0 eliminated genes)
+
+	 Level 9:	94 nodes to be scored	(644 eliminated genes)
+
+	 Level 8:	108 nodes to be scored	(1395 eliminated genes)
+
+	 Level 7:	104 nodes to be scored	(2724 eliminated genes)
+
+	 Level 6:	101 nodes to be scored	(4639 eliminated genes)
+
+	 Level 5:	76 nodes to be scored	(5420 eliminated genes)
+
+	 Level 4:	43 nodes to be scored	(6439 eliminated genes)
+
+	 Level 3:	46 nodes to be scored	(7041 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7859 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 5466 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 18:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	12 nodes to be scored	(0 eliminated genes)
+
+	 Level 16:	28 nodes to be scored	(8 eliminated genes)
+
+	 Level 15:	48 nodes to be scored	(83 eliminated genes)
+
+	 Level 14:	73 nodes to be scored	(234 eliminated genes)
+
+	 Level 13:	130 nodes to be scored	(649 eliminated genes)
+
+	 Level 12:	227 nodes to be scored	(1173 eliminated genes)
+
+	 Level 11:	408 nodes to be scored	(1831 eliminated genes)
+
+	 Level 10:	553 nodes to be scored	(3171 eliminated genes)
+
+	 Level 9:	753 nodes to be scored	(4408 eliminated genes)
+
+	 Level 8:	821 nodes to be scored	(5540 eliminated genes)
+
+	 Level 7:	775 nodes to be scored	(6463 eliminated genes)
+
+	 Level 6:	747 nodes to be scored	(7132 eliminated genes)
+
+	 Level 5:	516 nodes to be scored	(7697 eliminated genes)
+
+	 Level 4:	271 nodes to be scored	(8380 eliminated genes)
+
+	 Level 3:	86 nodes to be scored	(8524 eliminated genes)
+
+	 Level 2:	16 nodes to be scored	(8564 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8643 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 883 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	6 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	12 nodes to be scored	(1 eliminated genes)
+
+	 Level 9:	24 nodes to be scored	(20 eliminated genes)
+
+	 Level 8:	72 nodes to be scored	(101 eliminated genes)
+
+	 Level 7:	129 nodes to be scored	(690 eliminated genes)
+
+	 Level 6:	199 nodes to be scored	(2036 eliminated genes)
+
+	 Level 5:	215 nodes to be scored	(2914 eliminated genes)
+
+	 Level 4:	159 nodes to be scored	(4427 eliminated genes)
+
+	 Level 3:	50 nodes to be scored	(5938 eliminated genes)
+
+	 Level 2:	15 nodes to be scored	(6720 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7340 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 556 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	19 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	46 nodes to be scored	(3 eliminated genes)
+
+	 Level 9:	72 nodes to be scored	(580 eliminated genes)
+
+	 Level 8:	106 nodes to be scored	(1362 eliminated genes)
+
+	 Level 7:	87 nodes to be scored	(2594 eliminated genes)
+
+	 Level 6:	82 nodes to be scored	(4683 eliminated genes)
+
+	 Level 5:	55 nodes to be scored	(5439 eliminated genes)
+
+	 Level 4:	49 nodes to be scored	(6451 eliminated genes)
+
+	 Level 3:	35 nodes to be scored	(7014 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7865 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+
+Building most specific GOs .....
+	( 13015 GO terms found. )
+
+Build GO DAG topology ..........
+	( 13415 GO terms and 29353 relations. )
+
+Annotating nodes ...............
+	( 8660 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 6601 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 18:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 17:	7 nodes to be scored	(0 eliminated genes)
+
+	 Level 16:	20 nodes to be scored	(2 eliminated genes)
+
+	 Level 15:	42 nodes to be scored	(57 eliminated genes)
+
+	 Level 14:	78 nodes to be scored	(247 eliminated genes)
+
+	 Level 13:	157 nodes to be scored	(633 eliminated genes)
+
+	 Level 12:	320 nodes to be scored	(1253 eliminated genes)
+
+	 Level 11:	539 nodes to be scored	(1994 eliminated genes)
+
+	 Level 10:	753 nodes to be scored	(3453 eliminated genes)
+
+	 Level 9:	946 nodes to be scored	(4604 eliminated genes)
+
+	 Level 8:	964 nodes to be scored	(5714 eliminated genes)
+
+	 Level 7:	955 nodes to be scored	(6524 eliminated genes)
+
+	 Level 6:	859 nodes to be scored	(7178 eliminated genes)
+
+	 Level 5:	563 nodes to be scored	(7725 eliminated genes)
+
+	 Level 4:	296 nodes to be scored	(8376 eliminated genes)
+
+	 Level 3:	84 nodes to be scored	(8521 eliminated genes)
+
+	 Level 2:	16 nodes to be scored	(8569 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8643 eliminated genes)
+
+Building most specific GOs .....
+	( 3323 GO terms found. )
+
+Build GO DAG topology ..........
+	( 3426 GO terms and 4460 relations. )
+
+Annotating nodes ...............
+	( 7506 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 1260 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 12:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	2 nodes to be scored	(0 eliminated genes)
+
+	 Level 10:	17 nodes to be scored	(1 eliminated genes)
+
+	 Level 9:	58 nodes to be scored	(12 eliminated genes)
+
+	 Level 8:	135 nodes to be scored	(97 eliminated genes)
+
+	 Level 7:	216 nodes to be scored	(851 eliminated genes)
+
+	 Level 6:	295 nodes to be scored	(2244 eliminated genes)
+
+	 Level 5:	279 nodes to be scored	(3161 eliminated genes)
+
+	 Level 4:	188 nodes to be scored	(4719 eliminated genes)
+
+	 Level 3:	52 nodes to be scored	(6052 eliminated genes)
+
+	 Level 2:	16 nodes to be scored	(6800 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(7297 eliminated genes)
+
+Building most specific GOs .....
+	( 1653 GO terms found. )
+
+Build GO DAG topology ..........
+	( 1671 GO terms and 2792 relations. )
+
+Annotating nodes ...............
+	( 8212 genes annotated to the GO terms. )
+
+			 -- Weight01 Algorithm -- 
+
+		 the algorithm is scoring 712 nontrivial nodes
+		 parameters: 
+			 test statistic: fisher
+
+	 Level 13:	1 nodes to be scored	(0 eliminated genes)
+
+	 Level 12:	5 nodes to be scored	(0 eliminated genes)
+
+	 Level 11:	28 nodes to be scored	(6 eliminated genes)
+
+	 Level 10:	69 nodes to be scored	(20 eliminated genes)
+
+	 Level 9:	114 nodes to be scored	(629 eliminated genes)
+
+	 Level 8:	121 nodes to be scored	(1440 eliminated genes)
+
+	 Level 7:	98 nodes to be scored	(2790 eliminated genes)
+
+	 Level 6:	102 nodes to be scored	(4724 eliminated genes)
+
+	 Level 5:	78 nodes to be scored	(5446 eliminated genes)
+
+	 Level 4:	49 nodes to be scored	(6482 eliminated genes)
+
+	 Level 3:	44 nodes to be scored	(7031 eliminated genes)
+
+	 Level 2:	2 nodes to be scored	(7868 eliminated genes)
+
+	 Level 1:	1 nodes to be scored	(8208 eliminated genes)
+Warning messages:
+1: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M2 — BP' in 'mbcsToSbcs': - substituted for — (U+2014)
+2: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M2 — MF' in 'mbcsToSbcs': - substituted for — (U+2014)
+3: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M2 — CC' in 'mbcsToSbcs': - substituted for — (U+2014)
+4: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M3 — BP' in 'mbcsToSbcs': - substituted for — (U+2014)
+5: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M3 — MF' in 'mbcsToSbcs': - substituted for — (U+2014)
+6: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M3 — CC' in 'mbcsToSbcs': - substituted for — (U+2014)
+7: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M1 — BP' in 'mbcsToSbcs': - substituted for — (U+2014)
+8: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M1 — MF' in 'mbcsToSbcs': - substituted for — (U+2014)
+9: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Module M1 — CC' in 'mbcsToSbcs': - substituted for — (U+2014)
+Warning messages:
+1: In grep("^[.][.](?:[.]|[1-9][0-9]*)$", names) :
+  unable to translate 'explanation<ca>' to a wide string
+2: In grep("^[.][.](?:[.]|[1-9][0-9]*)$", names) :
+  input string 11 is invalid
+3: In grep("^[.][.](?:[.]|[1-9][0-9]*)$", names) :
+  unable to translate 'explanation<ca>' to a wide string
+4: In grep("^[.][.](?:[.]|[1-9][0-9]*)$", names) :
+  input string 11 is invalid
+Warning messages:
+1: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Early (1–4 h)' in 'mbcsToSbcs': - substituted for – (U+2013)
+2: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Late (8–24 h)' in 'mbcsToSbcs': - substituted for – (U+2013)
+3: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'Mean log₂CPM' in 'mbcsToSbcs': for ₂ (U+2082)
+4: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on '( FDR < 0.05, |log₂FC| > 1)' in 'mbcsToSbcs': for ₂ (U+2082)
+Warning messages:
+1: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Early (1–4 h)' in 'mbcsToSbcs': - substituted for – (U+2013)
+2: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Late (8–24 h)' in 'mbcsToSbcs': - substituted for – (U+2013)
+3: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'Mean log₂CPM' in 'mbcsToSbcs': for ₂ (U+2082)
+4: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on '( FDR < 0.05, |log₂FC| > 1)' in 'mbcsToSbcs': for ₂ (U+2082)
+Q1 GO files found: 2
+[1] "/Users/jah14xyu/Documents/Claude/bulk_github/ccap-rnaseq-organ-expression/04_results/01_MZT/contrast_1/shortGO_terms_merged.tsv" 
+[2] "/Users/jah14xyu/Documents/Claude/bulk_github/ccap-rnaseq-organ-expression/04_results/01_MZT/contrast_2/short_GO_terms_merged.tsv"
+Total GO rows loaded: 720
+Contrast-groups found:
+[1] "unfert_vs_fert | up"    "unfert_vs_fert | down"  "early_vs_unfert | up"  
+[4] "early_vs_unfert | down" "late_vs_unfert | up"    "late_vs_unfert | down" 
+[7] "late_vs_early | up"     "late_vs_early | down"  
+Warning messages:
+1: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for '(−log₁₀ p)' in 'mbcsToSbcs': - substituted for − (U+2212)
+2: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on '(−log₁₀ p)' in 'mbcsToSbcs': for ₁ (U+2081)
+3: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on '(−log₁₀ p)' in 'mbcsToSbcs': for ₀ (U+2080)
+4: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for '≥10' in 'mbcsToSbcs': >= substituted for ≥ (U+2265)

@@ -1,0 +1,181 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	group
+GO:0002181	cytoplasmic translation	97	44	6.14	1.6e-28	up
+GO:0006614	SRP-dependent cotranslational protein ta...	51	26	3.23	2.2e-18	up
+GO:0006413	translational initiation	131	31	8.29	2.0e-17	up
+GO:0070972	protein localization to endoplasmic reti...	67	27	4.24	8.8e-16	up
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	73	27	4.62	1.1e-14	up
+GO:0043043	peptide biosynthetic process	350	54	22.15	2.6e-12	up
+GO:0043604	amide biosynthetic process	387	56	24.49	2.5e-11	up
+GO:0072657	protein localization to membrane	398	42	25.18	2.8e-10	up
+GO:0000027	ribosomal large subunit assembly	23	11	1.46	9.7e-08	up
+GO:0006364	rRNA processing	146	47	9.24	2.3e-07	up
+GO:0000470	maturation of LSU-rRNA	22	12	1.39	5.0e-07	up
+GO:0006935	chemotaxis	650	75	41.13	1.9e-06	up
+GO:0000028	ribosomal small subunit assembly	11	6	0.7	2.2e-05	up
+GO:0032989	cellular anatomical entity morphogenesis	1212	100	76.68	6.6e-05	up
+GO:0007411	axon guidance	539	62	34.1	6.9e-05	up
+GO:0051643	endoplasmic reticulum localization	10	5	0.63	0.00019	up
+GO:0051646	mitochondrion localization	52	6	3.29	0.00019	up
+GO:1905274	regulation of modification of postsynapt...	6	4	0.38	0.00021	up
+GO:0098730	male germline stem cell symmetric divisi...	6	4	0.38	0.00021	up
+GO:1904268	positive regulation of Schwann cell chem...	6	4	0.38	0.00021	up
+GO:0061541	rhabdomere morphogenesis	6	4	0.38	0.00021	up
+GO:0043057	backward locomotion	24	5	1.52	0.00021	up
+GO:0042273	ribosomal large subunit biogenesis	55	26	3.48	0.00024	up
+GO:0021965	spinal cord ventral commissure morphogen...	3	3	0.19	0.00025	up
+GO:1904878	negative regulation of calcium ion trans...	3	3	0.19	0.00025	up
+GO:0097421	liver regeneration	30	8	1.9	0.00041	up
+GO:0043009	chordate embryonic development	509	39	32.21	0.00042	up
+GO:0031547	brain-derived neurotrophic factor recept...	7	4	0.44	0.00048	up
+GO:0008062	eclosion rhythm	7	4	0.44	0.00048	up
+GO:0042811	pheromone biosynthetic process	12	5	0.76	0.00054	up
+GO:0003735	structural constituent of ribosome	124	42	7.69	6.9e-21	up
+GO:0034513	box H/ACA snoRNA binding	8	5	0.5	4.3e-05	up
+GO:0003723	RNA binding	669	75	41.47	5.6e-05	up
+GO:0043208	glycosphingolipid binding	10	5	0.62	0.00017	up
+GO:0005201	extracellular matrix structural constitu...	57	14	3.53	0.00031	up
+GO:0048027	mRNA 5'-UTR binding	18	6	1.12	0.00054	up
+GO:0016402	pristanoyl-CoA oxidase activity	9	4	0.56	0.00143	up
+GO:0030515	snoRNA binding	23	10	1.43	0.00218	up
+GO:0008097	5S rRNA binding	11	5	0.68	0.00225	up
+GO:1901363	heterocyclic compound binding	2055	149	127.37	0.00329	up
+GO:0010314	phosphatidylinositol-5-phosphate binding	11	4	0.68	0.00339	up
+GO:0008017	microtubule binding	167	20	10.35	0.00380	up
+GO:0004642	phosphoribosylformylglycinamidine syntha...	2	2	0.12	0.00383	up
+GO:0030020	extracellular matrix structural constitu...	2	2	0.12	0.00383	up
+GO:0055077	gap junction hemi-channel activity	2	2	0.12	0.00383	up
+GO:0070180	large ribosomal subunit rRNA binding	6	3	0.37	0.00411	up
+GO:0033791	3alpha,7alpha,12alpha-trihydroxy-5beta-c...	7	3	0.43	0.00686	up
+GO:0003995	acyl-CoA dehydrogenase activity	16	5	0.99	0.00880	up
+GO:0004099	chitin deacetylase activity	3	2	0.19	0.01103	up
+GO:0034458	3'-5' RNA helicase activity	3	2	0.19	0.01103	up
+GO:0036143	kringle domain binding	3	2	0.19	0.01103	up
+GO:0048407	platelet-derived growth factor binding	3	2	0.19	0.01103	up
+GO:0009383	rRNA (cytosine-C5-)-methyltransferase ac...	3	2	0.19	0.01103	up
+GO:0003724	RNA helicase activity	55	10	3.41	0.01358	up
+GO:0008201	heparin binding	44	7	2.73	0.01749	up
+GO:0048019	receptor antagonist activity	5	3	0.31	0.02108	up
+GO:0005228	intracellular sodium-activated potassium...	4	2	0.25	0.02116	up
+GO:0015349	thyroid hormone transmembrane transporte...	4	2	0.25	0.02116	up
+GO:0034512	box C/D sno(s)RNA binding	4	2	0.25	0.02116	up
+GO:0005154	epidermal growth factor receptor binding	27	5	1.67	0.02326	up
+GO:0022625	cytosolic large ribosomal subunit	41	27	2.54	1.9e-23	up
+GO:0022627	cytosolic small ribosomal subunit	29	15	1.79	2.1e-11	up
+GO:0005730	nucleolus	592	87	36.63	4.3e-11	up
+GO:0098556	cytoplasmic side of rough endoplasmic re...	14	8	0.87	4.4e-07	up
+GO:0005604	basement membrane	68	21	4.21	8.8e-06	up
+GO:0005606	laminin-1 complex	7	5	0.43	1.7e-05	up
+GO:0060091	kinocilium	12	6	0.74	3.7e-05	up
+GO:0031429	box H/ACA snoRNP complex	8	5	0.5	4.3e-05	up
+GO:0030687	preribosome, large subunit precursor	20	7	1.24	0.00013	up
+GO:0005608	laminin-3 complex	6	4	0.37	0.00020	up
+GO:0009986	cell surface	333	35	20.6	0.00035	up
+GO:0035770	ribonucleoprotein granule	433	37	26.79	0.00041	up
+GO:0097542	ciliary tip	25	7	1.55	0.00060	up
+GO:0034993	meiotic nuclear membrane microtubule tet...	8	4	0.5	0.00083	up
+GO:0098858	actin-based cell projection	164	19	10.15	0.00087	up
+GO:0031428	box C/D methylation guide snoRNP complex	4	3	0.25	0.00090	up
+GO:0072589	box H/ACA scaRNP complex	5	3	0.31	0.00214	up
+GO:0090661	box H/ACA telomerase RNP complex	5	3	0.31	0.00214	up
+GO:0030992	intraciliary transport particle B	10	4	0.62	0.00225	up
+GO:0044291	cell-cell contact zone	45	5	2.78	0.00340	up
+GO:0031514	motile cilium	88	11	5.45	0.00370	up
+GO:0001650	fibrillar center	91	13	5.63	0.00376	up
+GO:0099081	supramolecular polymer	408	30	25.25	0.00378	up
+GO:0005587	collagen type IV trimer	2	2	0.12	0.00382	up
+GO:1990769	proximal neuron projection	2	2	0.12	0.00382	up
+GO:0002081	outer acrosomal membrane	2	2	0.12	0.00382	up
+GO:0043260	laminin-11 complex	2	2	0.12	0.00382	up
+GO:0043259	laminin-10 complex	2	2	0.12	0.00382	up
+GO:0150014	apical distal dendrite	2	2	0.12	0.00382	up
+GO:0150001	primary dendrite	2	2	0.12	0.00382	up
+GO:0006032	chitin catabolic process	21	8	1.03	3.6e-06	down
+GO:0045542	positive regulation of cholesterol biosy...	11	6	0.54	5.0e-06	down
+GO:0009720	detection of hormone stimulus	3	3	0.15	0.00012	down
+GO:0034374	low-density lipoprotein particle remodel...	3	3	0.15	0.00012	down
+GO:0034375	high-density lipoprotein particle remode...	3	3	0.15	0.00012	down
+GO:0034436	glycoprotein transport	3	3	0.15	0.00012	down
+GO:0034769	basement membrane disassembly	3	3	0.15	0.00012	down
+GO:0033700	phospholipid efflux	3	3	0.15	0.00012	down
+GO:0043691	reverse cholesterol transport	3	3	0.15	0.00012	down
+GO:0007505	adult fat body development	3	3	0.15	0.00012	down
+GO:0006670	sphingosine metabolic process	18	6	0.88	0.00015	down
+GO:0043062	extracellular structure organization	241	18	11.82	0.00039	down
+GO:0006805	xenobiotic metabolic process	80	13	3.92	0.00044	down
+GO:0034128	negative regulation of MyD88-independent...	4	3	0.2	0.00045	down
+GO:0003144	embryonic heart tube formation	4	3	0.2	0.00045	down
+GO:0015918	sterol transport	97	16	4.76	0.00088	down
+GO:0033189	response to vitamin A	5	3	0.25	0.00109	down
+GO:0043615	astrocyte cell migration	5	3	0.25	0.00109	down
+GO:0021519	spinal cord association neuron specifica...	5	3	0.25	0.00109	down
+GO:0035187	hatching behavior	5	3	0.25	0.00109	down
+GO:0055085	transmembrane transport	1023	70	50.17	0.00113	down
+GO:0010720	positive regulation of cell development	608	24	29.82	0.00187	down
+GO:0007483	genital disc morphogenesis	21	5	1.03	0.00208	down
+GO:0006651	diacylglycerol biosynthetic process	6	3	0.29	0.00210	down
+GO:0010887	negative regulation of cholesterol stora...	6	3	0.29	0.00210	down
+GO:0045337	farnesyl diphosphate biosynthetic proces...	6	3	0.29	0.00210	down
+GO:0060354	negative regulation of cell adhesion mol...	2	2	0.1	0.00240	down
+GO:0070346	positive regulation of fat cell prolifer...	2	2	0.1	0.00240	down
+GO:1905204	negative regulation of connective tissue...	2	2	0.1	0.00240	down
+GO:0043012	regulation of fusion of sperm to egg pla...	2	2	0.1	0.00240	down
+GO:0034041	ABC-type sterol transporter activity	17	8	0.8	3.6e-07	down
+GO:0008084	imaginal disc growth factor receptor bin...	4	4	0.19	4.7e-06	down
+GO:0004568	chitinase activity	23	8	1.08	5.6e-06	down
+GO:0042834	peptidoglycan binding	17	7	0.8	6.0e-06	down
+GO:0005275	amine transmembrane transporter activity	7	4	0.33	0.00015	down
+GO:0008061	chitin binding	37	8	1.73	0.00025	down
+GO:0017040	N-acylsphingosine amidohydrolase activit...	4	3	0.19	0.00039	down
+GO:0004364	glutathione transferase activity	24	6	1.12	0.00066	down
+GO:0019534	toxin transmembrane transporter activity	5	3	0.23	0.00095	down
+GO:0005351	carbohydrate:proton symporter activity	27	6	1.26	0.00129	down
+GO:0015149	hexose transmembrane transporter activit...	27	6	1.26	0.00129	down
+GO:0032934	sterol binding	34	7	1.59	0.00179	down
+GO:0004161	dimethylallyltranstransferase activity	6	3	0.28	0.00183	down
+GO:0004337	(2E,6E)-farnesyl diphosphate synthase ac...	6	3	0.28	0.00183	down
+GO:0070891	lipoteichoic acid binding	2	2	0.09	0.00218	down
+GO:0030882	lipid antigen binding	2	2	0.09	0.00218	down
+GO:0015318	inorganic molecular entity transmembrane...	608	50	28.44	0.00249	down
+GO:0005328	neurotransmitter:sodium symporter activi...	15	4	0.7	0.00426	down
+GO:0008509	monoatomic anion transmembrane transport...	227	23	10.62	0.00442	down
+GO:0008519	ammonium channel activity	24	5	1.12	0.00443	down
+GO:0008324	monoatomic cation transmembrane transpor...	443	31	20.72	0.00473	down
+GO:0042392	sphingosine-1-phosphate phosphatase acti...	8	3	0.37	0.00477	down
+GO:0009922	fatty acid elongase activity	16	4	0.75	0.00547	down
+GO:0043035	chromatin insulator sequence binding	16	4	0.75	0.00547	down
+GO:0015288	porin activity	3	2	0.14	0.00634	down
+GO:0050431	transforming growth factor beta binding	17	4	0.8	0.00690	down
+GO:0005496	steroid binding	61	12	2.85	0.00705	down
+GO:0015020	glucuronosyltransferase activity	28	5	1.31	0.00879	down
+GO:0004806	triacylglycerol lipase activity	19	4	0.89	0.01044	down
+GO:0051525	NFAT protein binding	4	2	0.19	0.01229	down
+GO:0005615	extracellular space	656	66	30.27	2.3e-10	down
+GO:0042600	egg chorion	13	8	0.6	2.0e-08	down
+GO:0035059	RCAF complex	9	5	0.42	2.2e-05	down
+GO:0099501	exocytic vesicle membrane	75	6	3.46	9.8e-05	down
+GO:0000786	nucleosome	25	6	1.15	0.00078	down
+GO:0005777	peroxisome	129	13	5.95	0.00175	down
+GO:0031315	extrinsic component of mitochondrial out...	7	3	0.32	0.00297	down
+GO:0035578	azurophil granule lumen	47	7	2.17	0.00537	down
+GO:0031092	platelet alpha granule membrane	26	5	1.2	0.00601	down
+GO:0032982	myosin filament	12	3	0.55	0.00616	down
+GO:0005576	extracellular region	1216	100	56.11	0.01068	down
+GO:0070083	clathrin-sculpted monoamine transport ve...	5	2	0.23	0.01936	down
+GO:0042583	chromaffin granule	6	2	0.28	0.02816	down
+GO:0009897	external side of plasma membrane	83	9	3.83	0.03437	down
+GO:0030137	COPI-coated vesicle	16	3	0.74	0.03490	down
+GO:0043202	lysosomal lumen	40	5	1.85	0.03557	down
+GO:0005920	smooth septate junction	7	2	0.32	0.03823	down
+GO:0044354	macropinosome	7	2	0.32	0.03823	down
+GO:0031232	extrinsic component of external side of ...	1	1	0.05	0.04614	down
+GO:0031085	BLOC-3 complex	1	1	0.05	0.04614	down
+GO:0002197	xanthine dehydrogenase complex	1	1	0.05	0.04614	down
+GO:0042567	insulin-like growth factor ternary compl...	1	1	0.05	0.04614	down
+GO:0034663	endoplasmic reticulum chaperone complex	18	3	0.83	0.04753	down
+GO:0005886	plasma membrane	2375	125	109.59	0.04754	down
+GO:0001533	cornified envelope	8	2	0.37	0.04944	down
+GO:0097512	cardiac myofibril	8	2	0.37	0.04944	down
+GO:0031672	A band	86	7	3.97	0.06961	down
+GO:0033256	I-kappaB/NF-kappaB complex	10	2	0.46	0.07479	down
+GO:0002102	podosome	10	2	0.46	0.07479	down
+GO:0031088	platelet dense granule membrane	11	2	0.51	0.08870	down

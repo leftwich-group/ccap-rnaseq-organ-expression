@@ -1,0 +1,26 @@
+
+groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
+Genes in short count matrix: 14260
+Genes in long count matrix:  23460
+Samples in metadata:          54
+Warning messages:
+1: In mde(x) : NAs introduced by coercion
+2: In mde(x) : NAs introduced by coercion
+3: There were 2 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(where(is.character), trimws)`.
+Caused by warning in `grep()`:
+! unable to translate 'explanation<ca>' to a wide string
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 1 remaining warning. 
+  Figure 1  <-  05_Tissue_landscapes/summary/Tissue_landscape_summary2
+  Figure 2  <-  01_MZT/summary_panels/Q1_MZT_summary
+  Figure 3  <-  02_Sexual_dimorphism/summary_panels/Q2_SexualDimorphism_summary
+  Figure 4  <-  03_PostMating/summary_panels/Q3_PostMating_summary
+  Figure 5  <-  04_Maleness/summary_panels/Q4_Maleness_summary
+  Supplementary  <-  08_UpSet_sex_bias/go_summary_upset.RDS
+Warning messages:
+1: In grabDL(warn, wrap, wrap.grobs, ...) :
+  one or more grobs overwritten (grab WILL not be faithful; try 'wrap.grobs = TRUE')
+2: In grabDL(warn, wrap, wrap.grobs, ...) :
+  one or more grobs overwritten (grab WILL not be faithful; try 'wrap.grobs = TRUE')
+Manuscript figures written to /Users/jah14xyu/Documents/Claude/bulk_github/ccap-rnaseq-organ-expression/04_results/12_manuscript_plots

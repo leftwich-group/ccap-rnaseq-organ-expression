@@ -1,0 +1,181 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	group
+GO:0044703	multi-organism reproductive process	1610	595	408.18	< 1e-30	up
+GO:0071103	DNA conformation change	194	139	49.18	7.6e-26	up
+GO:0010628	positive regulation of gene expression	1368	527	346.83	1.8e-22	up
+GO:0000082	G1/S transition of mitotic cell cycle	165	110	41.83	3.7e-16	up
+GO:0032392	DNA geometric change	70	50	17.75	6.3e-16	up
+GO:1905269	positive regulation of chromatin organiz...	127	77	32.2	4.5e-15	up
+GO:0045893	positive regulation of DNA-templated tra...	982	387	248.97	1.2e-14	up
+GO:0034249	negative regulation of amide metabolic p...	158	84	40.06	4.7e-14	up
+GO:0048477	oogenesis	796	355	201.81	1.1e-13	up
+GO:0051276	chromosome organization	880	508	223.11	1.1e-13	up
+GO:0045814	negative regulation of gene expression, ...	122	80	30.93	1.4e-13	up
+GO:0000724	double-strand break repair via homologou...	78	60	19.78	5.5e-13	up
+GO:0000122	negative regulation of transcription by ...	622	234	157.7	1.6e-12	up
+GO:0045892	negative regulation of DNA-templated tra...	837	333	212.21	2.3e-12	up
+GO:0010629	negative regulation of gene expression	1450	572	367.62	1.7e-11	up
+GO:0006611	protein export from nucleus	139	71	35.24	2.2e-11	up
+GO:0031571	mitotic G1 DNA damage checkpoint signali...	30	25	7.61	4.1e-11	up
+GO:0071166	ribonucleoprotein complex localization	102	57	25.86	4.2e-11	up
+GO:0045944	positive regulation of transcription by ...	777	281	196.99	6.8e-11	up
+GO:0007346	regulation of mitotic cell cycle	519	285	131.58	9.9e-11	up
+GO:0006334	nucleosome assembly	49	34	12.42	1.1e-10	up
+GO:0008356	asymmetric cell division	180	84	45.64	1.4e-10	up
+GO:0006406	mRNA export from nucleus	90	52	22.82	2.4e-10	up
+GO:0010032	meiotic chromosome condensation	16	16	4.06	2.8e-10	up
+GO:0040029	epigenetic regulation of gene expression	262	160	66.42	2.9e-10	up
+GO:1905268	negative regulation of chromatin organiz...	69	41	17.49	6.8e-10	up
+GO:0002066	columnar/cuboidal epithelial cell develo...	397	151	100.65	7.9e-10	up
+GO:0007052	mitotic spindle organization	124	72	31.44	1.0e-09	up
+GO:0009059	macromolecule biosynthetic process	3686	1326	934.51	1.1e-09	up
+GO:0017148	negative regulation of translation	147	82	37.27	1.5e-09	up
+GO:1901363	heterocyclic compound binding	2055	773	527.34	< 1e-30	up
+GO:0003682	chromatin binding	437	235	112.14	4.9e-28	up
+GO:0042393	histone binding	141	93	36.18	4.1e-24	up
+GO:0005515	protein binding	4202	1312	1078.29	4.2e-21	up
+GO:0003677	DNA binding	1018	423	261.23	2.4e-18	up
+GO:0003730	mRNA 3'-UTR binding	84	50	21.56	6.1e-11	up
+GO:0031267	small GTPase binding	328	136	84.17	1.3e-10	up
+GO:0002039	p53 binding	58	37	14.88	9.6e-10	up
+GO:0140034	methylation-dependent protein binding	49	33	12.57	9.7e-10	up
+GO:0003887	DNA-directed DNA polymerase activity	20	18	5.13	2.4e-09	up
+GO:0003714	transcription corepressor activity	122	61	31.31	5.5e-09	up
+GO:0003697	single-stranded DNA binding	88	54	22.58	1.7e-08	up
+GO:0003713	transcription coactivator activity	219	92	56.2	6.6e-08	up
+GO:0003724	RNA helicase activity	55	33	14.11	7.0e-08	up
+GO:0003684	damaged DNA binding	33	23	8.47	1.7e-07	up
+GO:0061630	ubiquitin protein ligase activity	119	58	30.54	1.7e-07	up
+GO:0005524	ATP binding	248	100	63.64	2.0e-07	up
+GO:0000400	four-way junction DNA binding	16	14	4.11	3.6e-07	up
+GO:0008094	ATP-dependent activity, acting on DNA	78	55	20.02	4.6e-07	up
+GO:0004674	protein serine/threonine kinase activity	236	104	60.56	5.8e-07	up
+GO:0003688	DNA replication origin binding	13	12	3.34	7.9e-07	up
+GO:0003725	double-stranded RNA binding	39	25	10.01	1.2e-06	up
+GO:0019901	protein kinase binding	518	196	132.93	3.4e-06	up
+GO:0030971	receptor tyrosine kinase binding	42	26	10.78	4.5e-06	up
+GO:0000900	mRNA regulatory element binding translat...	33	21	8.47	4.6e-06	up
+GO:0035198	miRNA binding	20	15	5.13	5.3e-06	up
+GO:0030331	nuclear estrogen receptor binding	31	20	7.96	5.8e-06	up
+GO:0043565	sequence-specific DNA binding	658	235	168.85	6.1e-06	up
+GO:0004843	cysteine-type deubiquitinase activity	41	24	10.52	8.0e-06	up
+GO:0003678	DNA helicase activity	49	33	12.57	8.6e-06	up
+GO:0005654	nucleoplasm	2058	877	533.29	< 1e-30	up
+GO:0005634	nucleus	3790	1437	982.1	9.2e-26	up
+GO:0000228	nuclear chromosome	378	235	97.95	2.2e-25	up
+GO:1990904	ribonucleoprotein complex	639	265	165.58	3.6e-21	up
+GO:0005829	cytosol	2686	859	696.02	9.2e-21	up
+GO:0000785	chromatin	470	270	121.79	1.1e-20	up
+GO:0005730	nucleolus	592	272	153.4	1.8e-19	up
+GO:0005700	polytene chromosome	201	120	52.08	6.7e-16	up
+GO:0000793	condensed chromosome	166	116	43.02	1.8e-11	up
+GO:0000932	P-body	71	45	18.4	2.9e-11	up
+GO:0000776	kinetochore	79	55	20.47	6.8e-11	up
+GO:0000781	chromosome, telomeric region	63	43	16.33	1.1e-10	up
+GO:0000794	condensed nuclear chromosome	70	48	18.14	1.4e-10	up
+GO:0016607	nuclear speck	241	108	62.45	6.5e-10	up
+GO:0043186	P granule	70	44	18.14	8.2e-10	up
+GO:0005813	centrosome	329	140	85.25	5.9e-09	up
+GO:0016604	nuclear body	476	217	123.35	3.1e-08	up
+GO:0000775	chromosome, centromeric region	138	89	35.76	3.7e-08	up
+GO:0000791	euchromatin	34	24	8.81	5.9e-08	up
+GO:0034399	nuclear periphery	121	62	31.35	8.5e-08	up
+GO:0005705	polytene chromosome interband	34	23	8.81	3.8e-07	up
+GO:0010494	cytoplasmic stress granule	44	27	11.4	7.2e-07	up
+GO:0001650	fibrillar center	91	45	23.58	1.1e-06	up
+GO:0000796	condensin complex	10	10	2.59	1.3e-06	up
+GO:0048471	perinuclear region of cytoplasm	465	164	120.49	1.5e-06	up
+GO:0005737	cytoplasm	5616	1500	1455.27	4.7e-06	up
+GO:0005694	chromosome	768	458	199.01	6.0e-06	up
+GO:0000922	spindle pole	83	51	21.51	1.1e-05	up
+GO:0035060	brahma complex	11	10	2.85	1.1e-05	up
+GO:0000792	heterochromatin	91	49	23.58	1.2e-05	up
+GO:0046034	ATP metabolic process	182	82	44.97	2.7e-14	down
+GO:0006120	mitochondrial electron transport, NADH t...	29	25	7.17	3.2e-12	down
+GO:0016310	phosphorylation	1263	281	312.06	3.5e-12	down
+GO:0015701	bicarbonate transport	23	21	5.68	2.5e-11	down
+GO:0098656	monoatomic anion transmembrane transport	267	119	65.97	3.8e-10	down
+GO:0045989	positive regulation of striated muscle c...	23	21	5.68	6.2e-10	down
+GO:0009167	purine ribonucleoside monophosphate meta...	172	85	42.5	8.7e-10	down
+GO:1902600	proton transmembrane transport	119	68	29.4	5.1e-09	down
+GO:1905039	carboxylic acid transmembrane transport	146	71	36.07	8.7e-09	down
+GO:1902358	sulfate transmembrane transport	13	13	3.21	1.2e-08	down
+GO:0098771	inorganic ion homeostasis	397	139	98.09	1.5e-08	down
+GO:0009620	response to fungus	119	42	29.4	9.4e-08	down
+GO:0006936	muscle contraction	236	106	58.31	2.0e-07	down
+GO:0019532	oxalate transport	13	13	3.21	2.0e-07	down
+GO:0007218	neuropeptide signaling pathway	72	38	17.79	2.7e-07	down
+GO:0022603	regulation of anatomical structure morph...	853	174	210.76	2.9e-07	down
+GO:0006508	proteolysis	1017	245	251.28	5.2e-07	down
+GO:0051453	regulation of intracellular pH	56	34	13.84	6.9e-07	down
+GO:0017001	antibiotic catabolic process	27	19	6.67	7.3e-07	down
+GO:0042045	epithelial fluid transport	30	18	7.41	9.5e-07	down
+GO:0006032	chitin catabolic process	21	16	5.19	1.0e-06	down
+GO:0006101	citrate metabolic process	44	26	10.87	1.2e-06	down
+GO:0006099	tricarboxylic acid cycle	37	23	9.14	1.4e-06	down
+GO:0040017	positive regulation of locomotion	386	102	95.37	1.7e-06	down
+GO:0043050	nematode pharyngeal pumping	79	34	19.52	2.7e-06	down
+GO:0071689	muscle thin filament assembly	14	12	3.46	2.8e-06	down
+GO:0033875	ribonucleoside bisphosphate metabolic pr...	107	55	26.44	2.8e-06	down
+GO:0034032	purine nucleoside bisphosphate metabolic...	107	55	26.44	2.8e-06	down
+GO:0007498	mesoderm development	252	80	62.26	2.8e-06	down
+GO:0015985	energy coupled proton transport, down el...	27	18	6.67	4.9e-06	down
+GO:0004252	serine-type endopeptidase activity	129	67	32.43	4.4e-11	down
+GO:0008061	chitin binding	37	28	9.3	1.5e-10	down
+GO:0050136	NADH dehydrogenase (quinone) (non-electr...	19	17	4.78	6.1e-09	down
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	19	17	4.78	6.1e-09	down
+GO:0008307	structural constituent of muscle	48	31	12.07	8.6e-09	down
+GO:0008509	monoatomic anion transmembrane transport...	227	104	57.06	1.1e-08	down
+GO:0015116	sulfate transmembrane transporter activi...	13	13	3.27	1.6e-08	down
+GO:0015106	bicarbonate transmembrane transporter ac...	14	14	3.52	6.2e-08	down
+GO:0019531	oxalate transmembrane transporter activi...	12	12	3.02	6.2e-08	down
+GO:0004568	chitinase activity	23	18	5.78	1.3e-07	down
+GO:0005496	steroid binding	61	33	15.33	4.0e-07	down
+GO:0003779	actin binding	273	105	68.63	1.0e-06	down
+GO:0004867	serine-type endopeptidase inhibitor acti...	17	14	4.27	1.2e-06	down
+GO:0042834	peptidoglycan binding	17	14	4.27	1.2e-06	down
+GO:0030170	pyridoxal phosphate binding	19	15	4.78	1.3e-06	down
+GO:0005504	fatty acid binding	46	26	11.56	1.9e-06	down
+GO:0022857	transmembrane transporter activity	750	328	188.53	6.6e-06	down
+GO:0015645	fatty acid ligase activity	25	18	6.28	8.2e-06	down
+GO:0008331	high voltage-gated calcium channel activ...	11	10	2.77	8.4e-06	down
+GO:0051371	muscle alpha-actinin binding	11	10	2.77	8.4e-06	down
+GO:0003796	lysozyme activity	15	12	3.77	1.3e-05	down
+GO:0005351	carbohydrate:proton symporter activity	27	17	6.79	2.1e-05	down
+GO:0015149	hexose transmembrane transporter activit...	27	17	6.79	2.1e-05	down
+GO:0019825	oxygen binding	10	9	2.51	3.1e-05	down
+GO:0042625	ATPase-coupled ion transmembrane transpo...	59	35	14.83	6.7e-05	down
+GO:0005254	chloride channel activity	47	22	11.81	7.0e-05	down
+GO:0016402	pristanoyl-CoA oxidase activity	9	8	2.26	0.00011	down
+GO:0015020	glucuronosyltransferase activity	28	16	7.04	0.00030	down
+GO:0008010	structural constituent of chitin-based l...	106	43	26.65	0.00032	down
+GO:0005506	iron ion binding	39	19	9.8	0.00038	down
+GO:0005615	extracellular space	656	290	157.05	< 1e-30	down
+GO:0098800	inner mitochondrial membrane protein com...	88	58	21.07	1.6e-19	down
+GO:0030018	Z disc	119	66	28.49	1.1e-13	down
+GO:0045271	respiratory chain complex I	30	25	7.18	1.1e-11	down
+GO:0031430	M band	65	39	15.56	5.2e-10	down
+GO:0005576	extracellular region	1216	479	291.11	9.0e-10	down
+GO:0005859	muscle myosin complex	19	17	4.55	2.7e-09	down
+GO:0005759	mitochondrial matrix	305	108	73.02	3.5e-08	down
+GO:0005886	plasma membrane	2375	680	568.58	2.4e-07	down
+GO:0043209	myelin sheath	123	54	29.45	2.9e-07	down
+GO:0045259	proton-transporting ATP synthase complex	19	15	4.55	6.6e-07	down
+GO:0043202	lysosomal lumen	40	24	9.58	1.2e-06	down
+GO:0005863	striated muscle myosin thick filament	9	9	2.15	2.5e-06	down
+GO:0031092	platelet alpha granule membrane	26	17	6.22	8.5e-06	down
+GO:0005777	peroxisome	129	60	30.88	1.3e-05	down
+GO:0035578	azurophil granule lumen	47	25	11.25	1.4e-05	down
+GO:0045277	respiratory chain complex IV	12	10	2.87	2.5e-05	down
+GO:0070069	cytochrome complex	34	25	8.14	5.9e-05	down
+GO:0016324	apical plasma membrane	272	93	65.12	6.9e-05	down
+GO:0033177	proton-transporting two-sector ATPase co...	19	14	4.55	8.5e-05	down
+GO:0016323	basolateral plasma membrane	206	73	49.32	0.00012	down
+GO:0005782	peroxisomal matrix	44	22	10.53	0.00015	down
+GO:0031012	extracellular matrix	260	95	62.24	0.00022	down
+GO:0005604	basement membrane	68	28	16.28	0.00038	down
+GO:0055120	striated muscle dense body	35	18	8.38	0.00039	down
+GO:0005891	voltage-gated calcium channel complex	17	12	4.07	0.00054	down
+GO:0005960	glycine cleavage complex	5	5	1.2	0.00078	down
+GO:0045252	oxoglutarate dehydrogenase complex	5	5	1.2	0.00078	down
+GO:0031983	vesicle lumen	160	55	38.3	0.00083	down
+GO:0034663	endoplasmic reticulum chaperone complex	18	11	4.31	0.00083	down

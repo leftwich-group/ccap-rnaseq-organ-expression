@@ -1,0 +1,325 @@
+gene_id	preferred_name	category
+LOC101448670	HSP90AB1	Chaperones
+ND2	ND2	Oxidative phosphorylation
+ND5	ND5	Oxidative phosphorylation
+ND4	ND4	Oxidative phosphorylation
+LOC101453232	SDHA	Oxidative phosphorylation
+LOC101449208	PSMA3	Proteasome / Ubiquitin
+LOC101462859	NDUFA6	Oxidative phosphorylation
+LOC101455655	EIF3M	Translation factors
+LOC101462253	RPS16	Cytoplasmic ribosome (SSU)
+LOC101451234	PSMD7	Proteasome / Ubiquitin
+LOC101457237	MRPS27	Mitochondrial ribosome
+LOC101457598	RPL11	Cytoplasmic ribosome (LSU)
+LOC101454839	EIF3B	Translation factors
+LOC101455712	PSMD11	Proteasome / Ubiquitin
+LOC101460106	RPL31	Cytoplasmic ribosome (LSU)
+LOC101449669	SDHA	Oxidative phosphorylation
+LOC101463492	EEF1A1	Translation factors
+LOC101450209	PSMA2	Proteasome / Ubiquitin
+LOC101451559	RPL32	Cytoplasmic ribosome (LSU)
+LOC101455021	MRPL51	Mitochondrial ribosome
+LOC101454896	RpS27	Cytoplasmic ribosome (SSU)
+LOC101460824	cct7	Chaperones
+LOC101450641	ACTB	Cytoskeleton
+LOC101453177	Hsc70-4	NA
+LOC101454957	MRPS33	Mitochondrial ribosome
+LOC101455142	RpL3	Cytoplasmic ribosome (LSU)
+LOC101453785	NDUFA7	Oxidative phosphorylation
+LOC101451119	RPS25	Cytoplasmic ribosome (SSU)
+LOC101451969	SDHC	Oxidative phosphorylation
+LOC101456792	RPL10A	Cytoplasmic ribosome (LSU)
+LOC101454550	ATP5D	Oxidative phosphorylation
+LOC101454842	SDHB	Oxidative phosphorylation
+LOC101452459	CCT2	Chaperones
+LOC101454843	RPS5	Cytoplasmic ribosome (SSU)
+LOC101456146	MRPS30	Mitochondrial ribosome
+LOC101457356	ACTB	Cytoskeleton
+LOC101450579	MRPL17	Mitochondrial ribosome
+LOC101453608	UQCRC2	Oxidative phosphorylation
+LOC101458844	rps9	Cytoplasmic ribosome (SSU)
+LOC101463395	RPL23A	Cytoplasmic ribosome (LSU)
+LOC101454662	NDUFB5	Oxidative phosphorylation
+LOC101454844	EIF3L	Translation factors
+LOC101449795	NDUFS4	Oxidative phosphorylation
+LOC101452282	RPL17	Cytoplasmic ribosome (LSU)
+LOC101453609	EIF5	Translation factors
+LOC101463095	RPL7	Cytoplasmic ribosome (LSU)
+LOC101452395	PSMB5	Proteasome / Ubiquitin
+LOC101455550	EIF4A2	Translation factors
+LOC101457891	LSM4	RNA processing
+LOC101460176	RpS27A	Cytoplasmic ribosome (SSU)
+LOC101461901	RpL9	Cytoplasmic ribosome (LSU)
+LOC101453610	NDUFB2	Oxidative phosphorylation
+LOC101457420	MRPS5	Mitochondrial ribosome
+LOC101463497	RPL15	Cytoplasmic ribosome (LSU)
+LOC101455145	COX5A	Oxidative phosphorylation
+LOC101448273	MRPL19	Mitochondrial ribosome
+LOC101452462	CCT3	Chaperones
+LOC101454254	MRPS10	Mitochondrial ribosome
+LOC101451911	NDUFS7	Oxidative phosphorylation
+LOC101455602	PSMB4	Proteasome / Ubiquitin
+LOC101449495	PSMB3	Proteasome / Ubiquitin
+LOC101449259	ATP5F1	Oxidative phosphorylation
+LOC101453553	NDUFS3	Oxidative phosphorylation
+LOC101453854	pfk	Core metabolism
+LOC101457603	ATP5C1	Oxidative phosphorylation
+LOC101456550	SNRPF	RNA processing
+LOC101458370	RPL36	Cytoplasmic ribosome (LSU)
+LOC101459201	RPS6	Cytoplasmic ribosome (SSU)
+LOC101456079	NDUFB3	Oxidative phosphorylation
+LOC101460655	GAPDH	Core metabolism
+LOC101460830	MRPL36	Mitochondrial ribosome
+LOC101461663	EEF1B2	Translation factors
+LOC101454317	SNRPG	RNA processing
+LOC101454494	RPS19	Cytoplasmic ribosome (SSU)
+LOC101449612	ATP5B	Oxidative phosphorylation
+LOC101455901	PGM2	Core metabolism
+LOC101453615	ATP5J2	Oxidative phosphorylation
+LOC101454963	Mrpl52	Mitochondrial ribosome
+LOC101457959	RPL18A	Cytoplasmic ribosome (LSU)
+LOC101449565	PGM2	Core metabolism
+LOC101460114	NDUFB7	Oxidative phosphorylation
+LOC101459147	MRPL9	Mitochondrial ribosome
+LOC101449503	COX7A2	Oxidative phosphorylation
+LOC101454083	RPS29	Cytoplasmic ribosome (SSU)
+LOC101459449	EIF3D	Translation factors
+LOC101460657	PSMD13	Proteasome / Ubiquitin
+LOC101458374	PSMD3	Proteasome / Ubiquitin
+LOC101461960	MRPS23	Mitochondrial ribosome
+LOC101463044	MDH1	Core metabolism
+LOC101460537	RPS10	Cytoplasmic ribosome (SSU)
+LOC101462209	MRPL28	Mitochondrial ribosome
+LOC101450295	MRPL4	Mitochondrial ribosome
+LOC101456617	RPL27A	Cytoplasmic ribosome (LSU)
+LOC101456803	MRPL27	Mitochondrial ribosome
+LOC101457365	MRPS31	Mitochondrial ribosome
+LOC101461010	PSMB7	Proteasome / Ubiquitin
+LOC101461194	MRPL39	Mitochondrial ribosome
+LOC101454136	Hsc70-4	NA
+LOC101460239	mRpS26	Mitochondrial ribosome
+LOC101448334	SNRPE	RNA processing
+LOC101450652	MRPL15	Mitochondrial ribosome
+LOC101456932	NDUFA9	Oxidative phosphorylation
+LOC101452872	MRPL2	Mitochondrial ribosome
+LOC101461077	PRPF31	RNA processing
+LOC101455156	MRPS28	Mitochondrial ribosome
+LOC101450348	RPS24	Cytoplasmic ribosome (SSU)
+LOC101457065	MRPL54	Mitochondrial ribosome
+LOC101455611	MRPS7	Mitochondrial ribosome
+LOC101458256	PSMA1	Proteasome / Ubiquitin
+LOC101450709	RpS18	Cytoplasmic ribosome (SSU)
+LOC101451982	PSMC3	Proteasome / Ubiquitin
+LOC101452349	SDHD	Oxidative phosphorylation
+LOC101448550	MRPL1	Mitochondrial ribosome
+LOC101457730	PSMC1	Proteasome / Ubiquitin
+LOC101456384	HSP90B1	Chaperones
+LOC101459893	ATP5G2	Oxidative phosphorylation
+LOC101461968	LSM3	RNA processing
+LOC101463406	ME1	Core metabolism
+LOC101458798	EIF3F	Translation factors
+LOC101456621	CS	Core metabolism
+LOC101456446	PSMC6	Proteasome / Ubiquitin
+LOC101456158	Atp5i	Oxidative phosphorylation
+LOC101458857	ATP5B	Oxidative phosphorylation
+LOC101460909	RPL19	Cytoplasmic ribosome (LSU)
+LOC101450167	IDH3B	Core metabolism
+LOC101450351	MRPL35	Mitochondrial ribosome
+LOC101459954	rpl10	Cytoplasmic ribosome (LSU)
+LOC101456882	fau	NA
+LOC101458084	MRPL37	Mitochondrial ribosome
+LOC101459706	MRPS11	Mitochondrial ribosome
+LOC101449269	COX4I1	Oxidative phosphorylation
+LOC101458622	LSM5	RNA processing
+LOC101453980	PSMB1	Proteasome / Ubiquitin
+LOC101455977	PSMD14	Proteasome / Ubiquitin
+LOC101456695	RPL7	Cytoplasmic ribosome (LSU)
+LOC101458326	PGK1	Core metabolism
+LOC101460668	MRPL24	Mitochondrial ribosome
+LOC101449935	ACO2	Core metabolism
+LOC101451628	COX6C	Oxidative phosphorylation
+LOC101453070	NDUFA2	Oxidative phosphorylation
+LOC105664420	GAPDH	Core metabolism
+LOC101459338	MRPL49	Mitochondrial ribosome
+LOC101463168	EIF2S1	Translation factors
+LOC101448738	NDUFB8	Oxidative phosphorylation
+LOC101449444	MRPL14	Mitochondrial ribosome
+LOC101454269	IDH3A	Core metabolism
+LOC101456211	SUCLG1	Core metabolism
+LOC101449095	LSM8	RNA processing
+LOC101449445	MRPL46	Mitochondrial ribosome
+LOC101453690	RPL14	Cytoplasmic ribosome (LSU)
+LOC101454738	LSM2	RNA processing
+LOC101449630	SUCLG1	Core metabolism
+LOC101456212	RpL8	Cytoplasmic ribosome (LSU)
+LOC101449044	PGM1	Core metabolism
+LOC101458804	EIF2S2	Translation factors
+LOC101460738	UBE2C	Proteasome / Ubiquitin
+LOC101457972	IDH1	Core metabolism
+LOC101462337	MRPS34	Mitochondrial ribosome
+LOC101462520	MRPS34	Mitochondrial ribosome
+LOC101452530	RPS28	Cytoplasmic ribosome (SSU)
+LOC101460194	RPL29	Cytoplasmic ribosome (LSU)
+LOC101450055	SNRPD3	RNA processing
+LOC101451988	UBE2K	Proteasome / Ubiquitin
+LOC101452827	rps17	Cytoplasmic ribosome (SSU)
+LOC101463348	EIF4E	Translation factors
+LOC101453257	RPL38	Cytoplasmic ribosome (LSU)
+LOC101461264	NDUFA8	Oxidative phosphorylation
+LOC101462451	RPL23	Cytoplasmic ribosome (LSU)
+LOC101463349	HSPA9	Chaperones
+LOC101449762	RPS23	Cytoplasmic ribosome (SSU)
+LOC101454681	PRPF8	RNA processing
+LOC101457739	LSM6	RNA processing
+LOC101458090	ACTB	Cytoskeleton
+LOC101449047	COX6A1	Oxidative phosphorylation
+LOC101456037	RPL18	Cytoplasmic ribosome (LSU)
+LOC101462167	MRPL12	Mitochondrial ribosome
+LOC101449815	RpS4	Cytoplasmic ribosome (SSU)
+LOC101458629	MRPS35	Mitochondrial ribosome
+LOC101462938	MRPL23	Mitochondrial ribosome
+LOC101455447	RPL28	Cytoplasmic ribosome (LSU)
+LOC101452593	NDUFS7	Oxidative phosphorylation
+LOC101456218	pfk	Core metabolism
+LOC101461620	PSMA7	Proteasome / Ubiquitin
+LOC101462224	rpl30	Cytoplasmic ribosome (LSU)
+LOC101455282	RPS2	Cytoplasmic ribosome (SSU)
+LOC101458512	ACTB	Cytoskeleton
+LOC101458815	MRPL38	Mitochondrial ribosome
+LOC101461744	SF3A1	RNA processing
+LOC105664462	UBE2B	Proteasome / Ubiquitin
+LOC101463122	MRPL40	Mitochondrial ribosome
+LOC101449351	MRPS9	Mitochondrial ribosome
+LOC101455396	MRPL32	Mitochondrial ribosome
+LOC101457751	MRPS14	Mitochondrial ribosome
+LOC101456110	MRPL22	Mitochondrial ribosome
+LOC101460681	U2AF2	RNA processing
+LOC101461392	Uqcrb	Oxidative phosphorylation
+LOC101452488	UBE2N	Proteasome / Ubiquitin
+LOC101457984	COX6B1	Oxidative phosphorylation
+LOC101460386	SNRPB	RNA processing
+LOC101450551	UQCR11	Oxidative phosphorylation
+LOC101456643	HSPE1	Chaperones
+LOC101462536	PSMB6	Proteasome / Ubiquitin
+LOC101460141	MRPS21	Mitochondrial ribosome
+LOC101462235	ACTB	Cytoskeleton
+LOC101460860	ATP5J	Oxidative phosphorylation
+LOC101453759	Ndufc2	Oxidative phosphorylation
+LOC101456645	EIF3K	Translation factors
+LOC101451340	NDUFB10	Oxidative phosphorylation
+LOC105664412	Ndufs5	Oxidative phosphorylation
+LOC101452661	PSMB2	Proteasome / Ubiquitin
+LOC101456467	EIF3G	Translation factors
+LOC101461877	RPL22	Cytoplasmic ribosome (LSU)
+LOC101450077	HSPE1	Chaperones
+LOC101452840	PSMD6	Proteasome / Ubiquitin
+LOC101453531	ACO1	Core metabolism
+LOC101454639	RPL4	Cytoplasmic ribosome (LSU)
+LOC101459047	FAU	NA
+LOC101457328	Ndufa13	Oxidative phosphorylation
+LOC101450079	EIF3C	Translation factors
+LOC101459355	EIF3H	Translation factors
+LOC101461220	U2AF1	RNA processing
+LOC101450004	NDUFA12	Oxidative phosphorylation
+LOC101451708	NDUFS6	Oxidative phosphorylation
+LOC101451881	NDUFS6	Oxidative phosphorylation
+LOC101453403	UQCRFS1	Oxidative phosphorylation
+LOC101455870	MRPL48	Mitochondrial ribosome
+LOC101457988	SF3B2	RNA processing
+LOC101449463	EIF3I	Translation factors
+LOC101462651	ATP5H	Oxidative phosphorylation
+LOC101463190	MRPL55	Mitochondrial ribosome
+LOC101451347	NDUFV1	Oxidative phosphorylation
+LOC101450012	PSMD1	Proteasome / Ubiquitin
+LOC101457100	uba52	Proteasome / Ubiquitin
+LOC101456479	EIF3E	Translation factors
+LOC101457038	UBE2L3	Proteasome / Ubiquitin
+LOC101457229	PSMA4	Proteasome / Ubiquitin
+LOC101455700	MRPS22	Mitochondrial ribosome
+LOC101459798	PKM	Core metabolism
+LOC101454703	RPL21	Cytoplasmic ribosome (LSU)
+LOC101456963	RpL5	Cytoplasmic ribosome (LSU)
+LOC101462186	NDUFS2	Oxidative phosphorylation
+LOC101463546	RPL24	Cytoplasmic ribosome (LSU)
+LOC101458588	PSMD9	Proteasome / Ubiquitin
+LOC101450563	EIF3A	Translation factors
+LOC101457515	RPS7	Cytoplasmic ribosome (SSU)
+LOC101459801	TPI1	Core metabolism
+LOC101455703	NDUFB9	Oxidative phosphorylation
+LOC101461765	COX5B	Oxidative phosphorylation
+LOC101461832	RPL13	Cytoplasmic ribosome (LSU)
+LOC101461051	GAPDH	Core metabolism
+LOC101453773	GPI	Core metabolism
+LOC101463024	RPL12	Cytoplasmic ribosome (LSU)
+LOC101451103	RPS26	Cytoplasmic ribosome (SSU)
+LOC101461767	PSMB5	Proteasome / Ubiquitin
+LOC101460877	MRPS16	Mitochondrial ribosome
+LOC101449840	EIF3J	Translation factors
+LOC101454298	COX4I1	Oxidative phosphorylation
+LOC101456595	HSPA5	Chaperones
+LOC101458592	SF3B1	RNA processing
+LOC101448365	PSMD8	Proteasome / Ubiquitin
+LOC101463085	EEF2	Translation factors
+LOC101451893	RPS21	Cytoplasmic ribosome (SSU)
+LOC101456666	eef1g	Translation factors
+LOC101457105	PSMA6	Proteasome / Ubiquitin
+LOC101452021	SDHB	Oxidative phosphorylation
+LOC101453108	PSMC2	Proteasome / Ubiquitin
+LOC101456968	RPN2	Proteasome / Ubiquitin
+LOC101459553	MRPS15	Mitochondrial ribosome
+LOC101457708	RpS15	Cytoplasmic ribosome (SSU)
+LOC101459128	MRPS17	Mitochondrial ribosome
+LOC101463030	PFKL	Core metabolism
+LOC101462130	RPS20	Cytoplasmic ribosome (SSU)
+LOC101452800	MRPS24	Mitochondrial ribosome
+LOC101452387	NDUFA10	Oxidative phosphorylation
+LOC101449553	CCT4	Chaperones
+LOC101458183	RPS11	Cytoplasmic ribosome (SSU)
+LOC101458954	MRPL3	Mitochondrial ribosome
+LOC101452507	rps15a	Cytoplasmic ribosome (SSU)
+LOC101454655	NDUFV2	Oxidative phosphorylation
+LOC101456491	MRPS25	Mitochondrial ribosome
+LOC101459554	RPS8	Cytoplasmic ribosome (SSU)
+LOC101455254	PSMC4	Proteasome / Ubiquitin
+LOC101458421	PSMD5	Proteasome / Ubiquitin
+LOC101460640	NDUFA5	Oxidative phosphorylation
+LOC101460817	RPL35	Cytoplasmic ribosome (LSU)
+LOC101461835	MRPL16	Mitochondrial ribosome
+LOC101461774	CCT8	Chaperones
+LOC105664456	snrpd2	RNA processing
+LOC101460406	MRPL44	Mitochondrial ribosome
+LOC101462856	eif2s3	Translation factors
+LOC101463444	ATP5O	Oxidative phosphorylation
+LOC101450458	PSMD12	Proteasome / Ubiquitin
+LOC101460520	IDH3G	Core metabolism
+LOC101460886	RPL27	Cytoplasmic ribosome (LSU)
+LOC101462494	RPL6	Cytoplasmic ribosome (LSU)
+LOC101460457	RPS13	Cytoplasmic ribosome (SSU)
+LOC101451364	NDUFS2	Oxidative phosphorylation
+LOC101450278	RPL13A	Cytoplasmic ribosome (LSU)
+LOC101449915	PSMA5	Proteasome / Ubiquitin
+LOC101454072	EIF4G2	Translation factors
+LOC101456141	ATP5A1	Oxidative phosphorylation
+LOC101457711	COX7C	Oxidative phosphorylation
+LOC101463488	CCT5	Chaperones
+LOC101448957	SNRPD1	RNA processing
+LOC105664409	PSMD2	Proteasome / Ubiquitin
+LOC101457293	UBE2I	Proteasome / Ubiquitin
+LOC101457170	RPN1	Proteasome / Ubiquitin
+LOC101460712	EIF5B	Translation factors
+LOC101457541	MRPL13	Mitochondrial ribosome
+LOC101448785	NDUFB11	Oxidative phosphorylation
+LOC101452277	SUCLA2	Core metabolism
+LOC101456511	LSM7	RNA processing
+LOC101460857	U2AF2	RNA processing
+LOC105664492	mRpL53	Mitochondrial ribosome
+LOC101458177	PFKL	Core metabolism
+LOC105664483	PSMC5	Proteasome / Ubiquitin
+LOC101450464	SF3B3	RNA processing
+LOC101459443	RPS3	Cytoplasmic ribosome (SSU)
+LOC101457546	ME1	Core metabolism
+LOC101458279	COX6B1	Oxidative phosphorylation
+LOC101457701	PKM	Core metabolism
+LOC110118708	RPL39	Cytoplasmic ribosome (LSU)
+LOC101459935	NDUFS8	Oxidative phosphorylation
+LOC101461787	UBC	Proteasome / Ubiquitin

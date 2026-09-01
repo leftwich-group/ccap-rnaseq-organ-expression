@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0070125	mitochondrial translational elongation	56	30	15.85	5.8e-05	5.8e-5
+GO:0051403	stress-activated MAPK cascade	218	74	61.69	5.8e-05	5.8e-5
+GO:0070126	mitochondrial translational termination	59	31	16.7	7.2e-05	7.2e-5
+GO:0032543	mitochondrial translation	101	52	28.58	0.00013	1.3e-4
+GO:2000311	regulation of AMPA receptor activity	6	6	1.7	0.00051	5.1e-4
+GO:0006361	transcription initiation at RNA polymera...	30	16	8.49	0.00110	0.0011
+GO:0006363	termination of RNA polymerase I transcri...	23	14	6.51	0.00110	0.0011
+GO:0007254	JNK cascade	186	60	52.64	0.00110	0.0011
+GO:0015012	heparan sulfate proteoglycan biosyntheti...	31	15	8.77	0.00111	0.00111
+GO:0072107	positive regulation of ureteric bud form...	5	5	1.41	0.00181	0.00181
+GO:0036378	calcitriol biosynthetic process from cal...	5	5	1.41	0.00181	0.00181
+GO:0061218	negative regulation of mesonephros devel...	5	5	1.41	0.00181	0.00181

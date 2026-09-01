@@ -1,0 +1,18 @@
+section	question	contrast	n_tested_short	n_tested_long	n_up_short	n_up_long	n_down_short	n_down_long	n_sig_total_short	n_sig_total_long	pct_sig_short	pct_sig_long
+Q1	Fertilised vs Unfertilised Egg	unfert_vs_fert	7734	8454	2044	1908	51	46	4469	3359	57.78	39.73
+Q1	MZT : Early vs Late	late_vs_early	10194	NA	4004	NA	1818	NA	7757	NA	76.09	NA
+Q1	MZT : Unfertilised vs Early	early_vs_unfert	10194	NA	1441	NA	1621	NA	4063	NA	39.86	NA
+Q1	MZT : Unfertilised vs Late	late_vs_unfert	10194	NA	3731	NA	2098	NA	6463	NA	63.4	NA
+Q2	Germline: testes vs ovary	female_gonad_vs_male_gonad	11505	12327	3321	3779	4612	4574	10021	10577	87.1	85.8
+Q2	Ovary axis: proximal vs distal	distal_vs_proximal	9463	10326	975	1034	826	842	7600	7804	80.31	75.58
+Q2	Sommale vs mated female	AbdomenF_mated_vs_AbdomenM	10370	10957	819	818	644	651	3193	2963	30.79	27.04
+Q2	Sommale vs virgin female	AbdomenF_virgin_vs_AbdomenM	10232	10802	717	770	622	614	3673	3399	35.9	31.47
+Q3	Distal ovary : virgin vs mated	mated_vs_virgin_YO	9100	9905	2	2	17	11	98	48	1.08	0.48
+Q3	Female somvirgin vs mated	mated_vs_virgin_abdomen	10190	10778	1	0	0	0	1	0	0.01	0
+Q3	Proximal OVary : virgin vs mated	mated_vs_virgin_OO	9009	9834	8	4	4	5	152	100	1.69	1.02
+Q3	mated : abdomen vs ovary	ovary_vs_abdomen_mated	10551	11530	3152	3437	3873	4188	8850	9476	83.88	82.19
+Q3	virgin : abdomen vs ovary	ovary_vs_abdomen_virgin	10501	11484	3253	3596	3830	4064	8968	9597	85.4	83.57
+Q4	Maleness: AB vs AG	AB_vs_AG	10897	11660	2407	2635	1357	1539	6894	7176	63.27	61.54
+Q4	Maleness: AG vs TE	AG_vs_TE	11608	12338	3724	3924	4348	4540	10076	10472	86.8	84.88
+Q4	Maleness: OO vs TE	OO_vs_TE	11413	12171	3272	3501	4721	4800	10683	11214	93.6	92.14
+Q4	Maleness: YO vs TE	YO_vs_TE	11408	12179	3453	3539	4662	4807	10668	11136	93.51	91.44

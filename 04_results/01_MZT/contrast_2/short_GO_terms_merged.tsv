@@ -1,0 +1,541 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	group	sub_contrast
+GO:0044703	multi-organism reproductive process	1448	283	206.67	9.7e-16	up	early_vs_unfert
+GO:0010628	positive regulation of gene expression	1239	275	176.84	6.1e-13	up	early_vs_unfert
+GO:0071166	ribonucleoprotein complex localization	114	46	16.27	9.1e-11	up	early_vs_unfert
+GO:0016032	viral process	224	75	31.97	2.9e-10	up	early_vs_unfert
+GO:0031503	protein-containing complex localization	191	64	27.26	6.1e-10	up	early_vs_unfert
+GO:0010629	negative regulation of gene expression	1280	291	182.69	3.9e-09	up	early_vs_unfert
+GO:0000398	mRNA splicing, via spliceosome	314	110	44.82	4.3e-09	up	early_vs_unfert
+GO:0006611	protein export from nucleus	149	51	21.27	8.0e-09	up	early_vs_unfert
+GO:0006406	mRNA export from nucleus	96	41	13.7	1.5e-08	up	early_vs_unfert
+GO:0051276	chromosome organization	842	234	120.17	1.8e-08	up	early_vs_unfert
+GO:0045892	negative regulation of DNA-templated tra...	712	161	101.62	2.3e-08	up	early_vs_unfert
+GO:0044403	biological process involved in symbiotic...	262	79	37.39	3.2e-08	up	early_vs_unfert
+GO:0018393	internal peptidyl-lysine acetylation	98	36	13.99	3.3e-08	up	early_vs_unfert
+GO:0006468	protein phosphorylation	877	194	125.17	3.5e-08	up	early_vs_unfert
+GO:0046330	positive regulation of JNK cascade	74	29	10.56	1.0e-07	up	early_vs_unfert
+GO:0045893	positive regulation of DNA-templated tra...	861	204	122.89	1.2e-07	up	early_vs_unfert
+GO:0032989	cellular anatomical entity morphogenesis	943	190	134.59	1.8e-07	up	early_vs_unfert
+GO:0015833	peptide transport	1019	204	145.44	1.8e-07	up	early_vs_unfert
+GO:0032874	positive regulation of stress-activated ...	88	32	12.56	1.8e-07	up	early_vs_unfert
+GO:0045944	positive regulation of transcription by ...	684	153	97.62	2.4e-07	up	early_vs_unfert
+GO:0000381	regulation of alternative mRNA splicing,...	82	30	11.7	3.8e-07	up	early_vs_unfert
+GO:0007032	endosome organization	55	23	7.85	5.2e-07	up	early_vs_unfert
+GO:0090435	protein localization to nuclear envelope	13	10	1.86	1.2e-06	up	early_vs_unfert
+GO:0043547	positive regulation of GTPase activity	168	50	23.98	1.2e-06	up	early_vs_unfert
+GO:0008356	asymmetric cell division	147	51	20.98	1.4e-06	up	early_vs_unfert
+GO:1905269	positive regulation of chromatin organiz...	113	37	16.13	1.9e-06	up	early_vs_unfert
+GO:0032211	negative regulation of telomere maintena...	14	10	2	2.0e-06	up	early_vs_unfert
+GO:0060562	epithelial tube morphogenesis	613	130	87.49	2.8e-06	up	early_vs_unfert
+GO:0000380	alternative mRNA splicing, via spliceoso...	94	39	13.42	3.1e-06	up	early_vs_unfert
+GO:0006325	chromatin organization	588	168	83.92	5.7e-06	up	early_vs_unfert
+GO:1901363	heterocyclic compound binding	1915	406	279.88	7.5e-17	up	early_vs_unfert
+GO:0005515	protein binding	3731	725	545.28	7.4e-14	up	early_vs_unfert
+GO:0031267	small GTPase binding	282	83	41.21	5.7e-11	up	early_vs_unfert
+GO:0005524	ATP binding	209	62	30.55	1.2e-08	up	early_vs_unfert
+GO:0003682	chromatin binding	389	105	56.85	6.7e-08	up	early_vs_unfert
+GO:0044877	protein-containing complex binding	641	153	93.68	4.2e-07	up	early_vs_unfert
+GO:0019901	protein kinase binding	434	104	63.43	4.9e-07	up	early_vs_unfert
+GO:0005096	GTPase activator activity	104	34	15.2	2.3e-06	up	early_vs_unfert
+GO:0042802	identical protein binding	996	183	145.57	2.9e-06	up	early_vs_unfert
+GO:0003677	DNA binding	911	191	133.14	6.1e-06	up	early_vs_unfert
+GO:0004674	protein serine/threonine kinase activity	192	59	28.06	1.1e-05	up	early_vs_unfert
+GO:0003714	transcription corepressor activity	108	33	15.78	1.6e-05	up	early_vs_unfert
+GO:0003713	transcription coactivator activity	210	53	30.69	2.9e-05	up	early_vs_unfert
+GO:0042393	histone binding	117	34	17.1	3.9e-05	up	early_vs_unfert
+GO:0031625	ubiquitin protein ligase binding	197	50	28.79	4.1e-05	up	early_vs_unfert
+GO:0016887	ATP hydrolysis activity	296	68	43.26	6.1e-05	up	early_vs_unfert
+GO:0061752	telomeric repeat-containing RNA binding	5	5	0.73	6.6e-05	up	early_vs_unfert
+GO:0017056	structural constituent of nuclear pore	22	11	3.22	9.2e-05	up	early_vs_unfert
+GO:0008017	microtubule binding	147	40	21.48	9.8e-05	up	early_vs_unfert
+GO:0003724	RNA helicase activity	59	20	8.62	0.00017	up	early_vs_unfert
+GO:0001069	regulatory region RNA binding	8	6	1.17	0.00021	up	early_vs_unfert
+GO:0003723	RNA binding	663	169	96.9	0.00024	up	early_vs_unfert
+GO:0017124	SH3 domain binding	48	17	7.02	0.00027	up	early_vs_unfert
+GO:0008143	poly(A) binding	21	10	3.07	0.00032	up	early_vs_unfert
+GO:0003729	mRNA binding	253	70	36.98	0.00035	up	early_vs_unfert
+GO:0003700	DNA-binding transcription factor activit...	628	118	91.78	0.00035	up	early_vs_unfert
+GO:0003730	mRNA 3'-UTR binding	60	21	8.77	0.00041	up	early_vs_unfert
+GO:0051033	RNA transmembrane transporter activity	4	4	0.58	0.00045	up	early_vs_unfert
+GO:0000993	RNA polymerase II complex binding	19	10	2.78	0.00050	up	early_vs_unfert
+GO:0003725	double-stranded RNA binding	38	14	5.55	0.00058	up	early_vs_unfert
+GO:0005654	nucleoplasm	1930	481	285.55	1.0e-21	up	early_vs_unfert
+GO:0005829	cytosol	2575	514	380.98	1.8e-20	up	early_vs_unfert
+GO:0005634	nucleus	3539	773	523.61	5.9e-15	up	early_vs_unfert
+GO:0016607	nuclear speck	233	78	34.47	1.0e-12	up	early_vs_unfert
+GO:0000228	nuclear chromosome	355	95	52.52	3.9e-09	up	early_vs_unfert
+GO:0048471	perinuclear region of cytoplasm	423	100	62.58	9.5e-07	up	early_vs_unfert
+GO:0034399	nuclear periphery	110	36	16.27	1.8e-06	up	early_vs_unfert
+GO:0071013	catalytic step 2 spliceosome	88	32	13.02	2.2e-06	up	early_vs_unfert
+GO:0016363	nuclear matrix	64	23	9.47	2.2e-05	up	early_vs_unfert
+GO:0005802	trans-Golgi network	138	42	20.42	2.2e-05	up	early_vs_unfert
+GO:0005700	polytene chromosome	180	63	26.63	2.8e-05	up	early_vs_unfert
+GO:0099568	cytoplasmic region	362	86	53.56	4.0e-05	up	early_vs_unfert
+GO:1990904	ribonucleoprotein complex	678	143	100.31	6.3e-05	up	early_vs_unfert
+GO:0031674	I band	91	17	13.46	7.1e-05	up	early_vs_unfert
+GO:0005815	microtubule organizing center	401	92	59.33	9.9e-05	up	early_vs_unfert
+GO:0032154	cleavage furrow	53	19	7.84	0.00012	up	early_vs_unfert
+GO:0005730	nucleolus	595	124	88.03	0.00015	up	early_vs_unfert
+GO:0005705	polytene chromosome interband	38	15	5.62	0.00018	up	early_vs_unfert
+GO:0005912	adherens junction	159	42	23.52	0.00018	up	early_vs_unfert
+GO:0072686	mitotic spindle	74	29	10.95	0.00023	up	early_vs_unfert
+GO:0000791	euchromatin	39	15	5.77	0.00025	up	early_vs_unfert
+GO:0000776	kinetochore	76	25	11.24	0.00026	up	early_vs_unfert
+GO:0045180	basal cortex	17	9	2.52	0.00026	up	early_vs_unfert
+GO:0000123	histone acetyltransferase complex	78	32	11.54	0.00027	up	early_vs_unfert
+GO:0031965	nuclear membrane	173	43	25.6	0.00045	up	early_vs_unfert
+GO:0005828	kinetochore microtubule	12	7	1.78	0.00061	up	early_vs_unfert
+GO:0005737	cytoplasm	5459	890	807.68	0.00067	up	early_vs_unfert
+GO:0005938	cell cortex	255	70	37.73	0.00068	up	early_vs_unfert
+GO:0005681	spliceosomal complex	143	53	21.16	0.00074	up	early_vs_unfert
+GO:0005769	early endosome	187	43	27.67	0.00083	up	early_vs_unfert
+GO:0043604	amide biosynthetic process	418	129	50.97	1.2e-30	down	early_vs_unfert
+GO:0043043	peptide biosynthetic process	392	119	47.8	2.3e-30	down	early_vs_unfert
+GO:0002181	cytoplasmic translation	118	51	14.39	4.9e-21	down	early_vs_unfert
+GO:0046034	ATP metabolic process	219	66	26.7	1.6e-19	down	early_vs_unfert
+GO:0009167	purine ribonucleoside monophosphate meta...	207	65	25.24	4.5e-18	down	early_vs_unfert
+GO:0006120	mitochondrial electron transport, NADH t...	49	31	5.98	3.7e-17	down	early_vs_unfert
+GO:0070972	protein localization to endoplasmic reti...	87	41	10.61	3.5e-16	down	early_vs_unfert
+GO:0006614	SRP-dependent cotranslational protein ta...	63	35	7.68	3.9e-15	down	early_vs_unfert
+GO:0016310	phosphorylation	1144	133	139.5	2.0e-14	down	early_vs_unfert
+GO:0006413	translational initiation	142	46	17.32	6.4e-14	down	early_vs_unfert
+GO:0070126	mitochondrial translational termination	69	33	8.41	2.9e-13	down	early_vs_unfert
+GO:0070125	mitochondrial translational elongation	66	32	8.05	4.1e-13	down	early_vs_unfert
+GO:0032981	mitochondrial respiratory chain complex ...	52	28	6.34	4.3e-13	down	early_vs_unfert
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	32	10.12	7.2e-10	down	early_vs_unfert
+GO:0072657	protein localization to membrane	367	64	44.75	8.1e-10	down	early_vs_unfert
+GO:0015833	peptide transport	1019	159	124.26	9.5e-08	down	early_vs_unfert
+GO:0032543	mitochondrial translation	117	48	14.27	3.6e-06	down	early_vs_unfert
+GO:0000288	nuclear-transcribed mRNA catabolic proce...	61	15	7.44	4.8e-06	down	early_vs_unfert
+GO:0006886	intracellular protein transport	689	115	84.02	1.6e-05	down	early_vs_unfert
+GO:0000028	ribosomal small subunit assembly	19	10	2.32	2.3e-05	down	early_vs_unfert
+GO:0033617	mitochondrial cytochrome c oxidase assem...	21	10	2.56	6.9e-05	down	early_vs_unfert
+GO:1990542	mitochondrial transmembrane transport	68	21	8.29	7.0e-05	down	early_vs_unfert
+GO:0044743	protein transmembrane import into intrac...	32	12	3.9	0.00011	down	early_vs_unfert
+GO:0045047	protein targeting to ER	72	40	8.78	0.00013	down	early_vs_unfert
+GO:0000460	maturation of 5.8S rRNA	34	12	4.15	0.00034	down	early_vs_unfert
+GO:0061355	Wnt protein secretion	16	6	1.95	0.00045	down	early_vs_unfert
+GO:0006122	mitochondrial electron transport, ubiqui...	14	7	1.71	0.00062	down	early_vs_unfert
+GO:0016226	iron-sulfur cluster assembly	20	9	2.44	0.00067	down	early_vs_unfert
+GO:0006123	mitochondrial electron transport, cytoch...	18	8	2.19	0.00067	down	early_vs_unfert
+GO:0000398	mRNA splicing, via spliceosome	314	51	38.29	0.00101	down	early_vs_unfert
+GO:0003735	structural constituent of ribosome	157	92	17.9	< 1e-30	down	early_vs_unfert
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	35	23	3.99	3.4e-14	down	early_vs_unfert
+GO:0050136	NADH dehydrogenase (quinone) (non-electr...	35	23	3.99	3.4e-14	down	early_vs_unfert
+GO:0003723	RNA binding	663	118	75.61	1.7e-08	down	early_vs_unfert
+GO:0003954	NADH dehydrogenase activity	44	30	5.02	6.2e-06	down	early_vs_unfert
+GO:0003899	DNA-directed RNA polymerase activity	26	12	2.97	9.4e-06	down	early_vs_unfert
+GO:0004129	cytochrome-c oxidase activity	20	10	2.28	2.2e-05	down	early_vs_unfert
+GO:0016675	oxidoreductase activity, acting on a hem...	21	10	2.39	3.8e-05	down	early_vs_unfert
+GO:0005507	copper ion binding	28	12	3.19	3.9e-05	down	early_vs_unfert
+GO:0051537	2 iron, 2 sulfur cluster binding	12	7	1.37	0.00012	down	early_vs_unfert
+GO:0008121	quinol-cytochrome-c reductase activity	9	6	1.03	0.00013	down	early_vs_unfert
+GO:0015450	protein-transporting ATPase activity	13	7	1.48	0.00023	down	early_vs_unfert
+GO:0031386	protein tag activity	8	5	0.91	0.00079	down	early_vs_unfert
+GO:0008430	selenium binding	3	3	0.34	0.00148	down	early_vs_unfert
+GO:0017070	U6 snRNA binding	11	7	1.25	0.00160	down	early_vs_unfert
+GO:1904680	peptide transmembrane transporter activi...	17	7	1.94	0.00170	down	early_vs_unfert
+GO:0016679	oxidoreductase activity, acting on diphe...	14	6	1.6	0.00289	down	early_vs_unfert
+GO:0042887	amide transmembrane transporter activity	24	9	2.74	0.00355	down	early_vs_unfert
+GO:0004791	thioredoxin-disulfide reductase (NADPH) ...	7	4	0.8	0.00443	down	early_vs_unfert
+GO:1990446	U1 snRNP binding	7	4	0.8	0.00443	down	early_vs_unfert
+GO:0031492	nucleosomal DNA binding	7	4	0.8	0.00443	down	early_vs_unfert
+GO:0046872	metal ion binding	615	68	70.14	0.00504	down	early_vs_unfert
+GO:0042134	rRNA primary transcript binding	4	3	0.46	0.00541	down	early_vs_unfert
+GO:0004165	delta(3)-delta(2)-enoyl-CoA isomerase ac...	4	3	0.46	0.00541	down	early_vs_unfert
+GO:0004364	glutathione transferase activity	32	9	3.65	0.00774	down	early_vs_unfert
+GO:0048039	ubiquinone binding	8	4	0.91	0.00806	down	early_vs_unfert
+GO:0008135	translation factor activity, RNA binding	70	15	7.98	0.01111	down	early_vs_unfert
+GO:0004596	protein-N-terminal amino-acid acetyltran...	7	4	0.8	0.01235	down	early_vs_unfert
+GO:0008379	thioredoxin peroxidase activity	5	3	0.57	0.01238	down	early_vs_unfert
+GO:0016655	oxidoreductase activity, acting on NAD(P...	37	25	4.22	0.01242	down	early_vs_unfert
+GO:0098800	inner mitochondrial membrane protein com...	129	73	16.34	6.1e-28	down	early_vs_unfert
+GO:0045271	respiratory chain complex I	49	33	6.21	6.8e-19	down	early_vs_unfert
+GO:0022625	cytosolic large ribosomal subunit	55	30	6.97	1.1e-13	down	early_vs_unfert
+GO:0005762	mitochondrial large ribosomal subunit	52	27	6.59	8.7e-12	down	early_vs_unfert
+GO:0022627	cytosolic small ribosomal subunit	37	21	4.69	2.0e-10	down	early_vs_unfert
+GO:0005743	mitochondrial inner membrane	357	133	45.21	2.8e-09	down	early_vs_unfert
+GO:0005763	mitochondrial small ribosomal subunit	32	17	4.05	4.3e-08	down	early_vs_unfert
+GO:0098556	cytoplasmic side of rough endoplasmic re...	16	11	2.03	3.0e-07	down	early_vs_unfert
+GO:0005688	U6 snRNP	7	7	0.89	5.1e-07	down	early_vs_unfert
+GO:0046540	U4/U6 x U5 tri-snRNP complex	22	12	2.79	3.1e-06	down	early_vs_unfert
+GO:0005758	mitochondrial intermembrane space	51	21	6.46	1.1e-05	down	early_vs_unfert
+GO:0033177	proton-transporting two-sector ATPase co...	23	10	2.91	2.0e-05	down	early_vs_unfert
+GO:0005665	RNA polymerase II, core complex	15	9	1.9	2.0e-05	down	early_vs_unfert
+GO:0005736	RNA polymerase I complex	12	8	1.52	2.0e-05	down	early_vs_unfert
+GO:0045259	proton-transporting ATP synthase complex	22	11	2.79	2.4e-05	down	early_vs_unfert
+GO:0005683	U7 snRNP	7	6	0.89	2.5e-05	down	early_vs_unfert
+GO:0005689	U12-type spliceosomal complex	19	10	2.41	3.2e-05	down	early_vs_unfert
+GO:0045277	respiratory chain complex IV	19	10	2.41	3.2e-05	down	early_vs_unfert
+GO:1990726	Lsm1-7-Pat1 complex	5	5	0.63	3.2e-05	down	early_vs_unfert
+GO:0016272	prefoldin complex	5	5	0.63	3.2e-05	down	early_vs_unfert
+GO:0005739	mitochondrion	1041	258	131.84	4.8e-05	down	early_vs_unfert
+GO:0005744	TIM23 mitochondrial import inner membran...	14	9	1.77	0.00022	down	early_vs_unfert
+GO:0045275	respiratory chain complex III	12	7	1.52	0.00023	down	early_vs_unfert
+GO:0030008	TRAPP complex	12	7	1.52	0.00023	down	early_vs_unfert
+GO:0072546	EMC complex	9	6	1.14	0.00024	down	early_vs_unfert
+GO:0000811	GINS complex	4	4	0.51	0.00026	down	early_vs_unfert
+GO:0071986	Ragulator complex	4	4	0.51	0.00026	down	early_vs_unfert
+GO:0005622	intracellular anatomical structure	6733	967	852.69	0.00036	down	early_vs_unfert
+GO:0005687	U4 snRNP	7	5	0.89	0.00054	down	early_vs_unfert
+GO:0005686	U2 snRNP	22	9	2.79	0.00086	down	early_vs_unfert
+GO:0010628	positive regulation of gene expression	1239	580	402.03	1.6e-25	up	late_vs_unfert
+GO:0010629	negative regulation of gene expression	1280	591	415.33	1.0e-24	up	late_vs_unfert
+GO:0032989	cellular anatomical entity morphogenesis	943	441	305.98	1.0e-22	up	late_vs_unfert
+GO:0000122	negative regulation of transcription by ...	529	267	171.65	6.9e-19	up	late_vs_unfert
+GO:0045944	positive regulation of transcription by ...	684	335	221.94	8.2e-19	up	late_vs_unfert
+GO:0006935	chemotaxis	492	267	159.64	2.0e-18	up	late_vs_unfert
+GO:0051674	localization of cell	703	328	228.11	5.5e-16	up	late_vs_unfert
+GO:0060562	epithelial tube morphogenesis	613	341	198.91	4.8e-15	up	late_vs_unfert
+GO:0000381	regulation of alternative mRNA splicing,...	82	59	26.61	2.1e-13	up	late_vs_unfert
+GO:0032879	regulation of localization	1390	557	451.03	3.1e-13	up	late_vs_unfert
+GO:0001655	urogenital system development	266	141	86.31	3.3e-12	up	late_vs_unfert
+GO:0007411	axon guidance	384	220	124.6	1.5e-10	up	late_vs_unfert
+GO:0007419	ventral cord development	45	35	14.6	5.1e-10	up	late_vs_unfert
+GO:0007435	salivary gland morphogenesis	121	76	39.26	9.4e-10	up	late_vs_unfert
+GO:0048025	negative regulation of mRNA splicing, vi...	24	22	7.79	2.2e-09	up	late_vs_unfert
+GO:0007391	dorsal closure	102	69	33.1	4.1e-09	up	late_vs_unfert
+GO:0008045	motor neuron axon guidance	107	64	34.72	5.0e-09	up	late_vs_unfert
+GO:0044703	multi-organism reproductive process	1448	552	469.85	6.2e-09	up	late_vs_unfert
+GO:0000398	mRNA splicing, via spliceosome	314	184	101.89	2.5e-08	up	late_vs_unfert
+GO:0031124	mRNA 3'-end processing	95	57	30.83	5.2e-08	up	late_vs_unfert
+GO:0002066	columnar/cuboidal epithelial cell develo...	340	156	110.32	1.3e-07	up	late_vs_unfert
+GO:0048867	stem cell fate determination	31	24	10.06	3.4e-07	up	late_vs_unfert
+GO:0021983	pituitary gland development	33	24	10.71	3.9e-07	up	late_vs_unfert
+GO:0071166	ribonucleoprotein complex localization	114	66	36.99	5.8e-07	up	late_vs_unfert
+GO:0048731	system development	3058	1264	992.26	7.2e-07	up	late_vs_unfert
+GO:0016203	muscle attachment	53	36	17.2	1.2e-06	up	late_vs_unfert
+GO:0090090	negative regulation of canonical Wnt sig...	87	50	28.23	1.2e-06	up	late_vs_unfert
+GO:0007400	neuroblast fate determination	25	20	8.11	1.4e-06	up	late_vs_unfert
+GO:0031503	protein-containing complex localization	191	93	61.98	1.6e-06	up	late_vs_unfert
+GO:0090175	regulation of establishment of planar po...	56	37	18.17	2.3e-06	up	late_vs_unfert
+GO:1901363	heterocyclic compound binding	1915	781	623.54	2.9e-22	up	late_vs_unfert
+GO:0003724	RNA helicase activity	59	42	19.21	1.1e-09	up	late_vs_unfert
+GO:0003729	mRNA binding	253	139	82.38	1.2e-09	up	late_vs_unfert
+GO:0003682	chromatin binding	389	186	126.66	1.2e-08	up	late_vs_unfert
+GO:0008134	transcription factor binding	474	225	154.34	8.7e-08	up	late_vs_unfert
+GO:0005515	protein binding	3731	1420	1214.84	1.2e-07	up	late_vs_unfert
+GO:0003713	transcription coactivator activity	210	104	68.38	1.8e-07	up	late_vs_unfert
+GO:0000977	RNA polymerase II transcription regulato...	365	181	118.85	7.4e-07	up	late_vs_unfert
+GO:0008266	poly(U) RNA binding	23	19	7.49	1.1e-06	up	late_vs_unfert
+GO:0000978	RNA polymerase II cis-regulatory region ...	245	116	79.77	7.7e-06	up	late_vs_unfert
+GO:0042393	histone binding	117	61	38.1	8.0e-06	up	late_vs_unfert
+GO:0035035	histone acetyltransferase binding	25	19	8.14	1.0e-05	up	late_vs_unfert
+GO:0003700	DNA-binding transcription factor activit...	628	294	204.48	1.1e-05	up	late_vs_unfert
+GO:0003714	transcription corepressor activity	108	56	35.17	2.3e-05	up	late_vs_unfert
+GO:0035198	miRNA binding	15	13	4.88	2.3e-05	up	late_vs_unfert
+GO:0000981	DNA-binding transcription factor activit...	497	229	161.83	4.0e-05	up	late_vs_unfert
+GO:0019904	protein domain specific binding	477	225	155.31	7.4e-05	up	late_vs_unfert
+GO:0001227	DNA-binding transcription repressor acti...	130	63	42.33	0.00011	up	late_vs_unfert
+GO:0033592	RNA strand annealing activity	8	8	2.6	0.00013	up	late_vs_unfert
+GO:0045296	cadherin binding	28	19	9.12	0.00014	up	late_vs_unfert
+GO:0140033	acetylation-dependent protein binding	10	9	3.26	0.00029	up	late_vs_unfert
+GO:0008143	poly(A) binding	21	15	6.84	0.00030	up	late_vs_unfert
+GO:0042826	histone deacetylase binding	70	37	22.79	0.00033	up	late_vs_unfert
+GO:0001228	DNA-binding transcription activator acti...	207	91	67.4	0.00033	up	late_vs_unfert
+GO:0003779	actin binding	181	87	58.93	0.00038	up	late_vs_unfert
+GO:0030515	snoRNA binding	25	17	8.14	0.00043	up	late_vs_unfert
+GO:0003730	mRNA 3'-UTR binding	60	32	19.54	0.00102	up	late_vs_unfert
+GO:0061629	RNA polymerase II-specific DNA-binding t...	142	67	46.24	0.00114	up	late_vs_unfert
+GO:0002151	G-quadruplex RNA binding	6	6	1.95	0.00119	up	late_vs_unfert
+GO:0003725	double-stranded RNA binding	38	23	12.37	0.00125	up	late_vs_unfert
+GO:0016607	nuclear speck	233	140	74.65	5.1e-18	up	late_vs_unfert
+GO:0005634	nucleus	3539	1393	1133.84	3.0e-12	up	late_vs_unfert
+GO:0005730	nucleolus	595	273	190.63	8.3e-11	up	late_vs_unfert
+GO:0005654	nucleoplasm	1930	803	618.34	2.2e-08	up	late_vs_unfert
+GO:0032040	small-subunit processome	32	24	10.25	7.3e-07	up	late_vs_unfert
+GO:0016586	RSC-type complex	10	10	3.2	1.1e-05	up	late_vs_unfert
+GO:0071013	catalytic step 2 spliceosome	88	53	28.19	3.4e-05	up	late_vs_unfert
+GO:0009986	cell surface	249	113	79.78	8.4e-05	up	late_vs_unfert
+GO:0030686	90S preribosome	29	24	9.29	8.5e-05	up	late_vs_unfert
+GO:0005604	basement membrane	51	33	16.34	9.7e-05	up	late_vs_unfert
+GO:0005832	chaperonin-containing T-complex	8	8	2.56	0.00011	up	late_vs_unfert
+GO:0016363	nuclear matrix	64	35	20.5	0.00014	up	late_vs_unfert
+GO:0071007	U2-type catalytic step 2 spliceosome	27	18	8.65	0.00023	up	late_vs_unfert
+GO:0071339	MLL1 complex	25	17	8.01	0.00024	up	late_vs_unfert
+GO:0035060	brahma complex	10	9	3.2	0.00025	up	late_vs_unfert
+GO:0070382	exocytic vesicle	161	48	51.58	0.00035	up	late_vs_unfert
+GO:0034399	nuclear periphery	110	52	35.24	0.00044	up	late_vs_unfert
+GO:0000791	euchromatin	39	23	12.5	0.00046	up	late_vs_unfert
+GO:0099568	cytoplasmic region	362	160	115.98	0.00055	up	late_vs_unfert
+GO:0017053	transcription repressor complex	58	31	18.58	0.00059	up	late_vs_unfert
+GO:0000785	chromatin	438	205	140.33	0.00067	up	late_vs_unfert
+GO:0016281	eukaryotic translation initiation factor...	9	8	2.88	0.00071	up	late_vs_unfert
+GO:0005667	transcription regulator complex	276	131	88.43	0.00092	up	late_vs_unfert
+GO:0005911	cell-cell junction	309	135	99	0.00102	up	late_vs_unfert
+GO:0034388	Pwp2p-containing subcomplex of 90S preri...	6	6	1.92	0.00108	up	late_vs_unfert
+GO:0000974	Prp19 complex	13	10	4.17	0.00116	up	late_vs_unfert
+GO:0015030	Cajal body	53	28	16.98	0.00120	up	late_vs_unfert
+GO:0032039	integrator complex	15	11	4.81	0.00124	up	late_vs_unfert
+GO:0048471	perinuclear region of cytoplasm	423	165	135.52	0.00134	up	late_vs_unfert
+GO:0016514	SWI/SNF complex	8	7	2.56	0.00199	up	late_vs_unfert
+GO:0043604	amide biosynthetic process	418	139	70.04	2.2e-15	down	late_vs_unfert
+GO:0016310	phosphorylation	1144	184	191.68	7.2e-15	down	late_vs_unfert
+GO:0043043	peptide biosynthetic process	392	118	65.68	1.1e-14	down	late_vs_unfert
+GO:0046034	ATP metabolic process	219	81	36.69	4.3e-13	down	late_vs_unfert
+GO:0009167	purine ribonucleoside monophosphate meta...	207	79	34.68	4.8e-13	down	late_vs_unfert
+GO:0070126	mitochondrial translational termination	69	37	11.56	2.4e-12	down	late_vs_unfert
+GO:0070125	mitochondrial translational elongation	66	35	11.06	1.5e-11	down	late_vs_unfert
+GO:0006120	mitochondrial electron transport, NADH t...	49	29	8.21	1.4e-10	down	late_vs_unfert
+GO:0032981	mitochondrial respiratory chain complex ...	52	29	8.71	1.6e-10	down	late_vs_unfert
+GO:0002181	cytoplasmic translation	118	41	19.77	1.7e-08	down	late_vs_unfert
+GO:0070972	protein localization to endoplasmic reti...	87	34	14.58	3.4e-07	down	late_vs_unfert
+GO:0032543	mitochondrial translation	117	58	19.6	8.5e-07	down	late_vs_unfert
+GO:0006614	SRP-dependent cotranslational protein ta...	63	28	10.56	2.4e-06	down	late_vs_unfert
+GO:0006739	NADP+ metabolic process	25	16	4.19	2.4e-05	down	late_vs_unfert
+GO:0006413	translational initiation	142	38	23.79	3.2e-05	down	late_vs_unfert
+GO:0006749	glutathione metabolic process	57	22	9.55	4.0e-05	down	late_vs_unfert
+GO:0006979	response to oxidative stress	378	91	63.33	4.1e-05	down	late_vs_unfert
+GO:1990542	mitochondrial transmembrane transport	68	25	11.39	0.00012	down	late_vs_unfert
+GO:0006518	peptide metabolic process	479	142	80.26	0.00015	down	late_vs_unfert
+GO:0098869	cellular oxidant detoxification	64	24	10.72	0.00030	down	late_vs_unfert
+GO:0045047	protein targeting to ER	72	33	12.06	0.00064	down	late_vs_unfert
+GO:0046949	fatty-acyl-CoA biosynthetic process	29	12	4.86	0.00068	down	late_vs_unfert
+GO:0039689	negative stranded viral RNA replication	6	5	1.01	0.00068	down	late_vs_unfert
+GO:0006729	tetrahydrobiopterin biosynthetic process	6	5	1.01	0.00068	down	late_vs_unfert
+GO:0060786	regulation of cell differentiation invol...	6	5	1.01	0.00068	down	late_vs_unfert
+GO:0072657	protein localization to membrane	367	69	61.49	0.00076	down	late_vs_unfert
+GO:0060155	platelet dense granule organization	4	4	0.67	0.00079	down	late_vs_unfert
+GO:0006506	GPI anchor biosynthetic process	31	13	5.19	0.00081	down	late_vs_unfert
+GO:0033617	mitochondrial cytochrome c oxidase assem...	21	10	3.52	0.00100	down	late_vs_unfert
+GO:0034030	ribonucleoside bisphosphate biosynthetic...	48	17	8.04	0.00135	down	late_vs_unfert
+GO:0003735	structural constituent of ribosome	157	83	25.06	3.6e-27	down	late_vs_unfert
+GO:0050136	NADH dehydrogenase (quinone) (non-electr...	35	21	5.59	3.8e-09	down	late_vs_unfert
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	35	21	5.59	3.8e-09	down	late_vs_unfert
+GO:0003954	NADH dehydrogenase activity	44	27	7.02	0.00083	down	late_vs_unfert
+GO:0008374	O-acyltransferase activity	36	13	5.75	0.00088	down	late_vs_unfert
+GO:0051537	2 iron, 2 sulfur cluster binding	12	7	1.92	0.00098	down	late_vs_unfert
+GO:0003899	DNA-directed RNA polymerase activity	26	11	4.15	0.00124	down	late_vs_unfert
+GO:0015450	protein-transporting ATPase activity	13	7	2.07	0.00183	down	late_vs_unfert
+GO:0000900	mRNA regulatory element binding translat...	20	9	3.19	0.00205	down	late_vs_unfert
+GO:0004129	cytochrome-c oxidase activity	20	9	3.19	0.00205	down	late_vs_unfert
+GO:0005507	copper ion binding	28	12	4.47	0.00234	down	late_vs_unfert
+GO:0004364	glutathione transferase activity	32	12	5.11	0.00259	down	late_vs_unfert
+GO:0008379	thioredoxin peroxidase activity	5	4	0.8	0.00282	down	late_vs_unfert
+GO:0016675	oxidoreductase activity, acting on a hem...	21	9	3.35	0.00309	down	late_vs_unfert
+GO:1904680	peptide transmembrane transporter activi...	17	8	2.71	0.00315	down	late_vs_unfert
+GO:0061575	cyclin-dependent protein serine/threonin...	3	3	0.48	0.00406	down	late_vs_unfert
+GO:0004090	carbonyl reductase (NADPH) activity	3	3	0.48	0.00406	down	late_vs_unfert
+GO:1990050	phosphatidic acid transfer activity	3	3	0.48	0.00406	down	late_vs_unfert
+GO:0020037	heme binding	31	11	4.95	0.00630	down	late_vs_unfert
+GO:0003688	DNA replication origin binding	12	6	1.92	0.00633	down	late_vs_unfert
+GO:0008670	2,4-dienoyl-CoA reductase (NADPH) activi...	9	5	1.44	0.00737	down	late_vs_unfert
+GO:0008121	quinol-cytochrome-c reductase activity	9	5	1.44	0.00737	down	late_vs_unfert
+GO:0005542	folic acid binding	6	4	0.96	0.00739	down	late_vs_unfert
+GO:0016651	oxidoreductase activity, acting on NAD(P...	79	40	12.61	0.01037	down	late_vs_unfert
+GO:0045182	translation regulator activity	42	16	6.7	0.01255	down	late_vs_unfert
+GO:0046872	metal ion binding	615	105	98.16	0.01264	down	late_vs_unfert
+GO:0004165	delta(3)-delta(2)-enoyl-CoA isomerase ac...	4	3	0.64	0.01429	down	late_vs_unfert
+GO:0004768	stearoyl-CoA 9-desaturase activity	4	3	0.64	0.01429	down	late_vs_unfert
+GO:1990446	U1 snRNP binding	7	4	1.12	0.01507	down	late_vs_unfert
+GO:0004791	thioredoxin-disulfide reductase (NADPH) ...	7	4	1.12	0.01507	down	late_vs_unfert
+GO:0098800	inner mitochondrial membrane protein com...	129	69	22.17	9.2e-17	down	late_vs_unfert
+GO:0005743	mitochondrial inner membrane	357	152	61.34	9.8e-14	down	late_vs_unfert
+GO:0045271	respiratory chain complex I	49	30	8.42	5.6e-12	down	late_vs_unfert
+GO:0005762	mitochondrial large ribosomal subunit	52	29	8.93	3.0e-10	down	late_vs_unfert
+GO:0005759	mitochondrial matrix	351	131	60.31	3.8e-09	down	late_vs_unfert
+GO:0005763	mitochondrial small ribosomal subunit	32	18	5.5	6.3e-07	down	late_vs_unfert
+GO:0005739	mitochondrion	1041	339	178.87	3.2e-06	down	late_vs_unfert
+GO:0005688	U6 snRNP	7	7	1.2	4.4e-06	down	late_vs_unfert
+GO:0022627	cytosolic small ribosomal subunit	37	18	6.36	9.9e-06	down	late_vs_unfert
+GO:0034274	Atg12-Atg5-Atg16 complex	6	6	1.03	2.6e-05	down	late_vs_unfert
+GO:0022625	cytosolic large ribosomal subunit	55	22	9.45	5.1e-05	down	late_vs_unfert
+GO:0046540	U4/U6 x U5 tri-snRNP complex	22	12	3.78	7.5e-05	down	late_vs_unfert
+GO:1990726	Lsm1-7-Pat1 complex	5	5	0.86	0.00015	down	late_vs_unfert
+GO:0016272	prefoldin complex	5	5	0.86	0.00015	down	late_vs_unfert
+GO:0099078	BORC complex	5	5	0.86	0.00015	down	late_vs_unfert
+GO:0005758	mitochondrial intermembrane space	51	21	8.76	0.00017	down	late_vs_unfert
+GO:0005689	U12-type spliceosomal complex	19	10	3.26	0.00045	down	late_vs_unfert
+GO:0098556	cytoplasmic side of rough endoplasmic re...	16	9	2.75	0.00046	down	late_vs_unfert
+GO:0031083	BLOC-1 complex	8	6	1.37	0.00052	down	late_vs_unfert
+GO:0000811	GINS complex	4	4	0.69	0.00087	down	late_vs_unfert
+GO:0071986	Ragulator complex	4	4	0.69	0.00087	down	late_vs_unfert
+GO:0033177	proton-transporting two-sector ATPase co...	23	9	3.95	0.00154	down	late_vs_unfert
+GO:0005736	RNA polymerase I complex	12	7	2.06	0.00154	down	late_vs_unfert
+GO:0030008	TRAPP complex	12	7	2.06	0.00154	down	late_vs_unfert
+GO:0045259	proton-transporting ATP synthase complex	22	10	3.78	0.00190	down	late_vs_unfert
+GO:0045277	respiratory chain complex IV	19	9	3.26	0.00226	down	late_vs_unfert
+GO:0005683	U7 snRNP	7	5	1.2	0.00230	down	late_vs_unfert
+GO:0005687	U4 snRNP	7	5	1.2	0.00230	down	late_vs_unfert
+GO:0005622	intracellular anatomical structure	6733	1294	1156.88	0.00327	down	late_vs_unfert
+GO:0031262	Ndc80 complex	5	4	0.86	0.00375	down	late_vs_unfert
+GO:0002181	cytoplasmic translation	118	86	35.54	1.2e-30	up	late_vs_early
+GO:0006614	SRP-dependent cotranslational protein ta...	63	51	18.97	4.0e-21	up	late_vs_early
+GO:0006413	translational initiation	142	80	42.76	2.4e-18	up	late_vs_early
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	62	25	3.2e-16	up	late_vs_early
+GO:0010629	negative regulation of gene expression	1280	486	385.48	1.6e-14	up	late_vs_early
+GO:0045944	positive regulation of transcription by ...	684	290	205.99	3.7e-13	up	late_vs_early
+GO:0000122	negative regulation of transcription by ...	529	236	159.31	5.8e-13	up	late_vs_early
+GO:0001655	urogenital system development	266	137	80.11	2.7e-12	up	late_vs_early
+GO:0010628	positive regulation of gene expression	1239	471	373.13	3.6e-10	up	late_vs_early
+GO:0051674	localization of cell	703	285	211.71	4.0e-10	up	late_vs_early
+GO:0006935	chemotaxis	492	227	148.17	9.1e-10	up	late_vs_early
+GO:0070972	protein localization to endoplasmic reti...	87	53	26.2	2.3e-09	up	late_vs_early
+GO:0032879	regulation of localization	1390	433	418.61	4.7e-09	up	late_vs_early
+GO:0007435	salivary gland morphogenesis	121	64	36.44	1.1e-08	up	late_vs_early
+GO:0007156	homophilic cell adhesion via plasma memb...	40	30	12.05	1.2e-08	up	late_vs_early
+GO:0032989	cellular anatomical entity morphogenesis	943	351	283.99	5.2e-08	up	late_vs_early
+GO:0008045	motor neuron axon guidance	107	59	32.22	6.3e-08	up	late_vs_early
+GO:0007419	ventral cord development	45	31	13.55	8.7e-08	up	late_vs_early
+GO:0006364	rRNA processing	173	111	52.1	8.8e-08	up	late_vs_early
+GO:0007494	midgut development	43	29	12.95	9.0e-08	up	late_vs_early
+GO:0000462	maturation of SSU-rRNA from tricistronic...	37	29	11.14	4.1e-07	up	late_vs_early
+GO:0031290	retinal ganglion cell axon guidance	31	24	9.34	1.2e-06	up	late_vs_early
+GO:0007219	Notch signaling pathway	218	88	65.65	1.8e-06	up	late_vs_early
+GO:0010469	regulation of signaling receptor activit...	137	63	41.26	2.2e-06	up	late_vs_early
+GO:0016201	synaptic target inhibition	13	12	3.92	5.1e-06	up	late_vs_early
+GO:0001709	cell fate determination	194	108	58.42	5.8e-06	up	late_vs_early
+GO:0021527	spinal cord association neuron different...	14	13	4.22	6.0e-06	up	late_vs_early
+GO:0035225	determination of genital disc primordium	10	10	3.01	6.1e-06	up	late_vs_early
+GO:0007501	mesodermal cell fate specification	40	28	12.05	6.4e-06	up	late_vs_early
+GO:0050679	positive regulation of epithelial cell p...	93	58	28.01	1.5e-05	up	late_vs_early
+GO:0000977	RNA polymerase II transcription regulato...	365	187	110.24	4.7e-13	up	late_vs_early
+GO:1901363	heterocyclic compound binding	1915	656	578.38	6.9e-12	up	late_vs_early
+GO:0001228	DNA-binding transcription activator acti...	207	109	62.52	7.1e-12	up	late_vs_early
+GO:0005201	extracellular matrix structural constitu...	34	29	10.27	2.3e-09	up	late_vs_early
+GO:0001227	DNA-binding transcription repressor acti...	130	70	39.26	1.3e-08	up	late_vs_early
+GO:0000981	DNA-binding transcription factor activit...	497	253	150.11	3.2e-08	up	late_vs_early
+GO:0003735	structural constituent of ribosome	157	77	47.42	4.5e-07	up	late_vs_early
+GO:0000978	RNA polymerase II cis-regulatory region ...	245	111	74	5.1e-07	up	late_vs_early
+GO:0030515	snoRNA binding	25	20	7.55	1.6e-05	up	late_vs_early
+GO:0008307	structural constituent of muscle	33	21	9.97	7.1e-05	up	late_vs_early
+GO:0043395	heparan sulfate proteoglycan binding	17	13	5.13	0.00011	up	late_vs_early
+GO:0008134	transcription factor binding	474	174	143.16	0.00016	up	late_vs_early
+GO:0005518	collagen binding	32	21	9.66	0.00017	up	late_vs_early
+GO:0050840	extracellular matrix binding	31	25	9.36	0.00021	up	late_vs_early
+GO:0008097	5S rRNA binding	13	11	3.93	0.00022	up	late_vs_early
+GO:0043237	laminin-1 binding	7	7	2.11	0.00023	up	late_vs_early
+GO:0003729	mRNA binding	253	103	76.41	0.00060	up	late_vs_early
+GO:0070180	large ribosomal subunit rRNA binding	6	6	1.81	0.00076	up	late_vs_early
+GO:0008331	high voltage-gated calcium channel activ...	6	6	1.81	0.00076	up	late_vs_early
+GO:0046982	protein heterodimerization activity	306	118	92.42	0.00088	up	late_vs_early
+GO:0005125	cytokine activity	24	15	7.25	0.00104	up	late_vs_early
+GO:0017147	Wnt-protein binding	20	13	6.04	0.00135	up	late_vs_early
+GO:0000979	RNA polymerase II core promoter sequence...	18	12	5.44	0.00151	up	late_vs_early
+GO:0003723	RNA binding	663	260	200.24	0.00168	up	late_vs_early
+GO:0008061	chitin binding	42	22	12.69	0.00214	up	late_vs_early
+GO:0045503	dynein light chain binding	23	14	6.95	0.00221	up	late_vs_early
+GO:0008013	beta-catenin binding	60	29	18.12	0.00232	up	late_vs_early
+GO:0003724	RNA helicase activity	59	28	17.82	0.00245	up	late_vs_early
+GO:0043208	glycosphingolipid binding	6	6	1.81	0.00250	up	late_vs_early
+GO:0005496	steroid binding	60	28	18.12	0.00267	up	late_vs_early
+GO:0022625	cytosolic large ribosomal subunit	55	46	16.03	5.7e-17	up	late_vs_early
+GO:0022627	cytosolic small ribosomal subunit	37	34	10.79	1.5e-15	up	late_vs_early
+GO:0032040	small-subunit processome	32	26	9.33	1.4e-09	up	late_vs_early
+GO:0005604	basement membrane	51	36	14.87	1.9e-07	up	late_vs_early
+GO:0005667	transcription regulator complex	276	111	80.46	8.7e-07	up	late_vs_early
+GO:0098556	cytoplasmic side of rough endoplasmic re...	16	14	4.66	2.0e-06	up	late_vs_early
+GO:0005615	extracellular space	602	226	175.5	1.9e-05	up	late_vs_early
+GO:0009986	cell surface	249	112	72.59	3.1e-05	up	late_vs_early
+GO:0005796	Golgi lumen	27	18	7.87	5.8e-05	up	late_vs_early
+GO:0016324	apical plasma membrane	207	84	60.35	0.00013	up	late_vs_early
+GO:0030686	90S preribosome	29	24	8.45	0.00015	up	late_vs_early
+GO:0009897	external side of plasma membrane	65	33	18.95	0.00034	up	late_vs_early
+GO:0005666	RNA polymerase III complex	19	13	5.54	0.00045	up	late_vs_early
+GO:0030687	preribosome, large subunit precursor	28	17	8.16	0.00050	up	late_vs_early
+GO:0031428	box C/D methylation guide snoRNP complex	6	6	1.75	0.00061	up	late_vs_early
+GO:0005730	nucleolus	595	228	173.46	0.00072	up	late_vs_early
+GO:0097470	ribbon synapse	5	5	1.46	0.00210	up	late_vs_early
+GO:0016323	basolateral plasma membrane	142	57	41.4	0.00304	up	late_vs_early
+GO:0005886	plasma membrane	1998	648	582.47	0.00336	up	late_vs_early
+GO:0036156	inner dynein arm	9	7	2.62	0.00356	up	late_vs_early
+GO:0031092	platelet alpha granule membrane	20	12	5.83	0.00392	up	late_vs_early
+GO:0005634	nucleus	3539	1060	1031.71	0.00513	up	late_vs_early
+GO:0030175	filopodium	62	26	18.07	0.00613	up	late_vs_early
+GO:0005891	voltage-gated calcium channel complex	15	10	4.37	0.00668	up	late_vs_early
+GO:0035868	alphav-beta3 integrin-HMGB1 complex	4	4	1.17	0.00721	up	late_vs_early
+GO:0005606	laminin-1 complex	4	4	1.17	0.00721	up	late_vs_early
+GO:0034455	t-UTP complex	4	4	1.17	0.00721	up	late_vs_early
+GO:0035062	omega speckle	4	4	1.17	0.00721	up	late_vs_early
+GO:0035869	ciliary transition zone	47	23	13.7	0.00771	up	late_vs_early
+GO:0005697	telomerase holoenzyme complex	17	12	4.96	0.00776	up	late_vs_early
+GO:0034404	nucleobase-containing small molecule bio...	95	34	14.59	1.0e-06	down	late_vs_early
+GO:0019693	ribose phosphate metabolic process	426	102	65.42	1.1e-05	down	late_vs_early
+GO:0006749	glutathione metabolic process	57	22	8.75	1.2e-05	down	late_vs_early
+GO:0006979	response to oxidative stress	378	87	58.05	1.3e-05	down	late_vs_early
+GO:0042593	glucose homeostasis	166	46	25.49	1.9e-05	down	late_vs_early
+GO:0009435	NAD+ biosynthetic process	23	12	3.53	4.2e-05	down	late_vs_early
+GO:0006754	ATP biosynthetic process	94	23	14.44	4.9e-05	down	late_vs_early
+GO:0006094	gluconeogenesis	61	18	9.37	0.00019	down	late_vs_early
+GO:0042866	pyruvate biosynthetic process	30	13	4.61	0.00023	down	late_vs_early
+GO:0010557	positive regulation of macromolecule bio...	1342	195	206.1	0.00035	down	late_vs_early
+GO:0051928	positive regulation of calcium ion trans...	53	18	8.14	0.00036	down	late_vs_early
+GO:0007052	mitotic spindle organization	119	29	18.28	0.00036	down	late_vs_early
+GO:0061621	canonical glycolysis	14	8	2.15	0.00038	down	late_vs_early
+GO:0019682	glyceraldehyde-3-phosphate metabolic pro...	13	11	2	0.00044	down	late_vs_early
+GO:0039689	negative stranded viral RNA replication	6	5	0.92	0.00044	down	late_vs_early
+GO:0007143	female meiotic nuclear division	85	25	13.05	0.00048	down	late_vs_early
+GO:0006741	NADP+ biosynthetic process	4	4	0.61	0.00055	down	late_vs_early
+GO:0006654	phosphatidic acid biosynthetic process	18	9	2.76	0.00060	down	late_vs_early
+GO:0005978	glycogen biosynthetic process	26	11	3.99	0.00071	down	late_vs_early
+GO:0006518	peptide metabolic process	479	58	73.56	0.00072	down	late_vs_early
+GO:0030073	insulin secretion	126	33	19.35	0.00074	down	late_vs_early
+GO:0022412	cellular process involved in reproductio...	1040	174	159.72	0.00094	down	late_vs_early
+GO:0009059	macromolecule biosynthetic process	3543	501	544.13	0.00102	down	late_vs_early
+GO:0050794	regulation of cellular process	5061	790	777.27	0.00110	down	late_vs_early
+GO:0008152	metabolic process	6077	1008	933.3	0.00113	down	late_vs_early
+GO:0071243	cellular response to arsenic-containing ...	22	9	3.38	0.00123	down	late_vs_early
+GO:0006735	NADH regeneration	16	8	2.46	0.00123	down	late_vs_early
+GO:0010042	response to manganese ion	25	8	3.84	0.00136	down	late_vs_early
+GO:0061739	protein lipidation involved in autophago...	7	5	1.08	0.00136	down	late_vs_early
+GO:0008611	ether lipid biosynthetic process	7	5	1.08	0.00136	down	late_vs_early
+GO:0042802	identical protein binding	996	206	154.46	0.00013	down	late_vs_early
+GO:0005536	D-glucose binding	10	6	1.55	0.00164	down	late_vs_early
+GO:0042803	protein homodimerization activity	561	112	87	0.00193	down	late_vs_early
+GO:0019900	kinase binding	473	91	73.35	0.00239	down	late_vs_early
+GO:0042171	lysophosphatidic acid acyltransferase ac...	14	7	2.17	0.00251	down	late_vs_early
+GO:0005545	1-phosphatidylinositol binding	11	6	1.71	0.00314	down	late_vs_early
+GO:0008374	O-acyltransferase activity	36	14	5.58	0.00324	down	late_vs_early
+GO:0004359	glutaminase activity	3	3	0.47	0.00372	down	late_vs_early
+GO:0032184	SUMO polymer binding	3	3	0.47	0.00372	down	late_vs_early
+GO:0004364	glutathione transferase activity	32	11	4.96	0.00662	down	late_vs_early
+GO:0071949	FAD binding	16	7	2.48	0.00668	down	late_vs_early
+GO:0000287	magnesium ion binding	100	25	15.51	0.00882	down	late_vs_early
+GO:0050660	flavin adenine dinucleotide binding	41	16	6.36	0.00955	down	late_vs_early
+GO:0005158	insulin receptor binding	25	9	3.88	0.00979	down	late_vs_early
+GO:0051879	Hsp90 protein binding	39	12	6.05	0.01231	down	late_vs_early
+GO:0019787	ubiquitin-like protein transferase activ...	206	41	31.95	0.01333	down	late_vs_early
+GO:0031210	phosphatidylcholine binding	7	4	1.09	0.01360	down	late_vs_early
+GO:0031267	small GTPase binding	282	57	43.73	0.01851	down	late_vs_early
+GO:0030170	pyridoxal phosphate binding	19	7	2.95	0.01929	down	late_vs_early
+GO:0034452	dynactin binding	15	6	2.33	0.01954	down	late_vs_early
+GO:0004602	glutathione peroxidase activity	8	4	1.24	0.02389	down	late_vs_early
+GO:0043560	insulin receptor substrate binding	8	4	1.24	0.02389	down	late_vs_early
+GO:0005159	insulin-like growth factor receptor bind...	8	4	1.24	0.02389	down	late_vs_early
+GO:0033300	dehydroascorbic acid transmembrane trans...	2	2	0.31	0.02403	down	late_vs_early
+GO:0004852	uroporphyrinogen-III synthase activity	2	2	0.31	0.02403	down	late_vs_early
+GO:0005009	insulin receptor activity	2	2	0.31	0.02403	down	late_vs_early
+GO:0004577	N-acetylglucosaminyldiphosphodolichol N-...	2	2	0.31	0.02403	down	late_vs_early
+GO:0033142	nuclear progesterone receptor binding	2	2	0.31	0.02403	down	late_vs_early
+GO:0004458	D-lactate dehydrogenase (cytochrome) act...	2	2	0.31	0.02403	down	late_vs_early
+GO:0004471	malate dehydrogenase (decarboxylating) (...	2	2	0.31	0.02403	down	late_vs_early
+GO:0005759	mitochondrial matrix	351	77	54.2	2.1e-06	down	late_vs_early
+GO:0005829	cytosol	2575	453	397.6	2.3e-05	down	late_vs_early
+GO:0034274	Atg12-Atg5-Atg16 complex	6	5	0.93	0.00046	down	late_vs_early
+GO:0043186	P granule	62	20	9.57	0.00064	down	late_vs_early
+GO:0000922	spindle pole	81	26	12.51	0.00086	down	late_vs_early
+GO:0005741	mitochondrial outer membrane	101	29	15.6	0.00115	down	late_vs_early
+GO:0005739	mitochondrion	1041	213	160.74	0.00123	down	late_vs_early
+GO:0044841	gut granule membrane	5	4	0.77	0.00248	down	late_vs_early
+GO:0005811	lipid droplet	68	20	10.5	0.00249	down	late_vs_early
+GO:0051233	spindle midzone	42	11	6.49	0.00266	down	late_vs_early
+GO:0043231	intracellular membrane-bounded organelle	5529	912	853.72	0.00392	down	late_vs_early
+GO:0098791	Golgi apparatus subcompartment	365	71	56.36	0.00418	down	late_vs_early
+GO:0030659	cytoplasmic vesicle membrane	439	85	67.79	0.00597	down	late_vs_early
+GO:0034774	secretory granule lumen	144	30	22.23	0.00673	down	late_vs_early
+GO:0035861	site of double-strand break	17	7	2.62	0.00964	down	late_vs_early
+GO:0030018	Z disc	86	22	13.28	0.00980	down	late_vs_early
+GO:1904115	axon cytoplasm	10	5	1.54	0.01113	down	late_vs_early
+GO:0005899	insulin receptor complex	4	3	0.62	0.01300	down	late_vs_early
+GO:0005622	intracellular anatomical structure	6733	1124	1039.63	0.01405	down	late_vs_early
+GO:1904813	ficolin-1-rich granule lumen	89	22	13.74	0.01471	down	late_vs_early
+GO:0000781	chromosome, telomeric region	62	17	9.57	0.01980	down	late_vs_early
+GO:0044297	cell body	547	81	84.46	0.02289	down	late_vs_early
+GO:0016528	sarcoplasm	34	12	5.25	0.02328	down	late_vs_early
+GO:0044309	neuron spine	117	20	18.07	0.02382	down	late_vs_early
+GO:1990604	IRE1-TRAF2-ASK1 complex	2	2	0.31	0.02383	down	late_vs_early
+GO:0032389	MutLalpha complex	2	2	0.31	0.02383	down	late_vs_early
+GO:0005971	ribonucleoside-diphosphate reductase com...	2	2	0.31	0.02383	down	late_vs_early
+GO:0001401	SAM complex	2	2	0.31	0.02383	down	late_vs_early
+GO:0005737	cytoplasm	5459	945	842.91	0.02415	down	late_vs_early
+GO:0036063	acroblast	5	3	0.77	0.02877	down	late_vs_early

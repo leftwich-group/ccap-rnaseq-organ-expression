@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0030913	paranodal junction assembly	5	4	0.21	1.5e-05	1.5e-5
+GO:0035297	regulation of Malpighian tubule diameter	5	4	0.21	1.5e-05	1.5e-5
+GO:0035151	regulation of tube size, open tracheal s...	50	7	2.11	2.0e-05	2e-5
+GO:0008362	chitin-based embryonic cuticle biosynthe...	22	7	0.93	2.2e-05	2.2e-5
+GO:0051006	positive regulation of lipoprotein lipas...	6	4	0.25	4.4e-05	4.4e-5
+GO:2001028	positive regulation of endothelial cell ...	13	5	0.55	7.4e-05	7.4e-5
+GO:0043031	negative regulation of macrophage activa...	3	3	0.13	7.5e-05	7.5e-5
+GO:0002175	protein localization to paranode region ...	3	3	0.13	7.5e-05	7.5e-5
+GO:0090340	positive regulation of secretion of lyso...	3	3	0.13	7.5e-05	7.5e-5
+GO:0090341	negative regulation of secretion of lyso...	3	3	0.13	7.5e-05	7.5e-5
+GO:0090187	positive regulation of pancreatic juice ...	3	3	0.13	7.5e-05	7.5e-5
+GO:0090108	positive regulation of high-density lipo...	3	3	0.13	7.5e-05	7.5e-5

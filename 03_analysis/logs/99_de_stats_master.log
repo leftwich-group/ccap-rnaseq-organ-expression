@@ -1,0 +1,294 @@
+
+groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
+Genes in short count matrix: 14260
+Genes in long count matrix:  23460
+Samples in metadata:          54
+Warning messages:
+1: In mde(x) : NAs introduced by coercion
+2: In mde(x) : NAs introduced by coercion
+3: There were 2 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(where(is.character), trimws)`.
+Caused by warning in `grep()`:
+! unable to translate 'explanation<ca>' to a wide string
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 1 remaining warning. 
+<table>
+<caption>DE statistics — all contrasts (short and long genome)</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> section </th>
+   <th style="text-align:left;"> question </th>
+   <th style="text-align:left;"> contrast </th>
+   <th style="text-align:right;"> n_tested_short </th>
+   <th style="text-align:right;"> n_tested_long </th>
+   <th style="text-align:right;"> n_up_short </th>
+   <th style="text-align:right;"> n_up_long </th>
+   <th style="text-align:right;"> n_down_short </th>
+   <th style="text-align:right;"> n_down_long </th>
+   <th style="text-align:right;"> n_sig_total_short </th>
+   <th style="text-align:right;"> n_sig_total_long </th>
+   <th style="text-align:right;"> pct_sig_short </th>
+   <th style="text-align:right;"> pct_sig_long </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Q1 </td>
+   <td style="text-align:left;"> Fertilised vs Unfertilised Egg </td>
+   <td style="text-align:left;"> unfert_vs_fert </td>
+   <td style="text-align:right;"> 7734 </td>
+   <td style="text-align:right;"> 8454 </td>
+   <td style="text-align:right;"> 2044 </td>
+   <td style="text-align:right;"> 1908 </td>
+   <td style="text-align:right;"> 51 </td>
+   <td style="text-align:right;"> 46 </td>
+   <td style="text-align:right;"> 4469 </td>
+   <td style="text-align:right;"> 3359 </td>
+   <td style="text-align:right;"> 57.78 </td>
+   <td style="text-align:right;"> 39.73 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q1 </td>
+   <td style="text-align:left;"> MZT : Early vs Late </td>
+   <td style="text-align:left;"> late_vs_early </td>
+   <td style="text-align:right;"> 10194 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 4004 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 1818 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 7757 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 76.09 </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q1 </td>
+   <td style="text-align:left;"> MZT : Unfertilised vs Early </td>
+   <td style="text-align:left;"> early_vs_unfert </td>
+   <td style="text-align:right;"> 10194 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 1441 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 1621 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 4063 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 39.86 </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q1 </td>
+   <td style="text-align:left;"> MZT : Unfertilised vs Late </td>
+   <td style="text-align:left;"> late_vs_unfert </td>
+   <td style="text-align:right;"> 10194 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 3731 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 2098 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 6463 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 63.40 </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q2 </td>
+   <td style="text-align:left;"> Germline: testes vs ovary </td>
+   <td style="text-align:left;"> female_gonad_vs_male_gonad </td>
+   <td style="text-align:right;"> 11505 </td>
+   <td style="text-align:right;"> 12327 </td>
+   <td style="text-align:right;"> 3321 </td>
+   <td style="text-align:right;"> 3779 </td>
+   <td style="text-align:right;"> 4612 </td>
+   <td style="text-align:right;"> 4574 </td>
+   <td style="text-align:right;"> 10021 </td>
+   <td style="text-align:right;"> 10577 </td>
+   <td style="text-align:right;"> 87.10 </td>
+   <td style="text-align:right;"> 85.80 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q2 </td>
+   <td style="text-align:left;"> Ovary axis: proximal vs distal </td>
+   <td style="text-align:left;"> distal_vs_proximal </td>
+   <td style="text-align:right;"> 9463 </td>
+   <td style="text-align:right;"> 10326 </td>
+   <td style="text-align:right;"> 975 </td>
+   <td style="text-align:right;"> 1034 </td>
+   <td style="text-align:right;"> 826 </td>
+   <td style="text-align:right;"> 842 </td>
+   <td style="text-align:right;"> 7600 </td>
+   <td style="text-align:right;"> 7804 </td>
+   <td style="text-align:right;"> 80.31 </td>
+   <td style="text-align:right;"> 75.58 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q2 </td>
+   <td style="text-align:left;"> Sommale vs mated female </td>
+   <td style="text-align:left;"> AbdomenF_mated_vs_AbdomenM </td>
+   <td style="text-align:right;"> 10370 </td>
+   <td style="text-align:right;"> 10957 </td>
+   <td style="text-align:right;"> 819 </td>
+   <td style="text-align:right;"> 818 </td>
+   <td style="text-align:right;"> 644 </td>
+   <td style="text-align:right;"> 651 </td>
+   <td style="text-align:right;"> 3193 </td>
+   <td style="text-align:right;"> 2963 </td>
+   <td style="text-align:right;"> 30.79 </td>
+   <td style="text-align:right;"> 27.04 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q2 </td>
+   <td style="text-align:left;"> Sommale vs virgin female </td>
+   <td style="text-align:left;"> AbdomenF_virgin_vs_AbdomenM </td>
+   <td style="text-align:right;"> 10232 </td>
+   <td style="text-align:right;"> 10802 </td>
+   <td style="text-align:right;"> 717 </td>
+   <td style="text-align:right;"> 770 </td>
+   <td style="text-align:right;"> 622 </td>
+   <td style="text-align:right;"> 614 </td>
+   <td style="text-align:right;"> 3673 </td>
+   <td style="text-align:right;"> 3399 </td>
+   <td style="text-align:right;"> 35.90 </td>
+   <td style="text-align:right;"> 31.47 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q3 </td>
+   <td style="text-align:left;"> Distal ovary : virgin vs mated </td>
+   <td style="text-align:left;"> mated_vs_virgin_YO </td>
+   <td style="text-align:right;"> 9100 </td>
+   <td style="text-align:right;"> 9905 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:right;"> 98 </td>
+   <td style="text-align:right;"> 48 </td>
+   <td style="text-align:right;"> 1.08 </td>
+   <td style="text-align:right;"> 0.48 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q3 </td>
+   <td style="text-align:left;"> Female somvirgin vs mated </td>
+   <td style="text-align:left;"> mated_vs_virgin_abdomen </td>
+   <td style="text-align:right;"> 10190 </td>
+   <td style="text-align:right;"> 10778 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.01 </td>
+   <td style="text-align:right;"> 0.00 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q3 </td>
+   <td style="text-align:left;"> Proximal OVary : virgin vs mated </td>
+   <td style="text-align:left;"> mated_vs_virgin_OO </td>
+   <td style="text-align:right;"> 9009 </td>
+   <td style="text-align:right;"> 9834 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 152 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 1.69 </td>
+   <td style="text-align:right;"> 1.02 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q3 </td>
+   <td style="text-align:left;"> mated : abdomen vs ovary </td>
+   <td style="text-align:left;"> ovary_vs_abdomen_mated </td>
+   <td style="text-align:right;"> 10551 </td>
+   <td style="text-align:right;"> 11530 </td>
+   <td style="text-align:right;"> 3152 </td>
+   <td style="text-align:right;"> 3437 </td>
+   <td style="text-align:right;"> 3873 </td>
+   <td style="text-align:right;"> 4188 </td>
+   <td style="text-align:right;"> 8850 </td>
+   <td style="text-align:right;"> 9476 </td>
+   <td style="text-align:right;"> 83.88 </td>
+   <td style="text-align:right;"> 82.19 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q3 </td>
+   <td style="text-align:left;"> virgin : abdomen vs ovary </td>
+   <td style="text-align:left;"> ovary_vs_abdomen_virgin </td>
+   <td style="text-align:right;"> 10501 </td>
+   <td style="text-align:right;"> 11484 </td>
+   <td style="text-align:right;"> 3253 </td>
+   <td style="text-align:right;"> 3596 </td>
+   <td style="text-align:right;"> 3830 </td>
+   <td style="text-align:right;"> 4064 </td>
+   <td style="text-align:right;"> 8968 </td>
+   <td style="text-align:right;"> 9597 </td>
+   <td style="text-align:right;"> 85.40 </td>
+   <td style="text-align:right;"> 83.57 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q4 </td>
+   <td style="text-align:left;"> Maleness: AB vs AG </td>
+   <td style="text-align:left;"> AB_vs_AG </td>
+   <td style="text-align:right;"> 10897 </td>
+   <td style="text-align:right;"> 11660 </td>
+   <td style="text-align:right;"> 2407 </td>
+   <td style="text-align:right;"> 2635 </td>
+   <td style="text-align:right;"> 1357 </td>
+   <td style="text-align:right;"> 1539 </td>
+   <td style="text-align:right;"> 6894 </td>
+   <td style="text-align:right;"> 7176 </td>
+   <td style="text-align:right;"> 63.27 </td>
+   <td style="text-align:right;"> 61.54 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q4 </td>
+   <td style="text-align:left;"> Maleness: AG vs TE </td>
+   <td style="text-align:left;"> AG_vs_TE </td>
+   <td style="text-align:right;"> 11608 </td>
+   <td style="text-align:right;"> 12338 </td>
+   <td style="text-align:right;"> 3724 </td>
+   <td style="text-align:right;"> 3924 </td>
+   <td style="text-align:right;"> 4348 </td>
+   <td style="text-align:right;"> 4540 </td>
+   <td style="text-align:right;"> 10076 </td>
+   <td style="text-align:right;"> 10472 </td>
+   <td style="text-align:right;"> 86.80 </td>
+   <td style="text-align:right;"> 84.88 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q4 </td>
+   <td style="text-align:left;"> Maleness: OO vs TE </td>
+   <td style="text-align:left;"> OO_vs_TE </td>
+   <td style="text-align:right;"> 11413 </td>
+   <td style="text-align:right;"> 12171 </td>
+   <td style="text-align:right;"> 3272 </td>
+   <td style="text-align:right;"> 3501 </td>
+   <td style="text-align:right;"> 4721 </td>
+   <td style="text-align:right;"> 4800 </td>
+   <td style="text-align:right;"> 10683 </td>
+   <td style="text-align:right;"> 11214 </td>
+   <td style="text-align:right;"> 93.60 </td>
+   <td style="text-align:right;"> 92.14 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Q4 </td>
+   <td style="text-align:left;"> Maleness: YO vs TE </td>
+   <td style="text-align:left;"> YO_vs_TE </td>
+   <td style="text-align:right;"> 11408 </td>
+   <td style="text-align:right;"> 12179 </td>
+   <td style="text-align:right;"> 3453 </td>
+   <td style="text-align:right;"> 3539 </td>
+   <td style="text-align:right;"> 4662 </td>
+   <td style="text-align:right;"> 4807 </td>
+   <td style="text-align:right;"> 10668 </td>
+   <td style="text-align:right;"> 11136 </td>
+   <td style="text-align:right;"> 93.51 </td>
+   <td style="text-align:right;"> 91.44 </td>
+  </tr>
+</tbody>
+</table>
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'FDR < 0.05  |  |log₂FC| > 1' in 'mbcsToSbcs': for ₂ (U+2082)

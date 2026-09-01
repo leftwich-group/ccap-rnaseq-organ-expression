@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0000398	mRNA splicing, via spliceosome	314	258	168.68	3.7e-17	3.7e-17
+GO:0070126	mitochondrial translational termination	69	67	37.07	3.5e-16	3.5e-16
+GO:0070125	mitochondrial translational elongation	66	63	35.45	4.0e-14	4e-14
+GO:0051276	chromosome organization	842	587	452.31	1.3e-11	1.3e-11
+GO:0006283	transcription-coupled nucleotide-excisio...	62	57	33.31	5.5e-11	5.5e-11
+GO:0006357	regulation of transcription by RNA polym...	1230	754	660.73	1.7e-09	1.7e-9
+GO:0071166	ribonucleoprotein complex localization	114	91	61.24	9.7e-09	9.7e-9
+GO:0006611	protein export from nucleus	149	110	80.04	2.3e-08	2.3e-8
+GO:0000288	nuclear-transcribed mRNA catabolic proce...	61	53	32.77	4.8e-08	4.8e-8
+GO:0006367	transcription initiation at RNA polymera...	166	130	89.17	1.1e-07	1.1e-7
+GO:0010628	positive regulation of gene expression	1239	771	665.57	1.6e-07	1.6e-7
+GO:0018393	internal peptidyl-lysine acetylation	98	77	52.64	2.5e-07	2.5e-7

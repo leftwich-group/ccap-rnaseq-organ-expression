@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0070126	mitochondrial translational termination	69	67	31.93	2.0e-20	2e-20
+GO:0070125	mitochondrial translational elongation	66	64	30.54	1.9e-19	1.9e-19
+GO:0000398	mRNA splicing, via spliceosome	314	205	145.29	2.9e-11	2.9e-11
+GO:0006367	transcription initiation at RNA polymera...	166	107	76.81	1.0e-07	1e-7
+GO:0006355	regulation of DNA-templated transcriptio...	1641	773	759.29	3.1e-07	3.1e-7
+GO:0018393	internal peptidyl-lysine acetylation	98	70	45.34	4.5e-07	4.5e-7
+GO:0032543	mitochondrial translation	117	110	54.14	8.9e-07	8.9e-7
+GO:0000288	nuclear-transcribed mRNA catabolic proce...	61	39	28.22	4.6e-06	4.6e-6
+GO:0006361	transcription initiation at RNA polymera...	27	24	12.49	1.4e-05	1.4e-5
+GO:0006363	termination of RNA polymerase I transcri...	22	20	10.18	1.4e-05	1.4e-5
+GO:0042795	snRNA transcription by RNA polymerase II	70	50	32.39	1.7e-05	1.7e-5
+GO:0016567	protein ubiquitination	373	198	172.59	1.8e-05	1.8e-5

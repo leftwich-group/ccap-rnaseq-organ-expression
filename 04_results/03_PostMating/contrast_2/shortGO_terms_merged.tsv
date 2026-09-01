@@ -1,0 +1,181 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	group
+GO:0000053	argininosuccinate metabolic process	2	1	0	0.0014	up
+GO:0006526	L-arginine biosynthetic process	3	1	0	0.0021	up
+GO:0010046	response to mycotoxin	4	1	0	0.0028	up
+GO:0071400	cellular response to oleic acid	4	1	0	0.0028	up
+GO:0010383	cell wall polysaccharide metabolic proce...	6	1	0	0.0042	up
+GO:0071499	cellular response to laminar fluid shear...	6	1	0	0.0042	up
+GO:0000052	citrulline metabolic process	6	1	0	0.0042	up
+GO:0044245	polysaccharide digestion	6	1	0	0.0042	up
+GO:0071418	cellular response to amine stimulus	7	1	0	0.0048	up
+GO:0060539	diaphragm development	7	1	0	0.0048	up
+GO:0000050	urea cycle	7	1	0	0.0048	up
+GO:0006531	aspartate metabolic process	10	1	0.01	0.0069	up
+GO:0034349	glial cell apoptotic process	13	1	0.01	0.0090	up
+GO:0032722	positive regulation of chemokine product...	14	1	0.01	0.0097	up
+GO:0071377	cellular response to glucagon stimulus	14	1	0.01	0.0097	up
+GO:0071549	cellular response to dexamethasone stimu...	19	1	0.01	0.0131	up
+GO:0002532	production of molecular mediator involve...	21	1	0.01	0.0145	up
+GO:0018990	ecdysis, chitin-based cuticle	21	1	0.01	0.0145	up
+GO:0006309	apoptotic DNA fragmentation	22	1	0.02	0.0152	up
+GO:0006032	chitin catabolic process	24	1	0.02	0.0165	up
+GO:0045429	positive regulation of nitric oxide bios...	25	1	0.02	0.0172	up
+GO:0006953	acute-phase response	27	1	0.02	0.0186	up
+GO:1903428	positive regulation of reactive oxygen s...	33	1	0.02	0.0227	up
+GO:0010043	response to zinc ion	35	1	0.02	0.0240	up
+GO:1903038	negative regulation of leukocyte cell-ce...	37	1	0.03	0.0254	up
+GO:0002028	regulation of sodium ion transport	38	1	0.03	0.0260	up
+GO:0071320	cellular response to cAMP	38	1	0.03	0.0260	up
+GO:0071230	cellular response to amino acid stimulus	41	1	0.03	0.0281	up
+GO:0071346	cellular response to type II interferon	41	1	0.03	0.0281	up
+GO:0060416	response to growth hormone	42	1	0.03	0.0288	up
+GO:0004055	argininosuccinate synthase activity	1	1	0	0.00053	up
+GO:0015643	toxic substance binding	7	1	0	0.00373	up
+GO:0017080	sodium channel regulator activity	13	1	0.01	0.00691	up
+GO:0003796	lysozyme activity	15	1	0.01	0.00797	up
+GO:0004568	chitinase activity	27	1	0.01	0.01431	up
+GO:0008061	chitin binding	42	1	0.02	0.02220	up
+GO:0016597	amino acid binding	43	1	0.02	0.02272	up
+GO:0030246	carbohydrate binding	84	1	0.04	0.04403	up
+GO:0031406	carboxylic acid binding	119	1	0.06	0.06194	up
+GO:0004252	serine-type endopeptidase activity	152	1	0.08	0.07859	up
+GO:0019900	kinase binding	473	1	0.25	0.22927	up
+GO:0042802	identical protein binding	996	1	0.53	0.43423	up
+GO:0004553	hydrolase activity, hydrolyzing O-glycos...	97	1	0.05	1.00000	up
+GO:0140096	catalytic activity, acting on a protein	1195	1	0.64	1.00000	up
+GO:0003824	catalytic activity	3319	3	1.77	1.00000	up
+GO:0097367	carbohydrate derivative binding	522	1	0.28	1.00000	up
+GO:0099106	ion channel regulator activity	64	1	0.03	1.00000	up
+GO:0016247	channel regulator activity	71	1	0.04	1.00000	up
+GO:0003674	molecular_function	7506	4	4	1.00000	up
+GO:0016874	ligase activity	134	1	0.07	1.00000	up
+GO:0017171	serine hydrolase activity	165	1	0.09	1.00000	up
+GO:0016798	hydrolase activity, acting on glycosyl b...	107	1	0.06	1.00000	up
+GO:0141108	transporter regulator activity	71	1	0.04	1.00000	up
+GO:0016879	ligase activity, forming carbon-nitrogen...	40	1	0.02	1.00000	up
+GO:0061783	peptidoglycan muralytic activity	19	1	0.01	1.00000	up
+GO:0019899	enzyme binding	1344	1	0.72	1.00000	up
+GO:0043167	ion binding	1223	1	0.65	1.00000	up
+GO:0016787	hydrolase activity	1457	2	0.78	1.00000	up
+GO:0043168	anion binding	726	1	0.39	1.00000	up
+GO:0098772	molecular function regulator activity	692	1	0.37	1.00000	up
+GO:0070852	cell body fiber	5	1	0	0.0024	up
+GO:0005615	extracellular space	602	2	0.29	0.0291	up
+GO:0043204	perikaryon	79	1	0.04	0.0379	up
+GO:0005741	mitochondrial outer membrane	101	1	0.05	0.0483	up
+GO:0043209	myelin sheath	129	1	0.06	0.0614	up
+GO:0005764	lysosome	282	1	0.14	0.1305	up
+GO:0005737	cytoplasm	5459	3	2.66	0.2829	up
+GO:0005783	endoplasmic reticulum	896	1	0.44	0.3701	up
+GO:0016020	membrane	3492	2	1.7	0.6260	up
+GO:0005829	cytosol	2575	1	1.25	0.7781	up
+GO:0005634	nucleus	3539	1	1.72	0.8952	up
+GO:0043005	neuron projection	916	1	0.45	1.0000	up
+GO:0012505	endomembrane system	2089	1	1.02	1.0000	up
+GO:0005622	intracellular anatomical structure	6733	3	3.28	1.0000	up
+GO:0031966	mitochondrial membrane	462	1	0.23	1.0000	up
+GO:0019867	outer membrane	134	1	0.07	1.0000	up
+GO:0031967	organelle envelope	795	1	0.39	1.0000	up
+GO:0031968	organelle outer membrane	131	1	0.06	1.0000	up
+GO:0044297	cell body	547	1	0.27	1.0000	up
+GO:0000323	lytic vacuole	283	1	0.14	1.0000	up
+GO:0042995	cell projection	1265	1	0.62	1.0000	up
+GO:0120025	plasma membrane bounded cell projection	1253	1	0.61	1.0000	up
+GO:0098588	bounding membrane of organelle	880	1	0.43	1.0000	up
+GO:0031090	organelle membrane	1658	1	0.81	1.0000	up
+GO:0005739	mitochondrion	1041	1	0.51	1.0000	up
+GO:0043231	intracellular membrane-bounded organelle	5529	1	2.69	1.0000	up
+GO:0043226	organelle	6051	1	2.95	1.0000	up
+GO:0043227	membrane-bounded organelle	5710	1	2.78	1.0000	up
+GO:0110165	cellular anatomical structure	8196	4	3.99	1.0000	up
+GO:0043229	intracellular organelle	5952	1	2.9	1.0000	up
+GO:1901318	negative regulation of flagellated sperm...	4	1	0	0.0018	down
+GO:1903625	negative regulation of DNA catabolic pro...	4	1	0	0.0018	down
+GO:1903611	negative regulation of calcium-dependent...	4	1	0	0.0018	down
+GO:0051754	meiotic sister chromatid cohesion, centr...	4	1	0	0.0018	down
+GO:1901671	positive regulation of superoxide dismut...	5	1	0	0.0023	down
+GO:1904833	positive regulation of removal of supero...	5	1	0	0.0023	down
+GO:1901896	positive regulation of ATPase-coupled ca...	6	1	0	0.0028	down
+GO:0045019	negative regulation of nitric oxide bios...	6	1	0	0.0028	down
+GO:0051344	negative regulation of cyclic-nucleotide...	6	1	0	0.0028	down
+GO:1903011	negative regulation of bone development	8	1	0	0.0037	down
+GO:1901033	positive regulation of response to react...	9	1	0	0.0042	down
+GO:0019853	L-ascorbic acid biosynthetic process	10	1	0	0.0046	down
+GO:0016201	synaptic target inhibition	13	1	0.01	0.0060	down
+GO:0045723	positive regulation of fatty acid biosyn...	14	1	0.01	0.0065	down
+GO:0045144	meiotic sister chromatid segregation	15	1	0.01	0.0069	down
+GO:1900409	positive regulation of cellular response...	16	1	0.01	0.0074	down
+GO:1903427	negative regulation of reactive oxygen s...	17	1	0.01	0.0078	down
+GO:0010922	positive regulation of phosphatase activ...	17	1	0.01	0.0078	down
+GO:0010867	positive regulation of triglyceride bios...	23	1	0.01	0.0106	down
+GO:2000279	negative regulation of DNA biosynthetic ...	24	1	0.01	0.0110	down
+GO:0034260	negative regulation of GTPase activity	30	1	0.01	0.0138	down
+GO:0060395	SMAD protein signal transduction	32	1	0.01	0.0147	down
+GO:0097421	liver regeneration	34	1	0.02	0.0156	down
+GO:0010907	positive regulation of glucose metabolic...	36	1	0.02	0.0165	down
+GO:1904427	positive regulation of calcium ion trans...	40	1	0.02	0.0184	down
+GO:0050848	regulation of calcium-mediated signaling	50	1	0.02	0.0229	down
+GO:0010923	negative regulation of phosphatase activ...	57	1	0.03	0.0261	down
+GO:0050680	negative regulation of epithelial cell p...	74	1	0.03	0.0338	down
+GO:0097237	cellular response to toxic substance	176	2	0.08	0.0372	down
+GO:0030162	regulation of proteolysis	414	2	0.19	0.0435	down
+GO:0004341	gluconolactonase activity	4	1	0	0.0011	down
+GO:0005509	calcium ion binding	147	1	0.04	0.0388	down
+GO:0031625	ubiquitin protein ligase binding	197	1	0.05	0.0518	down
+GO:0008270	zinc ion binding	302	1	0.08	0.0789	down
+GO:0003674	molecular_function	7506	2	2	1.0000	down
+GO:0005488	binding	5076	2	1.35	1.0000	down
+GO:0044389	ubiquitin-like protein ligase binding	205	1	0.05	1.0000	down
+GO:0046872	metal ion binding	615	1	0.16	1.0000	down
+GO:0052689	carboxylic ester hydrolase activity	86	1	0.02	1.0000	down
+GO:0019899	enzyme binding	1344	1	0.36	1.0000	down
+GO:0016787	hydrolase activity	1457	1	0.39	1.0000	down
+GO:0005515	protein binding	3731	1	0.99	1.0000	down
+GO:0016788	hydrolase activity, acting on ester bond...	441	1	0.12	1.0000	down
+GO:0043167	ion binding	1223	1	0.33	1.0000	down
+GO:0003824	catalytic activity	3319	1	0.88	1.0000	down
+GO:0036094	small molecule binding	2601	1	0.69	1.0000	down
+GO:0043169	cation binding	665	1	0.18	1.0000	down
+GO:0046914	transition metal ion binding	393	1	0.1	1.0000	down
+GO:0000009	alpha-1,6-mannosyltransferase activity	1	0	0	1.0000	down
+GO:0000014	single-stranded DNA endodeoxyribonucleas...	6	0	0	1.0000	down
+GO:0000016	lactase activity	4	0	0	1.0000	down
+GO:0000026	alpha-1,2-mannosyltransferase activity	3	0	0	1.0000	down
+GO:0000030	mannosyltransferase activity	17	0	0	1.0000	down
+GO:0000033	alpha-1,3-mannosyltransferase activity	3	0	0	1.0000	down
+GO:0000035	acyl binding	1	0	0	1.0000	down
+GO:0000036	acyl carrier activity	1	0	0	1.0000	down
+GO:0000049	tRNA binding	41	0	0.01	1.0000	down
+GO:0000062	fatty-acyl-CoA binding	16	0	0	1.0000	down
+GO:0000064	L-ornithine transmembrane transporter ac...	5	0	0	1.0000	down
+GO:0000095	S-adenosyl-L-methionine transmembrane tr...	1	0	0	1.0000	down
+GO:0005616	larval serum protein complex	6	1	0	0.0029	down
+GO:0019005	SCF ubiquitin ligase complex	56	1	0.03	0.0270	down
+GO:0000775	chromosome, centromeric region	123	1	0.06	0.0586	down
+GO:0005576	extracellular region	1168	2	0.57	0.2070	down
+GO:0005634	nucleus	3539	2	1.72	0.5149	down
+GO:0005654	nucleoplasm	1930	1	0.94	0.6576	down
+GO:0005829	cytosol	2575	1	1.25	0.7781	down
+GO:0005737	cytoplasm	5459	2	2.66	0.8836	down
+GO:0043233	organelle lumen	2836	1	1.38	1.0000	down
+GO:0005615	extracellular space	602	1	0.29	1.0000	down
+GO:0032991	protein-containing complex	3130	2	1.52	1.0000	down
+GO:0098687	chromosomal region	249	1	0.12	1.0000	down
+GO:1990234	transferase complex	595	1	0.29	1.0000	down
+GO:0031981	nuclear lumen	2265	1	1.1	1.0000	down
+GO:0005694	chromosome	749	1	0.36	1.0000	down
+GO:0070013	intracellular organelle lumen	2828	1	1.38	1.0000	down
+GO:0140535	intracellular protein-containing complex	656	1	0.32	1.0000	down
+GO:1902494	catalytic complex	1225	1	0.6	1.0000	down
+GO:0005622	intracellular anatomical structure	6733	3	3.28	1.0000	down
+GO:0031461	cullin-RING ubiquitin ligase complex	116	1	0.06	1.0000	down
+GO:0110165	cellular anatomical structure	8196	4	3.99	1.0000	down
+GO:0043226	organelle	6051	3	2.95	1.0000	down
+GO:0043227	membrane-bounded organelle	5710	2	2.78	1.0000	down
+GO:0043228	membraneless organelle	2554	1	1.24	1.0000	down
+GO:0043229	intracellular organelle	5952	3	2.9	1.0000	down
+GO:0005575	cellular_component	8212	4	4	1.0000	down
+GO:0000151	ubiquitin ligase complex	190	1	0.09	1.0000	down
+GO:0031974	membrane-enclosed lumen	2836	1	1.38	1.0000	down
+GO:0043231	intracellular membrane-bounded organelle	5529	2	2.69	1.0000	down
+GO:0043232	intracellular membraneless organelle	2554	1	1.24	1.0000	down

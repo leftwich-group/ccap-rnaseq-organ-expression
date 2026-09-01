@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0007305	vitelline membrane formation involved in...	9	5	0.09	1.3e-08	1.3e-8
+GO:0090122	cholesterol ester hydrolysis involved in...	15	4	0.16	1.4e-05	1.4e-5
+GO:0090320	regulation of chylomicron remnant cleara...	15	4	0.16	1.4e-05	1.4e-5
+GO:0034378	chylomicron assembly	16	4	0.17	1.8e-05	1.8e-5
+GO:0019626	short-chain fatty acid catabolic process	18	4	0.19	3.0e-05	3e-5
+GO:0051791	medium-chain fatty acid metabolic proces...	20	4	0.21	4.7e-05	4.7e-5
+GO:0034379	very-low-density lipoprotein particle as...	21	4	0.22	5.7e-05	5.7e-5
+GO:0006693	prostaglandin metabolic process	31	5	0.32	8.0e-05	8e-5
+GO:0006695	cholesterol biosynthetic process	54	5	0.56	8.1e-05	8.1e-5
+GO:1901568	fatty acid derivative metabolic process	91	5	0.95	0.00039	3.9e-4
+GO:0043062	extracellular structure organization	207	12	2.15	0.00051	5.1e-4
+GO:0046464	acylglycerol catabolic process	37	4	0.38	0.00055	5.5e-4

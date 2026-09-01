@@ -1,0 +1,7 @@
+figure	file	source	caption
+1	Figure_S1.pdf	06_Global_atlas/PCA_tissue_sex	Tissue identity is the dominant axis of variation across all adult samples.
+2	Figure_S2.pdf	05_Tissue_landscapes/shared_private/ovary_split_vs_merged	Splitting the ovary into two compartments reveals no strong proximal or distal ovary identity.
+3	Figure_S3.pdf	05_Tissue_landscapes/housekeeping/HK_ortho_expression_class	Drosophila housekeeping orthologues behave as housekeeping genes in C. capitata.
+4	Figure_S4.png	08_UpSet_sex_bias/go_summary_upset.RDS	Male- and female-biased genes are overwhelmingly germline-specific, with a small set shared with the soma.
+5	Figure_S5.pdf	07_Tau_specificity/tau_distribution	Most expressed genes show strong tissue specificity (tau close to 1).
+6	Figure_S6.pdf	10_CrossTissue_correlation/tissue_spearman_correlation	Adult tissues form distinct expression clusters by pairwise correlation.

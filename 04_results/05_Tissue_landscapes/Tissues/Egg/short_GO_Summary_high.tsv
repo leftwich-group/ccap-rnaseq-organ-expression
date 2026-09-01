@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0006611	protein export from nucleus	149	52	23.64	4.7e-10	4.7e-10
+GO:0071166	ribonucleoprotein complex localization	114	45	18.09	7.5e-10	7.5e-10
+GO:0000398	mRNA splicing, via spliceosome	314	96	49.82	3.5e-09	3.5e-9
+GO:0036092	phosphatidylinositol-3-phosphate biosynt...	16	12	2.54	2.4e-07	2.4e-7
+GO:0044703	multi-organism reproductive process	1448	282	229.74	2.5e-07	2.5e-7
+GO:0015833	peptide transport	1019	233	161.68	6.9e-07	6.9e-7
+GO:0006406	mRNA export from nucleus	96	37	15.23	7.0e-07	7e-7
+GO:0031503	protein-containing complex localization	191	57	30.3	7.3e-07	7.3e-7
+GO:1900006	positive regulation of dendrite developm...	67	26	10.63	4.6e-06	4.6e-6
+GO:0033227	dsRNA transport	28	14	4.44	2.7e-05	2.7e-5
+GO:0008285	negative regulation of cell population p...	379	95	60.13	2.7e-05	2.7e-5
+GO:0006369	termination of RNA polymerase II transcr...	27	14	4.28	5.2e-05	5.2e-5

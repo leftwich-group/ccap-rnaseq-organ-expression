@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0001655	urogenital system development	327	51	27.93	3.9e-06	3.9e-6
+GO:0035310	notum cell fate specification	12	7	1.02	1.7e-05	1.7e-5
+GO:0061213	positive regulation of mesonephros devel...	23	9	1.96	6.3e-05	6.3e-5
+GO:0051674	localization of cell	884	108	75.49	6.5e-05	6.5e-5
+GO:0007438	oenocyte development	11	6	0.94	0.00012	1.2e-4
+GO:0003300	cardiac muscle hypertrophy	63	8	5.38	0.00012	1.2e-4
+GO:0071286	cellular response to magnesium ion	8	5	0.68	0.00020	2e-4
+GO:0042472	inner ear morphogenesis	103	19	8.8	0.00022	2.2e-4
+GO:0098989	NMDA selective glutamate receptor signal...	12	6	1.02	0.00022	2.2e-4
+GO:0021983	pituitary gland development	50	13	4.27	0.00023	2.3e-4
+GO:0007494	midgut development	57	14	4.87	0.00023	2.3e-4
+GO:0097154	GABAergic neuron differentiation	23	7	1.96	0.00024	2.4e-4

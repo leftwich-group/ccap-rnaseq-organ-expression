@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0043043	peptide biosynthetic process	350	300	197.55	< 1e-30	9.999999999999999e-31
+GO:0043604	amide biosynthetic process	387	329	218.44	< 1e-30	9.999999999999999e-31
+GO:0044703	multi-organism reproductive process	1610	1040	908.75	< 1e-30	9.999999999999999e-31
+GO:0015833	peptide transport	1084	742	611.85	2.5e-26	2.5e-26
+GO:0006886	intracellular protein transport	681	522	384.38	7.6e-16	7.6e-16
+GO:0000398	mRNA splicing, via spliceosome	324	268	182.88	1.1e-14	1.1e-14
+GO:0018393	internal peptidyl-lysine acetylation	93	83	52.49	8.0e-14	8e-14
+GO:0051276	chromosome organization	880	718	496.71	1.2e-13	1.2e-13
+GO:0070125	mitochondrial translational elongation	56	55	31.61	4.8e-13	4.8e-13
+GO:0016579	protein deubiquitination	154	134	86.92	5.1e-13	5.1e-13
+GO:0070126	mitochondrial translational termination	59	57	33.3	2.1e-12	2.1e-12
+GO:0006283	transcription-coupled nucleotide-excisio...	53	52	29.92	2.6e-12	2.6e-12

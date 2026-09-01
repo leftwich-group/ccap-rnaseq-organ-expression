@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0002181	cytoplasmic translation	97	70	13.54	< 1e-30	9.999999999999999e-31
+GO:0043043	peptide biosynthetic process	350	123	48.84	< 1e-30	9.999999999999999e-31
+GO:0043604	amide biosynthetic process	387	135	54.01	4.7e-28	4.7000000000000005e-28
+GO:0006614	SRP-dependent cotranslational protein ta...	51	41	7.12	8.7e-28	8.7e-28
+GO:0006413	translational initiation	131	75	18.28	1.5e-27	1.5e-27
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	73	47	10.19	3.2e-23	3.2000000000000003e-23
+GO:0044703	multi-organism reproductive process	1610	333	224.68	1.1e-21	1.1e-21
+GO:0070972	protein localization to endoplasmic reti...	67	44	9.35	5.4e-21	5.4e-21
+GO:0015833	peptide transport	1084	249	151.28	1.5e-20	1.5e-20
+GO:0006886	intracellular protein transport	681	195	95.04	2.4e-14	2.4e-14
+GO:0072657	protein localization to membrane	398	96	55.54	3.2e-14	3.2e-14
+GO:0043161	proteasome-mediated ubiquitin-dependent ...	311	91	43.4	5.1e-13	5.1e-13

@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0006090	pyruvate metabolic process	78	20	4.77	1.6e-07	1.6e-7
+GO:0034030	ribonucleoside bisphosphate biosynthetic...	48	14	2.94	6.1e-07	6.1e-7
+GO:0034033	purine nucleoside bisphosphate biosynthe...	48	14	2.94	6.1e-07	6.1e-7
+GO:0006979	response to oxidative stress	378	43	23.13	4.3e-06	4.3e-6
+GO:0009152	purine ribonucleotide biosynthetic proce...	183	26	11.2	1.2e-05	1.2e-5
+GO:0046949	fatty-acyl-CoA biosynthetic process	29	10	1.77	1.3e-05	1.3e-5
+GO:0006094	gluconeogenesis	61	12	3.73	1.4e-05	1.4e-5
+GO:0007366	periodic partitioning by pair rule gene	8	5	0.49	4.0e-05	4e-5
+GO:0042593	glucose homeostasis	166	22	10.16	0.00013	1.3e-4
+GO:0006749	glutathione metabolic process	57	13	3.49	0.00013	1.3e-4
+GO:0008611	ether lipid biosynthetic process	7	4	0.43	0.00042	4.2e-4
+GO:0006085	acetyl-CoA biosynthetic process	16	7	0.98	0.00085	8.5e-4

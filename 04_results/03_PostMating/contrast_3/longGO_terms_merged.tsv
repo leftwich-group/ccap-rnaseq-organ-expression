@@ -1,0 +1,181 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	group
+GO:0035641	locomotory exploration behavior	23	1	0.01	0.0051	up
+GO:0008063	Toll signaling pathway	61	1	0.01	0.0135	up
+GO:0019991	septate junction assembly	69	1	0.02	0.0153	up
+GO:0021549	cerebellum development	121	1	0.03	0.0267	up
+GO:0032355	response to estradiol	138	1	0.03	0.0305	up
+GO:0010977	negative regulation of neuron projection...	151	1	0.03	0.0333	up
+GO:0008038	neuron recognition	212	1	0.05	0.0466	up
+GO:0045665	negative regulation of neuron differenti...	216	1	0.05	0.0475	up
+GO:0050768	negative regulation of neurogenesis	295	1	0.07	0.0645	up
+GO:0050808	synapse organization	566	1	0.13	0.1219	up
+GO:0007155	cell adhesion	652	1	0.15	0.1398	up
+GO:0009725	response to hormone	788	1	0.18	0.1676	up
+GO:0032501	multicellular organismal process	5610	1	1.25	1.0000	up
+GO:0032502	developmental process	4866	1	1.08	1.0000	up
+GO:0030154	cell differentiation	3184	1	0.71	1.0000	up
+GO:0035640	exploration behavior	36	1	0.01	1.0000	up
+GO:0007399	nervous system development	2337	1	0.52	1.0000	up
+GO:0007626	locomotory behavior	409	1	0.09	1.0000	up
+GO:0007417	central nervous system development	946	1	0.21	1.0000	up
+GO:0050793	regulation of developmental process	1966	1	0.44	1.0000	up
+GO:0060284	regulation of cell development	1112	1	0.25	1.0000	up
+GO:0031344	regulation of cell projection organizati...	665	1	0.15	1.0000	up
+GO:0050794	regulation of cellular process	5473	2	1.22	1.0000	up
+GO:0031345	negative regulation of cell projection o...	168	1	0.04	1.0000	up
+GO:2000026	regulation of multicellular organismal d...	1605	1	0.36	1.0000	up
+GO:0022607	cellular component assembly	2260	1	0.5	1.0000	up
+GO:0045664	regulation of neuron differentiation	692	1	0.15	1.0000	up
+GO:0044085	cellular component biogenesis	2427	1	0.54	1.0000	up
+GO:0048869	cellular developmental process	3246	1	0.72	1.0000	up
+GO:0048731	system development	3552	1	0.79	1.0000	up
+GO:0005121	Toll binding	13	1	0	0.0017	up
+GO:0003674	molecular_function	7825	1	1	1.0000	up
+GO:0005488	binding	5561	1	0.71	1.0000	up
+GO:0005102	signaling receptor binding	800	1	0.1	1.0000	up
+GO:0005515	protein binding	4202	1	0.54	1.0000	up
+GO:0000009	alpha-1,6-mannosyltransferase activity	1	0	0	1.0000	up
+GO:0000014	single-stranded DNA endodeoxyribonucleas...	8	0	0	1.0000	up
+GO:0000016	lactase activity	2	0	0	1.0000	up
+GO:0000026	alpha-1,2-mannosyltransferase activity	2	0	0	1.0000	up
+GO:0000030	mannosyltransferase activity	13	0	0	1.0000	up
+GO:0000033	alpha-1,3-mannosyltransferase activity	2	0	0	1.0000	up
+GO:0000035	acyl binding	1	0	0	1.0000	up
+GO:0000036	acyl carrier activity	1	0	0	1.0000	up
+GO:0000049	tRNA binding	35	0	0	1.0000	up
+GO:0000062	fatty-acyl-CoA binding	13	0	0	1.0000	up
+GO:0000064	L-ornithine transmembrane transporter ac...	4	0	0	1.0000	up
+GO:0000095	S-adenosyl-L-methionine transmembrane tr...	1	0	0	1.0000	up
+GO:0000099	sulfur amino acid transmembrane transpor...	1	0	0	1.0000	up
+GO:0000104	succinate dehydrogenase activity	5	0	0	1.0000	up
+GO:0000146	microfilament motor activity	19	0	0	1.0000	up
+GO:0000149	SNARE binding	94	0	0.01	1.0000	up
+GO:0000150	DNA strand exchange activity	6	0	0	1.0000	up
+GO:0000166	nucleotide binding	503	0	0.06	1.0000	up
+GO:0000171	ribonuclease MRP activity	2	0	0	1.0000	up
+GO:0000175	3'-5'-RNA exonuclease activity	21	0	0	1.0000	up
+GO:0000179	rRNA (adenine-N6,N6-)-dimethyltransferas...	4	0	0	1.0000	up
+GO:0000182	rDNA binding	6	0	0	1.0000	up
+GO:0000213	tRNA-intron lyase activity	2	0	0	1.0000	up
+GO:0000215	tRNA 2'-phosphotransferase activity	1	0	0	1.0000	up
+GO:0000217	DNA secondary structure binding	31	0	0	1.0000	up
+GO:0060076	excitatory synapse	49	1	0.01	0.011	up
+GO:0005918	septate junction	65	1	0.02	0.015	up
+GO:0005576	extracellular region	1216	2	0.29	0.071	up
+GO:0009986	cell surface	333	1	0.08	0.077	up
+GO:0048471	perinuclear region of cytoplasm	465	1	0.11	0.106	up
+GO:0005615	extracellular space	656	1	0.15	0.148	up
+GO:0030424	axon	677	1	0.16	0.153	up
+GO:0005886	plasma membrane	2375	1	0.56	0.480	up
+GO:0005829	cytosol	2686	1	0.63	0.531	up
+GO:0043296	apical junction complex	139	1	0.03	1.000	up
+GO:0005622	intracellular anatomical structure	6950	1	1.63	1.000	up
+GO:0005911	cell-cell junction	410	1	0.1	1.000	up
+GO:0120025	plasma membrane bounded cell projection	1488	1	0.35	1.000	up
+GO:0043005	neuron projection	1076	1	0.25	1.000	up
+GO:0110165	cellular anatomical structure	8503	2	2	1.000	up
+GO:0070160	tight junction	104	1	0.02	1.000	up
+GO:0070161	anchoring junction	413	1	0.1	1.000	up
+GO:0005737	cytoplasm	5616	1	1.32	1.000	up
+GO:0030054	cell junction	1096	1	0.26	1.000	up
+GO:0042995	cell projection	1503	1	0.35	1.000	up
+GO:0045202	synapse	774	1	0.18	1.000	up
+GO:0071944	cell periphery	2707	1	0.64	1.000	up
+GO:0005575	cellular_component	8517	2	2	1.000	up
+GO:0016020	membrane	3818	1	0.9	1.000	up
+GO:0000109	nucleotide-excision repair complex	4	0	0	1.000	up
+GO:0000110	nucleotide-excision repair factor 1 comp...	1	0	0	1.000	up
+GO:0000111	nucleotide-excision repair factor 2 comp...	1	0	0	1.000	up
+GO:0000118	histone deacetylase complex	37	0	0.01	1.000	up
+GO:0000120	RNA polymerase I transcription regulator...	2	0	0	1.000	up
+GO:0000123	histone acetyltransferase complex	71	0	0.02	1.000	up
+GO:0045337	farnesyl diphosphate biosynthetic proces...	6	2	0.01	1.0e-05	down
+GO:0061051	positive regulation of cell growth invol...	9	2	0.01	2.5e-05	down
+GO:0045542	positive regulation of cholesterol biosy...	11	2	0.01	3.8e-05	down
+GO:2000727	positive regulation of cardiac muscle ce...	18	2	0.02	0.00011	down
+GO:0055025	positive regulation of cardiac muscle ti...	36	2	0.03	0.00043	down
+GO:0060395	SMAD protein signal transduction	39	2	0.03	0.00050	down
+GO:0008354	germ cell migration	86	2	0.08	0.00244	down
+GO:0010753	positive regulation of cGMP-mediated sig...	5	1	0	0.00444	down
+GO:0097237	cellular response to toxic substance	176	2	0.16	0.00987	down
+GO:0022412	cellular process involved in reproductio...	1168	3	1.04	0.01043	down
+GO:0016360	sensory organ precursor cell fate determ...	23	1	0.02	0.02029	down
+GO:0043161	proteasome-mediated ubiquitin-dependent ...	311	2	0.28	0.02908	down
+GO:0045167	asymmetric protein localization involved...	34	1	0.03	0.02986	down
+GO:0046716	muscle cell cellular homeostasis	60	1	0.05	0.05216	down
+GO:0030162	regulation of proteolysis	429	2	0.38	0.05252	down
+GO:0007218	neuropeptide signaling pathway	72	1	0.06	0.06231	down
+GO:0035152	regulation of tube architecture, open tr...	87	1	0.08	0.07485	down
+GO:0003333	amino acid transmembrane transport	89	1	0.08	0.07651	down
+GO:0045746	negative regulation of Notch signaling p...	91	1	0.08	0.07817	down
+GO:0007304	chorion-containing eggshell formation	101	1	0.09	0.08643	down
+GO:0050830	defense response to Gram-positive bacter...	109	1	0.1	0.09298	down
+GO:0010720	positive regulation of cell development	608	2	0.54	0.09738	down
+GO:0010469	regulation of signaling receptor activit...	137	1	0.12	0.11561	down
+GO:1905039	carboxylic acid transmembrane transport	146	1	0.13	0.12278	down
+GO:0044703	multi-organism reproductive process	1610	3	1.43	0.15878	down
+GO:0051674	localization of cell	884	2	0.79	0.18180	down
+GO:0098656	monoatomic anion transmembrane transport	267	1	0.24	0.21432	down
+GO:0060249	anatomical structure homeostasis	355	1	0.32	0.27554	down
+GO:0002066	columnar/cuboidal epithelial cell develo...	397	1	0.35	0.30326	down
+GO:0098542	defense response to other organism	634	1	0.56	0.44295	down
+GO:0004337	(2E,6E)-farnesyl diphosphate synthase ac...	6	2	0.01	1e-05	down
+GO:0004161	dimethylallyltranstransferase activity	6	2	0.01	1e-05	down
+GO:0031625	ubiquitin protein ligase binding	203	2	0.18	0.013	down
+GO:0005184	neuropeptide hormone activity	26	1	0.02	0.023	down
+GO:0005112	Notch binding	26	1	0.02	0.023	down
+GO:0015171	amino acid transmembrane transporter act...	83	1	0.07	0.072	down
+GO:0046943	carboxylic acid transmembrane transporte...	137	1	0.12	0.116	down
+GO:0008509	monoatomic anion transmembrane transport...	227	1	0.2	0.186	down
+GO:0015318	inorganic molecular entity transmembrane...	608	1	0.54	0.432	down
+GO:0140677	molecular function activator activity	329	1	0.29	1.000	down
+GO:0022857	transmembrane transporter activity	750	1	0.67	1.000	down
+GO:0003824	catalytic activity	3278	2	2.93	1.000	down
+GO:0030545	signaling receptor regulator activity	94	1	0.08	1.000	down
+GO:0005342	organic acid transmembrane transporter a...	137	1	0.12	1.000	down
+GO:0016740	transferase activity	1244	2	1.11	1.000	down
+GO:0048018	receptor ligand activity	78	1	0.07	1.000	down
+GO:0030546	signaling receptor activator activity	87	1	0.08	1.000	down
+GO:0003674	molecular_function	7825	7	7	1.000	down
+GO:0120531	prenyl diphosphate synthase activity	8	2	0.01	1.000	down
+GO:0004659	prenyltransferase activity	18	2	0.02	1.000	down
+GO:0019899	enzyme binding	1511	2	1.35	1.000	down
+GO:0160041	neuropeptide activity	26	1	0.02	1.000	down
+GO:0098772	molecular function regulator activity	753	1	0.67	1.000	down
+GO:0016765	transferase activity, transferring alkyl...	52	2	0.05	1.000	down
+GO:0005179	hormone activity	34	1	0.03	1.000	down
+GO:0005102	signaling receptor binding	800	2	0.72	1.000	down
+GO:0005515	protein binding	4202	4	3.76	1.000	down
+GO:0005215	transporter activity	847	1	0.76	1.000	down
+GO:0008514	organic anion transmembrane transporter ...	199	1	0.18	1.000	down
+GO:0015075	monoatomic ion transmembrane transporter...	633	1	0.57	1.000	down
+GO:0019005	SCF ubiquitin ligase complex	58	2	0.05	0.0012	down
+GO:0005777	peroxisome	129	2	0.12	0.0060	down
+GO:0042600	egg chorion	13	1	0.01	0.0122	down
+GO:0005759	mitochondrial matrix	305	2	0.29	0.0310	down
+GO:0031901	early endosome membrane	53	1	0.05	0.0487	down
+GO:0005654	nucleoplasm	2058	4	1.93	0.1025	down
+GO:0005774	vacuolar membrane	186	1	0.17	0.1620	down
+GO:0016324	apical plasma membrane	272	1	0.26	0.2288	down
+GO:0005737	cytoplasm	5616	6	5.28	0.4734	down
+GO:0005615	extracellular space	656	1	0.62	0.4735	down
+GO:0005829	cytosol	2686	2	2.52	0.7740	down
+GO:0097708	intracellular vesicle	1111	1	1.04	1.0000	down
+GO:0031974	membrane-enclosed lumen	2955	4	2.78	1.0000	down
+GO:0010008	endosome membrane	184	1	0.17	1.0000	down
+GO:0005768	endosome	493	1	0.46	1.0000	down
+GO:1990234	transferase complex	585	2	0.55	1.0000	down
+GO:0031090	organelle membrane	1685	2	1.58	1.0000	down
+GO:0005769	early endosome	199	1	0.19	1.0000	down
+GO:0030659	cytoplasmic vesicle membrane	475	1	0.45	1.0000	down
+GO:0098588	bounding membrane of organelle	944	2	0.89	1.0000	down
+GO:0140535	intracellular protein-containing complex	652	2	0.61	1.0000	down
+GO:1902494	catalytic complex	1196	2	1.12	1.0000	down
+GO:0031410	cytoplasmic vesicle	1109	1	1.04	1.0000	down
+GO:0005739	mitochondrion	948	2	0.89	1.0000	down
+GO:0016020	membrane	3818	2	3.59	1.0000	down
+GO:0110165	cellular anatomical structure	8503	8	7.99	1.0000	down
+GO:0098590	plasma membrane region	846	1	0.79	1.0000	down
+GO:0042579	microbody	129	2	0.12	1.0000	down
+GO:0043231	intracellular membrane-bounded organelle	5725	6	5.38	1.0000	down
+GO:0005886	plasma membrane	2375	1	2.23	1.0000	down

@@ -1,0 +1,181 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	group	sub_contrast
+GO:0043043	peptide biosynthetic process	392	151	62.65	< 1e-30	up	unfert_vs_fert
+GO:0043604	amide biosynthetic process	418	159	66.8	< 1e-30	up	unfert_vs_fert
+GO:0002181	cytoplasmic translation	118	64	18.86	6.4e-28	up	unfert_vs_fert
+GO:0006413	translational initiation	142	64	22.69	5.8e-23	up	unfert_vs_fert
+GO:0006614	SRP-dependent cotranslational protein ta...	63	45	10.07	5.4e-22	up	unfert_vs_fert
+GO:0070972	protein localization to endoplasmic reti...	87	53	13.9	1.1e-21	up	unfert_vs_fert
+GO:0046034	ATP metabolic process	219	74	35	2.4e-17	up	unfert_vs_fert
+GO:0006120	mitochondrial electron transport, NADH t...	49	35	7.83	4.4e-17	up	unfert_vs_fert
+GO:0009167	purine ribonucleoside monophosphate meta...	207	73	33.08	1.6e-16	up	unfert_vs_fert
+GO:0070125	mitochondrial translational elongation	66	39	10.55	1.6e-15	up	unfert_vs_fert
+GO:0070126	mitochondrial translational termination	69	40	11.03	1.7e-15	up	unfert_vs_fert
+GO:0016310	phosphorylation	1144	168	182.83	1.0e-14	up	unfert_vs_fert
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	43	13.26	3.6e-14	up	unfert_vs_fert
+GO:0032981	mitochondrial respiratory chain complex ...	52	32	8.31	1.1e-13	up	unfert_vs_fert
+GO:0072657	protein localization to membrane	367	86	58.65	9.6e-12	up	unfert_vs_fert
+GO:0015833	peptide transport	1019	206	162.85	2.9e-10	up	unfert_vs_fert
+GO:0006886	intracellular protein transport	689	155	110.11	4.4e-10	up	unfert_vs_fert
+GO:0032543	mitochondrial translation	117	61	18.7	4.4e-07	up	unfert_vs_fert
+GO:0006518	peptide metabolic process	479	177	76.55	3.8e-06	up	unfert_vs_fert
+GO:0045047	protein targeting to ER	72	51	11.51	1.4e-05	up	unfert_vs_fert
+GO:0000288	nuclear-transcribed mRNA catabolic proce...	61	18	9.75	1.7e-05	up	unfert_vs_fert
+GO:0000028	ribosomal small subunit assembly	19	12	3.04	1.8e-05	up	unfert_vs_fert
+GO:0006457	protein folding	158	39	25.25	4.7e-05	up	unfert_vs_fert
+GO:0006749	glutathione metabolic process	57	18	9.11	8.6e-05	up	unfert_vs_fert
+GO:0061355	Wnt protein secretion	16	7	2.56	1.0e-04	up	unfert_vs_fert
+GO:0000398	mRNA splicing, via spliceosome	314	70	50.18	0.00012	up	unfert_vs_fert
+GO:0044743	protein transmembrane import into intrac...	32	14	5.11	0.00021	up	unfert_vs_fert
+GO:1990542	mitochondrial transmembrane transport	68	24	10.87	0.00030	up	unfert_vs_fert
+GO:0008535	respiratory chain complex IV assembly	27	15	4.32	0.00053	up	unfert_vs_fert
+GO:0006626	protein targeting to mitochondrion	59	20	9.43	0.00059	up	unfert_vs_fert
+GO:0003735	structural constituent of ribosome	157	110	23.84	< 1e-30	up	unfert_vs_fert
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	35	25	5.32	1.1e-13	up	unfert_vs_fert
+GO:0050136	NADH dehydrogenase (quinone) (non-electr...	35	25	5.32	1.1e-13	up	unfert_vs_fert
+GO:0003723	RNA binding	663	154	100.7	1.2e-09	up	unfert_vs_fert
+GO:0003899	DNA-directed RNA polymerase activity	26	14	3.95	5.1e-06	up	unfert_vs_fert
+GO:0004364	glutathione transferase activity	32	15	4.86	2.1e-05	up	unfert_vs_fert
+GO:0004129	cytochrome-c oxidase activity	20	11	3.04	4.2e-05	up	unfert_vs_fert
+GO:0003954	NADH dehydrogenase activity	44	32	6.68	4.4e-05	up	unfert_vs_fert
+GO:0016675	oxidoreductase activity, acting on a hem...	21	11	3.19	7.7e-05	up	unfert_vs_fert
+GO:0005507	copper ion binding	28	13	4.25	0.00035	up	unfert_vs_fert
+GO:0008121	quinol-cytochrome-c reductase activity	9	6	1.37	0.00067	up	unfert_vs_fert
+GO:0051537	2 iron, 2 sulfur cluster binding	12	7	1.82	0.00072	up	unfert_vs_fert
+GO:0005484	SNAP receptor activity	26	11	3.95	0.00081	up	unfert_vs_fert
+GO:0070181	small ribosomal subunit rRNA binding	7	5	1.06	0.00129	up	unfert_vs_fert
+GO:0031492	nucleosomal DNA binding	7	5	1.06	0.00129	up	unfert_vs_fert
+GO:0015450	protein-transporting ATPase activity	13	7	1.97	0.00135	up	unfert_vs_fert
+GO:0008173	RNA methyltransferase activity	42	12	6.38	0.00231	up	unfert_vs_fert
+GO:0008379	thioredoxin peroxidase activity	5	4	0.76	0.00233	up	unfert_vs_fert
+GO:0031386	protein tag activity	8	5	1.22	0.00300	up	unfert_vs_fert
+GO:0004090	carbonyl reductase (NADPH) activity	3	3	0.46	0.00350	up	unfert_vs_fert
+GO:1990948	ubiquitin ligase inhibitor activity	3	3	0.46	0.00350	up	unfert_vs_fert
+GO:0020037	heme binding	31	11	4.71	0.00428	up	unfert_vs_fert
+GO:0017070	U6 snRNA binding	11	7	1.67	0.00588	up	unfert_vs_fert
+GO:0070180	large ribosomal subunit rRNA binding	6	4	0.91	0.00614	up	unfert_vs_fert
+GO:0008135	translation factor activity, RNA binding	70	19	10.63	0.00685	up	unfert_vs_fert
+GO:1904680	peptide transmembrane transporter activi...	17	7	2.58	0.00879	up	unfert_vs_fert
+GO:0046872	metal ion binding	615	84	93.41	0.01092	up	unfert_vs_fert
+GO:0008233	peptidase activity	373	33	56.65	0.01152	up	unfert_vs_fert
+GO:0016679	oxidoreductase activity, acting on diphe...	14	6	2.13	0.01217	up	unfert_vs_fert
+GO:0042134	rRNA primary transcript binding	4	3	0.61	0.01239	up	unfert_vs_fert
+GO:0098800	inner mitochondrial membrane protein com...	129	78	21.43	4.9e-24	up	unfert_vs_fert
+GO:0045271	respiratory chain complex I	49	36	8.14	1.6e-18	up	unfert_vs_fert
+GO:0022625	cytosolic large ribosomal subunit	55	37	9.14	6.1e-17	up	unfert_vs_fert
+GO:0022627	cytosolic small ribosomal subunit	37	27	6.15	4.5e-14	up	unfert_vs_fert
+GO:0005743	mitochondrial inner membrane	357	157	59.3	2.0e-12	up	unfert_vs_fert
+GO:0005762	mitochondrial large ribosomal subunit	52	31	8.64	2.7e-12	up	unfert_vs_fert
+GO:0005763	mitochondrial small ribosomal subunit	32	20	5.32	6.7e-09	up	unfert_vs_fert
+GO:0098556	cytoplasmic side of rough endoplasmic re...	16	12	2.66	4.0e-07	up	unfert_vs_fert
+GO:0005688	U6 snRNP	7	7	1.16	3.4e-06	up	unfert_vs_fert
+GO:0005739	mitochondrion	1041	318	172.91	4.5e-06	up	unfert_vs_fert
+GO:0005665	RNA polymerase II, core complex	15	10	2.49	2.1e-05	up	unfert_vs_fert
+GO:0005689	U12-type spliceosomal complex	19	11	3.16	5.3e-05	up	unfert_vs_fert
+GO:0046540	U4/U6 x U5 tri-snRNP complex	22	12	3.65	5.3e-05	up	unfert_vs_fert
+GO:0005758	mitochondrial intermembrane space	51	22	8.47	0.00011	up	unfert_vs_fert
+GO:0005683	U7 snRNP	7	6	1.16	0.00012	up	unfert_vs_fert
+GO:1990726	Lsm1-7-Pat1 complex	5	5	0.83	0.00013	up	unfert_vs_fert
+GO:0016272	prefoldin complex	5	5	0.83	0.00013	up	unfert_vs_fert
+GO:0005744	TIM23 mitochondrial import inner membran...	14	10	2.33	0.00015	up	unfert_vs_fert
+GO:0033177	proton-transporting two-sector ATPase co...	23	11	3.82	0.00015	up	unfert_vs_fert
+GO:0005736	RNA polymerase I complex	12	8	1.99	0.00015	up	unfert_vs_fert
+GO:0005622	intracellular anatomical structure	6733	1263	1118.34	0.00029	up	unfert_vs_fert
+GO:0005686	U2 snRNP	22	11	3.65	0.00030	up	unfert_vs_fert
+GO:0045259	proton-transporting ATP synthase complex	22	11	3.65	0.00030	up	unfert_vs_fert
+GO:0045277	respiratory chain complex IV	19	10	3.16	0.00034	up	unfert_vs_fert
+GO:0034709	methylosome	11	7	1.83	0.00061	up	unfert_vs_fert
+GO:0005655	nucleolar ribonuclease P complex	6	5	1	0.00065	up	unfert_vs_fert
+GO:0000811	GINS complex	4	4	0.66	0.00076	up	unfert_vs_fert
+GO:0071986	Ragulator complex	4	4	0.66	0.00076	up	unfert_vs_fert
+GO:0072546	EMC complex	9	6	1.49	0.00111	up	unfert_vs_fert
+GO:0000176	nuclear exosome (RNase complex)	12	7	1.99	0.00125	up	unfert_vs_fert
+GO:0045945	positive regulation of transcription by ...	17	4	0.06	3.5e-07	down	unfert_vs_fert
+GO:0042796	snRNA transcription by RNA polymerase II...	13	3	0.05	1.3e-05	down	unfert_vs_fert
+GO:1902166	negative regulation of intrinsic apoptot...	17	3	0.06	3.0e-05	down	unfert_vs_fert
+GO:0032968	positive regulation of transcription elo...	29	3	0.11	0.00016	down	unfert_vs_fert
+GO:0045944	positive regulation of transcription by ...	684	12	2.53	0.00020	down	unfert_vs_fert
+GO:0010628	positive regulation of gene expression	1239	14	4.58	0.00020	down	unfert_vs_fert
+GO:0048699	generation of neurons	1449	14	5.35	0.00035	down	unfert_vs_fert
+GO:2000179	positive regulation of neural precursor ...	45	3	0.17	0.00059	down	unfert_vs_fert
+GO:0050872	white fat cell differentiation	12	2	0.04	0.00085	down	unfert_vs_fert
+GO:0010717	regulation of epithelial to mesenchymal ...	54	3	0.2	0.00100	down	unfert_vs_fert
+GO:0010923	negative regulation of phosphatase activ...	57	3	0.21	0.00117	down	unfert_vs_fert
+GO:0036445	neuronal stem cell division	61	3	0.23	0.00143	down	unfert_vs_fert
+GO:0042795	snRNA transcription by RNA polymerase II	70	3	0.26	0.00212	down	unfert_vs_fert
+GO:0043697	cell dedifferentiation	20	2	0.07	0.00241	down	unfert_vs_fert
+GO:0045600	positive regulation of fat cell differen...	21	2	0.08	0.00266	down	unfert_vs_fert
+GO:1990179	protein localization to actomyosin contr...	1	1	0	0.00370	down	unfert_vs_fert
+GO:0009785	blue light signaling pathway	1	1	0	0.00370	down	unfert_vs_fert
+GO:0033274	response to vitamin B2	1	1	0	0.00370	down	unfert_vs_fert
+GO:0021579	medulla oblongata morphogenesis	1	1	0	0.00370	down	unfert_vs_fert
+GO:0070563	negative regulation of vitamin D recepto...	1	1	0	0.00370	down	unfert_vs_fert
+GO:0050980	detection of light stimulus involved in ...	1	1	0	0.00370	down	unfert_vs_fert
+GO:0035921	desmosome disassembly	1	1	0	0.00370	down	unfert_vs_fert
+GO:0009588	UV-A, blue light phototransduction	1	1	0	0.00370	down	unfert_vs_fert
+GO:1902843	positive regulation of netrin-activated ...	1	1	0	0.00370	down	unfert_vs_fert
+GO:0044727	epigenetic programing of male pronucleus	1	1	0	0.00370	down	unfert_vs_fert
+GO:1904120	positive regulation of otic vesicle morp...	1	1	0	0.00370	down	unfert_vs_fert
+GO:0007489	maintenance of imaginal histoblast diplo...	1	1	0	0.00370	down	unfert_vs_fert
+GO:0090310	negative regulation of DNA methylation-d...	1	1	0	0.00370	down	unfert_vs_fert
+GO:0042332	gravitaxis	27	2	0.1	0.00438	down	unfert_vs_fert
+GO:2000497	positive regulation of cell proliferatio...	2	1	0.01	0.00738	down	unfert_vs_fert
+GO:0005328	neurotransmitter:sodium symporter activi...	13	2	0.05	0.0011	down	unfert_vs_fert
+GO:0001227	DNA-binding transcription repressor acti...	130	4	0.5	0.0015	down	unfert_vs_fert
+GO:0001067	transcription regulatory region nucleic ...	519	9	2.01	0.0016	down	unfert_vs_fert
+GO:0003677	DNA binding	911	12	3.52	0.0018	down	unfert_vs_fert
+GO:0009882	blue light photoreceptor activity	1	1	0	0.0039	down	unfert_vs_fert
+GO:1901363	heterocyclic compound binding	1915	13	7.4	0.0067	down	unfert_vs_fert
+GO:0005314	high-affinity L-glutamate transmembrane ...	2	1	0.01	0.0077	down	unfert_vs_fert
+GO:0070579	DNA 5-methylcytosine dioxygenase activit...	2	1	0.01	0.0077	down	unfert_vs_fert
+GO:0035516	broad specificity oxidative DNA demethyl...	2	1	0.01	0.0077	down	unfert_vs_fert
+GO:0000977	RNA polymerase II transcription regulato...	365	6	1.41	0.0087	down	unfert_vs_fert
+GO:0019902	phosphatase binding	119	3	0.46	0.0105	down	unfert_vs_fert
+GO:0070976	TIR domain binding	5	1	0.02	0.0192	down	unfert_vs_fert
+GO:0098632	cell-cell adhesion mediator activity	6	1	0.02	0.0230	down	unfert_vs_fert
+GO:0008020	G protein-coupled photoreceptor activity	7	1	0.03	0.0267	down	unfert_vs_fert
+GO:0017153	sodium:dicarboxylate symporter activity	8	1	0.03	0.0305	down	unfert_vs_fert
+GO:0050733	RS domain binding	9	1	0.03	0.0343	down	unfert_vs_fert
+GO:0001228	DNA-binding transcription activator acti...	207	3	0.8	0.0446	down	unfert_vs_fert
+GO:0071837	HMG box domain binding	12	1	0.05	0.0454	down	unfert_vs_fert
+GO:0017080	sodium channel regulator activity	13	1	0.05	0.0491	down	unfert_vs_fert
+GO:0072582	17-beta-hydroxysteroid dehydrogenase (NA...	15	1	0.06	0.0565	down	unfert_vs_fert
+GO:0050750	low-density lipoprotein particle recepto...	16	1	0.06	0.0601	down	unfert_vs_fert
+GO:0071949	FAD binding	16	1	0.06	0.0601	down	unfert_vs_fert
+GO:0000253	3-beta-hydroxysteroid 3-dehydrogenase (N...	16	1	0.06	0.0601	down	unfert_vs_fert
+GO:0004303	estradiol 17-beta-dehydrogenase [NAD(P)+...	17	1	0.07	0.0638	down	unfert_vs_fert
+GO:0000978	RNA polymerase II cis-regulatory region ...	245	3	0.95	0.0673	down	unfert_vs_fert
+GO:0070006	metalloaminopeptidase activity	18	1	0.07	0.0674	down	unfert_vs_fert
+GO:0008198	ferrous iron binding	19	1	0.07	0.0710	down	unfert_vs_fert
+GO:0004879	nuclear receptor activity	29	1	0.11	0.1064	down	unfert_vs_fert
+GO:0000981	DNA-binding transcription factor activit...	497	9	1.92	0.1087	down	unfert_vs_fert
+GO:0019955	cytokine binding	34	1	0.13	0.1236	down	unfert_vs_fert
+GO:0035363	histone locus body	18	3	0.06	2.8e-05	down	unfert_vs_fert
+GO:0008023	transcription elongation factor complex	49	3	0.17	0.00059	down	unfert_vs_fert
+GO:0015030	Cajal body	53	3	0.18	0.00074	down	unfert_vs_fert
+GO:0000346	transcription export complex	13	2	0.04	0.00085	down	unfert_vs_fert
+GO:0016607	nuclear speck	233	5	0.79	0.00101	down	unfert_vs_fert
+GO:0110071	cellularization cleavage furrow invagina...	1	1	0	0.00341	down	unfert_vs_fert
+GO:0036488	CHOP-C/EBP complex	1	1	0	0.00341	down	unfert_vs_fert
+GO:0036375	Kibra-Ex-Mer complex	3	1	0.01	0.01020	down	unfert_vs_fert
+GO:0001939	female pronucleus	4	1	0.01	0.01357	down	unfert_vs_fert
+GO:0035189	Rb-E2F complex	4	1	0.01	0.01357	down	unfert_vs_fert
+GO:0032154	cleavage furrow	53	2	0.18	0.01388	down	unfert_vs_fert
+GO:0001940	male pronucleus	5	1	0.02	0.01694	down	unfert_vs_fert
+GO:0005730	nucleolus	595	6	2.03	0.02372	down	unfert_vs_fert
+GO:0005641	nuclear envelope lumen	9	1	0.03	0.03029	down	unfert_vs_fert
+GO:0098592	cytoplasmic side of apical plasma membra...	13	1	0.04	0.04346	down	unfert_vs_fert
+GO:0005915	zonula adherens	14	1	0.05	0.04673	down	unfert_vs_fert
+GO:0000785	chromatin	438	4	1.49	0.05931	down	unfert_vs_fert
+GO:0016459	myosin complex	24	1	0.08	0.07881	down	unfert_vs_fert
+GO:0034451	centriolar satellite	27	1	0.09	0.08823	down	unfert_vs_fert
+GO:0005796	Golgi lumen	27	1	0.09	0.08823	down	unfert_vs_fert
+GO:0016327	apicolateral plasma membrane	29	1	0.1	0.09445	down	unfert_vs_fert
+GO:0043202	lysosomal lumen	40	1	0.14	0.12798	down	unfert_vs_fert
+GO:0044295	axonal growth cone	40	1	0.14	0.12798	down	unfert_vs_fert
+GO:0005604	basement membrane	51	1	0.17	0.16031	down	unfert_vs_fert
+GO:0030175	filopodium	62	1	0.21	0.19148	down	unfert_vs_fert
+GO:0016363	nuclear matrix	64	1	0.22	0.19703	down	unfert_vs_fert
+GO:0009897	external side of plasma membrane	65	1	0.22	0.19979	down	unfert_vs_fert
+GO:0001650	fibrillar center	89	1	0.3	0.26333	down	unfert_vs_fert
+GO:0034399	nuclear periphery	110	1	0.38	0.31492	down	unfert_vs_fert
+GO:0005886	plasma membrane	1998	9	6.81	0.32862	down	unfert_vs_fert

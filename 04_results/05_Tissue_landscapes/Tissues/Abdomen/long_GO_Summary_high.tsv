@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
+GO:0002181	cytoplasmic translation	97	67	18.03	2.6e-30	2.6000000000000002e-30
+GO:0006614	SRP-dependent cotranslational protein ta...	51	42	9.48	1.2e-24	1.2e-24
+GO:0070972	protein localization to endoplasmic reti...	67	50	12.46	5.1e-22	5.1e-22
+GO:0006413	translational initiation	131	69	24.36	5.3e-22	5.300000000000001e-22
+GO:0043604	amide biosynthetic process	387	158	71.95	6.1e-21	6.1e-21
+GO:0043043	peptide biosynthetic process	350	131	65.07	1.2e-19	1.2e-19
+GO:0016310	phosphorylation	1263	254	234.82	2.6e-18	2.6e-18
+GO:0046034	ATP metabolic process	182	88	33.84	2.7e-17	2.7e-17
+GO:0009167	purine ribonucleoside monophosphate meta...	172	90	31.98	1.6e-16	1.6e-16
+GO:0043312	neutrophil degranulation	218	89	40.53	9.9e-15	9.9e-15
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	73	42	13.57	1.2e-13	1.2e-13
+GO:0072657	protein localization to membrane	398	106	74	7.1e-12	7.1e-12

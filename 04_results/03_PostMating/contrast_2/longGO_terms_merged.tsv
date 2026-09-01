@@ -1,0 +1,181 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	group
+GO:0044245	polysaccharide digestion	5	1	0	0.0017	up
+GO:0010383	cell wall polysaccharide metabolic proce...	6	1	0	0.0020	up
+GO:0034349	glial cell apoptotic process	18	1	0.01	0.0060	up
+GO:0032722	positive regulation of chemokine product...	20	1	0.01	0.0067	up
+GO:0006032	chitin catabolic process	21	1	0.01	0.0070	up
+GO:0018990	ecdysis, chitin-based cuticle	24	1	0.01	0.0080	up
+GO:0002532	production of molecular mediator involve...	26	1	0.01	0.0086	up
+GO:0008366	axon ensheathment	82	1	0.03	0.0271	up
+GO:0009620	response to fungus	119	1	0.04	0.0392	up
+GO:0050714	positive regulation of protein secretion	153	1	0.05	0.0502	up
+GO:0002793	positive regulation of peptide secretion	166	1	0.06	0.0544	up
+GO:0061564	axon development	749	1	0.25	0.2297	up
+GO:0006955	immune response	864	1	0.29	0.2614	up
+GO:0006508	proteolysis	1017	1	0.34	0.3024	up
+GO:0005975	carbohydrate metabolic process	392	1	0.13	1.0000	up
+GO:0005976	polysaccharide metabolic process	96	1	0.03	1.0000	up
+GO:0050789	regulation of biological process	5699	1	1.9	1.0000	up
+GO:0006022	aminoglycan metabolic process	100	1	0.03	1.0000	up
+GO:0022008	neurogenesis	1901	1	0.63	1.0000	up
+GO:0006026	aminoglycan catabolic process	56	1	0.02	1.0000	up
+GO:0031175	neuron projection development	1191	1	0.4	1.0000	up
+GO:0030154	cell differentiation	3184	1	1.06	1.0000	up
+GO:0010604	positive regulation of macromolecule met...	2048	1	0.68	1.0000	up
+GO:0051234	establishment of localization	3054	1	1.02	1.0000	up
+GO:0044238	primary metabolic process	5646	2	1.88	1.0000	up
+GO:0048869	cellular developmental process	3246	1	1.08	1.0000	up
+GO:0015833	peptide transport	1084	1	0.36	1.0000	up
+GO:0009056	catabolic process	1593	1	0.53	1.0000	up
+GO:0051046	regulation of secretion	473	1	0.16	1.0000	up
+GO:0048518	positive regulation of biological proces...	3424	1	1.14	1.0000	up
+GO:0003796	lysozyme activity	15	1	0	0.0038	up
+GO:0004568	chitinase activity	23	1	0.01	0.0059	up
+GO:0008061	chitin binding	37	1	0.01	0.0094	up
+GO:0030246	carbohydrate binding	94	1	0.02	0.0239	up
+GO:0004252	serine-type endopeptidase activity	129	1	0.03	0.0327	up
+GO:0019900	kinase binding	563	1	0.14	0.1387	up
+GO:0003674	molecular_function	7825	2	2	1.0000	up
+GO:0140096	catalytic activity, acting on a protein	1234	1	0.32	1.0000	up
+GO:0016798	hydrolase activity, acting on glycosyl b...	114	1	0.03	1.0000	up
+GO:0008233	peptidase activity	342	1	0.09	1.0000	up
+GO:0004175	endopeptidase activity	236	1	0.06	1.0000	up
+GO:0005488	binding	5561	1	1.42	1.0000	up
+GO:0008236	serine-type peptidase activity	136	1	0.03	1.0000	up
+GO:0004553	hydrolase activity, hydrolyzing O-glycos...	104	1	0.03	1.0000	up
+GO:0097367	carbohydrate derivative binding	589	1	0.15	1.0000	up
+GO:0061783	peptidoglycan muralytic activity	19	1	0	1.0000	up
+GO:0017171	serine hydrolase activity	144	1	0.04	1.0000	up
+GO:0019899	enzyme binding	1511	1	0.39	1.0000	up
+GO:0016787	hydrolase activity	1447	2	0.37	1.0000	up
+GO:0005515	protein binding	4202	1	1.07	1.0000	up
+GO:0003824	catalytic activity	3278	2	0.84	1.0000	up
+GO:0000009	alpha-1,6-mannosyltransferase activity	1	0	0	1.0000	up
+GO:0000014	single-stranded DNA endodeoxyribonucleas...	8	0	0	1.0000	up
+GO:0000016	lactase activity	2	0	0	1.0000	up
+GO:0000026	alpha-1,2-mannosyltransferase activity	2	0	0	1.0000	up
+GO:0000030	mannosyltransferase activity	13	0	0	1.0000	up
+GO:0000033	alpha-1,3-mannosyltransferase activity	2	0	0	1.0000	up
+GO:0000035	acyl binding	1	0	0	1.0000	up
+GO:0000036	acyl carrier activity	1	0	0	1.0000	up
+GO:0000049	tRNA binding	35	0	0.01	1.0000	up
+GO:0005615	extracellular space	656	2	0.15	0.0059	up
+GO:0005737	cytoplasm	5616	2	1.32	0.4348	up
+GO:0005622	intracellular anatomical structure	6950	2	1.63	1.0000	up
+GO:0110165	cellular anatomical structure	8503	2	2	1.0000	up
+GO:0005575	cellular_component	8517	2	2	1.0000	up
+GO:0005576	extracellular region	1216	2	0.29	1.0000	up
+GO:0000109	nucleotide-excision repair complex	4	0	0	1.0000	up
+GO:0000110	nucleotide-excision repair factor 1 comp...	1	0	0	1.0000	up
+GO:0000111	nucleotide-excision repair factor 2 comp...	1	0	0	1.0000	up
+GO:0000118	histone deacetylase complex	37	0	0.01	1.0000	up
+GO:0000120	RNA polymerase I transcription regulator...	2	0	0	1.0000	up
+GO:0000123	histone acetyltransferase complex	71	0	0.02	1.0000	up
+GO:0000124	SAGA complex	17	0	0	1.0000	up
+GO:0000126	transcription factor TFIIIB complex	4	0	0	1.0000	up
+GO:0000127	transcription factor TFIIIC complex	4	0	0	1.0000	up
+GO:0000137	Golgi cis cisterna	14	0	0	1.0000	up
+GO:0000138	Golgi trans cisterna	12	0	0	1.0000	up
+GO:0000139	Golgi membrane	277	0	0.07	1.0000	up
+GO:0000145	exocyst	10	0	0	1.0000	up
+GO:0000151	ubiquitin ligase complex	178	0	0.04	1.0000	up
+GO:0000152	nuclear ubiquitin ligase complex	21	0	0	1.0000	up
+GO:0000153	cytoplasmic ubiquitin ligase complex	12	0	0	1.0000	up
+GO:0000159	protein phosphatase type 2A complex	15	0	0	1.0000	up
+GO:0000164	protein phosphatase type 1 complex	14	0	0	1.0000	up
+GO:0000172	ribonuclease MRP complex	5	0	0	1.0000	up
+GO:0000176	nuclear exosome (RNase complex)	9	0	0	1.0000	up
+GO:0000177	cytoplasmic exosome (RNase complex)	9	0	0	1.0000	up
+GO:0000178	exosome (RNase complex)	13	0	0	1.0000	up
+GO:0000214	tRNA-intron endonuclease complex	3	0	0	1.0000	up
+GO:0000220	vacuolar proton-transporting V-type ATPa...	8	0	0	1.0000	up
+GO:0060395	SMAD protein signal transduction	39	2	0.02	0.00018	down
+GO:0050885	neuromuscular process controlling balanc...	45	2	0.03	0.00024	down
+GO:0097116	gephyrin clustering involved in postsyna...	2	1	0	0.00111	down
+GO:1905520	positive regulation of presynaptic activ...	2	1	0	0.00111	down
+GO:0097117	guanylate kinase-associated protein clus...	2	1	0	0.00111	down
+GO:0034633	retinol transport	2	1	0	0.00111	down
+GO:0071938	vitamin A transport	2	1	0	0.00111	down
+GO:0090126	protein-containing complex assembly invo...	2	1	0	0.00111	down
+GO:0097119	postsynaptic density protein 95 clusteri...	3	1	0	0.00167	down
+GO:0010739	positive regulation of protein kinase A ...	3	1	0	0.00167	down
+GO:0060316	positive regulation of ryanodine-sensiti...	3	1	0	0.00167	down
+GO:0097114	NMDA glutamate receptor clustering	4	1	0	0.00222	down
+GO:0097118	neuroligin clustering involved in postsy...	4	1	0	0.00222	down
+GO:0051490	negative regulation of filopodium assemb...	5	1	0	0.00278	down
+GO:0023041	neuronal signal transduction	6	1	0	0.00333	down
+GO:2000311	regulation of AMPA receptor activity	6	1	0	0.00333	down
+GO:0097237	cellular response to toxic substance	176	2	0.1	0.00366	down
+GO:0071625	vocalization behavior	7	1	0	0.00389	down
+GO:1900020	positive regulation of protein kinase C ...	9	1	0.01	0.00499	down
+GO:0090129	positive regulation of synapse maturatio...	9	1	0.01	0.00499	down
+GO:0021707	cerebellar granule cell differentiation	10	1	0.01	0.00555	down
+GO:0045743	positive regulation of fibroblast growth...	11	1	0.01	0.00610	down
+GO:0042297	vocal learning	11	1	0.01	0.00610	down
+GO:2000310	regulation of NMDA receptor activity	13	1	0.01	0.00721	down
+GO:0097112	gamma-aminobutyric acid receptor cluster...	14	1	0.01	0.00776	down
+GO:1900244	positive regulation of synaptic vesicle ...	14	1	0.01	0.00776	down
+GO:0016201	synaptic target inhibition	17	1	0.01	0.00942	down
+GO:0051968	positive regulation of synaptic transmis...	19	1	0.01	0.01052	down
+GO:2000463	positive regulation of excitatory postsy...	20	1	0.01	0.01107	down
+GO:0097091	synaptic vesicle clustering	20	1	0.01	0.01107	down
+GO:0005105	type 1 fibroblast growth factor receptor...	4	1	0	0.0020	down
+GO:0033130	acetylcholine receptor binding	6	1	0	0.0031	down
+GO:0034185	apolipoprotein binding	6	1	0	0.0031	down
+GO:0031625	ubiquitin protein ligase binding	203	2	0.1	0.0039	down
+GO:0010314	phosphatidylinositol-5-phosphate binding	11	1	0.01	0.0056	down
+GO:0097109	neuroligin family protein binding	11	1	0.01	0.0056	down
+GO:0015278	intracellularly gated calcium channel ac...	13	1	0.01	0.0066	down
+GO:0070300	phosphatidic acid binding	14	1	0.01	0.0071	down
+GO:0001786	phosphatidylserine binding	19	1	0.01	0.0097	down
+GO:0070273	phosphatidylinositol-4-phosphate binding	20	1	0.01	0.0102	down
+GO:0080025	phosphatidylinositol-3,5-bisphosphate bi...	21	1	0.01	0.0107	down
+GO:0005246	calcium channel regulator activity	25	1	0.01	0.0127	down
+GO:0005547	phosphatidylinositol-3,4,5-trisphosphate...	28	1	0.01	0.0142	down
+GO:0032266	phosphatidylinositol-3-phosphate binding	31	1	0.02	0.0158	down
+GO:0042043	neurexin family protein binding	37	1	0.02	0.0188	down
+GO:0048306	calcium-dependent protein binding	40	1	0.02	0.0203	down
+GO:0008307	structural constituent of muscle	48	1	0.02	0.0243	down
+GO:0005546	phosphatidylinositol-4,5-bisphosphate bi...	67	1	0.03	0.0338	down
+GO:0050839	cell adhesion molecule binding	160	1	0.08	0.0793	down
+GO:0005509	calcium ion binding	190	1	0.1	0.0937	down
+GO:0022839	monoatomic ion-gated channel activity	192	1	0.1	0.0946	down
+GO:0004888	transmembrane signaling receptor activit...	367	1	0.19	0.1748	down
+GO:0019901	protein kinase binding	518	1	0.26	0.2397	down
+GO:0038023	signaling receptor activity	496	1	0.25	1.0000	down
+GO:0005488	binding	5561	4	2.84	1.0000	down
+GO:0005102	signaling receptor binding	800	1	0.41	1.0000	down
+GO:0022834	ligand-gated channel activity	192	1	0.1	1.0000	down
+GO:0005515	protein binding	4202	3	2.15	1.0000	down
+GO:0005104	fibroblast growth factor receptor bindin...	11	1	0.01	1.0000	down
+GO:0044389	ubiquitin-like protein ligase binding	212	2	0.11	1.0000	down
+GO:0019005	SCF ubiquitin ligase complex	58	2	0.03	0.00045	down
+GO:0030314	junctional membrane complex	3	1	0	0.00176	down
+GO:0014701	junctional sarcoplasmic reticulum membra...	3	1	0	0.00176	down
+GO:0005616	larval serum protein complex	6	1	0	0.00352	down
+GO:0098820	trans-synaptic protein complex	11	1	0.01	0.00644	down
+GO:0061174	type I terminal bouton	40	1	0.02	0.02327	down
+GO:0044295	axonal growth cone	55	1	0.03	0.03188	down
+GO:0042734	presynaptic membrane	111	1	0.07	0.06350	down
+GO:0030018	Z disc	119	1	0.07	0.06795	down
+GO:0030139	endocytic vesicle	163	1	0.1	0.09212	down
+GO:0005654	nucleoplasm	2058	3	1.21	0.09483	down
+GO:0031965	nuclear membrane	185	1	0.11	0.10401	down
+GO:0031594	neuromuscular junction	188	1	0.11	0.10563	down
+GO:0009986	cell surface	333	1	0.2	0.18083	down
+GO:0005783	endoplasmic reticulum	911	2	0.53	0.19147	down
+GO:0005576	extracellular region	1216	2	0.71	0.25597	down
+GO:0043025	neuronal cell body	591	1	0.35	0.30209	down
+GO:0005730	nucleolus	592	1	0.35	0.30253	down
+GO:0005886	plasma membrane	2375	2	1.39	0.58909	down
+GO:0005737	cytoplasm	5616	4	3.3	0.58996	down
+GO:0031674	I band	123	1	0.07	1.00000	down
+GO:0031090	organelle membrane	1685	2	0.99	1.00000	down
+GO:0043195	terminal bouton	152	1	0.09	1.00000	down
+GO:0030016	myofibril	208	1	0.12	1.00000	down
+GO:0030017	sarcomere	190	1	0.11	1.00000	down
+GO:0042995	cell projection	1503	1	0.88	1.00000	down
+GO:0031974	membrane-enclosed lumen	2955	4	1.73	1.00000	down
+GO:0140535	intracellular protein-containing complex	652	2	0.38	1.00000	down
+GO:0031461	cullin-RING ubiquitin ligase complex	108	2	0.06	1.00000	down
+GO:0036477	somatodendritic compartment	799	1	0.47	1.00000	down

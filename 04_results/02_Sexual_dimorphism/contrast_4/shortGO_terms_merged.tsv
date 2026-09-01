@@ -1,0 +1,181 @@
+GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	group
+GO:0006508	proteolysis	1010	70	51.67	1.4e-08	up
+GO:0007305	vitelline membrane formation involved in...	9	7	0.46	2.9e-08	up
+GO:0045214	sarcomere organization	66	19	3.38	2.3e-07	up
+GO:0051257	meiotic spindle midzone assembly	10	6	0.51	3.1e-06	up
+GO:0071689	muscle thin filament assembly	9	5	0.46	3.6e-05	up
+GO:0003012	muscle system process	243	26	12.43	0.00011	up
+GO:0007144	female meiosis I	12	6	0.61	0.00021	up
+GO:0009957	epidermal cell fate specification	8	4	0.41	0.00040	up
+GO:0003333	amino acid transmembrane transport	87	15	4.45	0.00058	up
+GO:0040003	chitin-based cuticle development	193	20	9.87	0.00059	up
+GO:0060298	positive regulation of sarcomere organiz...	9	4	0.46	0.00069	up
+GO:0007344	pronuclear fusion	5	3	0.26	0.00123	up
+GO:0031145	anaphase-promoting complex-dependent cat...	28	7	1.43	0.00202	up
+GO:0071394	cellular response to testosterone stimul...	27	6	1.38	0.00205	up
+GO:0001556	oocyte maturation	41	7	2.1	0.00217	up
+GO:0048067	cuticle pigmentation	50	7	2.56	0.00218	up
+GO:0007498	mesoderm development	201	18	10.28	0.00219	up
+GO:0070980	biphenyl catabolic process	19	5	0.97	0.00219	up
+GO:0046226	coumarin catabolic process	19	5	0.97	0.00219	up
+GO:0051552	flavone metabolic process	19	5	0.97	0.00219	up
+GO:0006789	bilirubin conjugation	19	5	0.97	0.00219	up
+GO:0006711	estrogen catabolic process	19	5	0.97	0.00219	up
+GO:0071688	striated muscle myosin thick filament as...	12	5	0.61	0.00234	up
+GO:0007362	terminal region determination	28	6	1.43	0.00249	up
+GO:0070881	regulation of proline transport	2	2	0.1	0.00261	up
+GO:0007376	cephalic furrow formation	2	2	0.1	0.00261	up
+GO:0071444	cellular response to pheromone	2	2	0.1	0.00261	up
+GO:0034609	spicule insertion	2	2	0.1	0.00261	up
+GO:1904271	L-proline import across plasma membrane	2	2	0.1	0.00261	up
+GO:0061743	motor learning	2	2	0.1	0.00261	up
+GO:0004252	serine-type endopeptidase activity	152	30	7.94	1.6e-10	up
+GO:0008307	structural constituent of muscle	33	10	1.72	4.2e-06	up
+GO:0051371	muscle alpha-actinin binding	8	5	0.42	1.9e-05	up
+GO:0008010	structural constituent of chitin-based l...	108	17	5.64	3.9e-05	up
+GO:0051015	actin filament binding	75	13	3.92	0.00012	up
+GO:0031013	troponin I binding	3	3	0.16	0.00014	up
+GO:0005416	amino acid:monoatomic cation symporter a...	17	6	0.89	0.00053	up
+GO:0097493	structural molecule activity conferring ...	6	4	0.31	0.00054	up
+GO:0004035	alkaline phosphatase activity	15	5	0.78	0.00074	up
+GO:0033932	1,3-alpha-L-fucosidase activity	2	2	0.1	0.00272	up
+GO:0030172	troponin C binding	2	2	0.1	0.00272	up
+GO:0018392	glycoprotein 3-alpha-L-fucosyltransferas...	2	2	0.1	0.00272	up
+GO:0008466	glycogenin glucosyltransferase activity	2	2	0.1	0.00272	up
+GO:0015196	L-tryptophan transmembrane transporter a...	2	2	0.1	0.00272	up
+GO:0005009	insulin receptor activity	2	2	0.1	0.00272	up
+GO:0005213	structural constituent of egg chorion	2	2	0.1	0.00272	up
+GO:0015180	L-alanine transmembrane transporter acti...	2	2	0.1	0.00272	up
+GO:0031014	troponin T binding	2	2	0.1	0.00272	up
+GO:0022857	transmembrane transporter activity	727	42	37.97	0.00366	up
+GO:0004181	metallocarboxypeptidase activity	21	5	1.1	0.00384	up
+GO:0005496	steroid binding	60	9	3.13	0.00391	up
+GO:0008509	monoatomic anion transmembrane transport...	218	19	11.39	0.00466	up
+GO:0047619	acylcarnitine hydrolase activity	15	4	0.78	0.00631	up
+GO:0004089	carbonate dehydratase activity	8	3	0.42	0.00650	up
+GO:0030371	translation repressor activity	28	4	1.46	0.00650	up
+GO:0008336	gamma-butyrobetaine dioxygenase activity	3	2	0.16	0.00788	up
+GO:0004356	glutamine synthetase activity	3	2	0.16	0.00788	up
+GO:0061575	cyclin-dependent protein serine/threonin...	3	2	0.16	0.00788	up
+GO:0015193	L-proline transmembrane transporter acti...	3	2	0.16	0.00788	up
+GO:0009922	fatty acid elongase activity	16	4	0.84	0.00808	up
+GO:0005615	extracellular space	602	67	29.03	1.1e-11	up
+GO:0042600	egg chorion	17	8	0.82	4.5e-07	up
+GO:0005859	muscle myosin complex	10	6	0.48	2.2e-06	up
+GO:0005576	extracellular region	1168	115	56.32	2.5e-06	up
+GO:0060388	vitelline envelope	4	4	0.19	5.3e-06	up
+GO:0031012	extracellular matrix	237	33	11.43	1.1e-05	up
+GO:0032133	chromosome passenger complex	5	4	0.24	2.6e-05	up
+GO:0030018	Z disc	86	14	4.15	5.5e-05	up
+GO:1990385	meiotic spindle midzone	6	4	0.29	7.4e-05	up
+GO:0005862	muscle thin filament tropomyosin	3	3	0.14	0.00011	up
+GO:0005865	striated muscle thin filament	11	8	0.53	0.00016	up
+GO:1990023	mitotic spindle midzone	14	5	0.68	0.00035	up
+GO:0005884	actin filament	45	8	2.17	0.00182	up
+GO:0099081	supramolecular polymer	367	45	17.7	0.00202	up
+GO:0000794	condensed nuclear chromosome	65	9	3.13	0.00215	up
+GO:0097125	cyclin B1-CDK1 complex	2	2	0.1	0.00232	up
+GO:1990584	cardiac Troponin complex	2	2	0.1	0.00232	up
+GO:0005587	collagen type IV trimer	2	2	0.1	0.00232	up
+GO:0034663	endoplasmic reticulum chaperone complex	24	5	1.16	0.00505	up
+GO:0000776	kinetochore	76	14	3.66	0.00523	up
+GO:0005863	striated muscle myosin thick filament	3	2	0.14	0.00674	up
+GO:0031983	vesicle lumen	157	7	7.57	0.00769	up
+GO:0000922	spindle pole	81	9	3.91	0.01055	up
+GO:0005899	insulin receptor complex	4	2	0.19	0.01304	up
+GO:0005640	nuclear outer membrane	30	5	1.45	0.01337	up
+GO:0000940	outer kinetochore	16	5	0.77	0.01358	up
+GO:0072687	meiotic spindle	18	7	0.87	0.01724	up
+GO:0005828	kinetochore microtubule	12	3	0.58	0.01768	up
+GO:0031262	Ndc80 complex	5	2	0.24	0.02105	up
+GO:0097209	epidermal lamellar body	5	2	0.24	0.02105	up
+GO:0098656	monoatomic anion transmembrane transport	256	35	12.3	1.0e-08	down
+GO:0019509	L-methionine salvage from methylthioaden...	7	6	0.34	8.0e-08	down
+GO:0006107	oxaloacetate metabolic process	13	6	0.62	1.5e-05	down
+GO:0006805	xenobiotic metabolic process	83	13	3.99	2.2e-05	down
+GO:0006635	fatty acid beta-oxidation	73	16	3.51	2.5e-05	down
+GO:0045540	regulation of cholesterol biosynthetic p...	31	9	1.49	2.5e-05	down
+GO:0019432	triglyceride biosynthetic process	39	10	1.87	2.6e-05	down
+GO:0006633	fatty acid biosynthetic process	96	15	4.61	5.7e-05	down
+GO:0001676	long-chain fatty acid metabolic process	50	11	2.4	6.7e-05	down
+GO:0015837	amine transport	74	6	3.55	0.00011	down
+GO:0097164	ammonium ion metabolic process	121	17	5.81	0.00014	down
+GO:0034032	purine nucleoside bisphosphate metabolic...	115	20	5.52	0.00027	down
+GO:0033875	ribonucleoside bisphosphate metabolic pr...	115	20	5.52	0.00027	down
+GO:0006544	glycine metabolic process	18	6	0.86	0.00031	down
+GO:0034379	very-low-density lipoprotein particle as...	21	6	1.01	0.00035	down
+GO:0034030	ribonucleoside bisphosphate biosynthetic...	48	9	2.31	0.00039	down
+GO:0034033	purine nucleoside bisphosphate biosynthe...	48	9	2.31	0.00039	down
+GO:0034418	urate biosynthetic process	4	3	0.19	0.00042	down
+GO:0009620	response to fungus	121	12	5.81	0.00043	down
+GO:0006766	vitamin metabolic process	68	10	3.27	0.00043	down
+GO:0033539	fatty acid beta-oxidation using acyl-CoA...	15	5	0.72	0.00050	down
+GO:0043252	sodium-independent organic anion transpo...	9	4	0.43	0.00055	down
+GO:0009150	purine ribonucleotide metabolic process	405	36	19.45	0.00086	down
+GO:0046949	fatty-acyl-CoA biosynthetic process	29	9	1.39	0.00092	down
+GO:0006855	xenobiotic transmembrane transport	65	10	3.12	0.00098	down
+GO:0046654	tetrahydrofolate biosynthetic process	6	4	0.29	0.00102	down
+GO:0060346	bone trabecula formation	5	3	0.24	0.00102	down
+GO:0009052	pentose-phosphate shunt, non-oxidative b...	5	3	0.24	0.00102	down
+GO:0006560	proline metabolic process	5	3	0.24	0.00102	down
+GO:0042723	thiamine-containing compound metabolic p...	5	3	0.24	0.00102	down
+GO:0008509	monoatomic anion transmembrane transport...	218	32	10.51	2.4e-09	down
+GO:0000062	fatty-acyl-CoA binding	16	7	0.77	4.5e-06	down
+GO:0015318	inorganic molecular entity transmembrane...	581	44	28.02	1.5e-05	down
+GO:0015297	antiporter activity	47	9	2.27	0.00013	down
+GO:0032559	adenyl ribonucleotide binding	246	17	11.86	0.00013	down
+GO:0008324	monoatomic cation transmembrane transpor...	424	26	20.45	0.00035	down
+GO:0008028	monocarboxylic acid transmembrane transp...	32	7	1.54	0.00068	down
+GO:0004300	enoyl-CoA hydratase activity	10	4	0.48	0.00089	down
+GO:0031957	very long-chain fatty acid-CoA ligase ac...	11	4	0.53	0.00134	down
+GO:0034041	ABC-type sterol transporter activity	11	4	0.53	0.00134	down
+GO:0004467	long-chain fatty acid-CoA ligase activit...	13	5	0.63	0.00192	down
+GO:0005275	amine transmembrane transporter activity	6	3	0.29	0.00200	down
+GO:0019534	toxin transmembrane transporter activity	2	2	0.1	0.00232	down
+GO:0034736	cholesterol O-acyltransferase activity	2	2	0.1	0.00232	down
+GO:0030233	deoxynucleotide transmembrane transporte...	2	2	0.1	0.00232	down
+GO:0004613	phosphoenolpyruvate carboxykinase (GTP) ...	2	2	0.1	0.00232	down
+GO:0017061	S-methyl-5-thioadenosine phosphorylase a...	2	2	0.1	0.00232	down
+GO:0004488	methylenetetrahydrofolate dehydrogenase ...	2	2	0.1	0.00232	down
+GO:0016509	long-chain (3S)-3-hydroxyacyl-CoA dehydr...	2	2	0.1	0.00232	down
+GO:0004477	methenyltetrahydrofolate cyclohydrolase ...	2	2	0.1	0.00232	down
+GO:0015349	thyroid hormone transmembrane transporte...	2	2	0.1	0.00232	down
+GO:0008906	inosine kinase activity	2	2	0.1	0.00232	down
+GO:0015347	sodium-independent organic anion transme...	7	3	0.34	0.00337	down
+GO:0005184	neuropeptide hormone activity	25	6	1.21	0.00499	down
+GO:0050660	flavin adenine dinucleotide binding	41	7	1.98	0.00598	down
+GO:0005243	gap junction channel activity	5	3	0.24	0.00670	down
+GO:0008504	monoamine transmembrane transporter acti...	5	3	0.24	0.00670	down
+GO:0003988	acetyl-CoA C-acyltransferase activity	7	3	0.34	0.00671	down
+GO:0090422	thiamine pyrophosphate transmembrane tra...	3	2	0.14	0.00674	down
+GO:0050104	L-gulonate 3-dehydrogenase activity	3	2	0.14	0.00674	down
+GO:0005615	extracellular space	602	62	27.93	1.7e-09	down
+GO:0005777	peroxisome	125	17	5.8	6.5e-05	down
+GO:0005759	mitochondrial matrix	351	31	16.28	9.4e-05	down
+GO:0005886	plasma membrane	1998	120	92.7	0.00035	down
+GO:0042587	glycogen granule	6	3	0.28	0.00178	down
+GO:0016507	mitochondrial fatty acid beta-oxidation ...	2	2	0.09	0.00215	down
+GO:0005604	basement membrane	51	8	2.37	0.00220	down
+GO:0017133	mitochondrial electron transfer flavopro...	3	2	0.14	0.00624	down
+GO:0005921	gap junction	9	3	0.42	0.00675	down
+GO:0031966	mitochondrial membrane	462	34	21.43	0.00758	down
+GO:0005788	endoplasmic reticulum lumen	105	11	4.87	0.00921	down
+GO:0005811	lipid droplet	68	8	3.15	0.01292	down
+GO:0005743	mitochondrial inner membrane	357	22	16.56	0.01385	down
+GO:0005741	mitochondrial outer membrane	101	10	4.69	0.01839	down
+GO:0016020	membrane	3492	196	162.01	0.02161	down
+GO:0009897	external side of plasma membrane	65	7	3.02	0.03016	down
+GO:0043231	intracellular membrane-bounded organelle	5529	198	256.52	0.03018	down
+GO:0097433	dense body	7	2	0.32	0.03861	down
+GO:1990184	amino acid transport complex	17	3	0.79	0.04153	down
+GO:0042583	chromaffin granule	4	2	0.19	0.04629	down
+GO:0099501	exocytic vesicle membrane	49	4	2.27	0.04630	down
+GO:0034673	inhibin-betaglycan-ActRII complex	1	1	0.05	0.04640	down
+GO:0043540	6-phosphofructo-2-kinase/fructose-2,6-bi...	1	1	0.05	0.04640	down
+GO:0070724	BMP receptor complex	1	1	0.05	0.04640	down
+GO:0002197	xanthine dehydrogenase complex	1	1	0.05	0.04640	down
+GO:1990742	microvesicle	1	1	0.05	0.04640	down
+GO:0009346	ATP-independent citrate lyase complex	1	1	0.05	0.04640	down
+GO:0070554	synaptobrevin 2-SNAP-25-syntaxin-3-compl...	1	1	0.05	0.04640	down
+GO:0005584	collagen type I trimer	1	1	0.05	0.04640	down
+GO:0005585	collagen type II trimer	1	1	0.05	0.04640	down
