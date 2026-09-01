@@ -346,7 +346,7 @@ annotate(
 
 pA_q2 <- make_summary_volcano(
   res_germline,
-  "Germline: Ovary vs Testes",
+  "A - Germline: Ovary vs Testes",
   pos_lab = "Ovary-biased",
   neg_lab = "Testis-biased"
 )
@@ -354,7 +354,7 @@ ggsave(file.path(outdir_summary, "Q2_plotA.png"),
        pA_q2, width = 5, height = 5, dpi = 200)
 pB_q2 <- make_summary_volcano(
   res_soma_virgin,
-  "Soma (Abdomen): Male vs Female",
+  "B - Soma (Abdomen): Male vs Female",
   pos_lab = "Female-biased",
   neg_lab = "Male-biased"
 )
@@ -409,14 +409,14 @@ pC_q2 <- if (nrow(de_counts_q2) > 0) {
     coord_flip() +
     labs(x = NULL, y = "DE gene count",
          fill  = NULL,
-         title = "Differential expression gene counts \n( FDR < 0.05, |log₂FC| > 1)") +
+         title = "C - Differential expression gene counts \n( FDR < 0.05, |log₂FC| > 1)") +
     plot_theme +
        guides(fill="none")+
     theme(legend.position = "bottom")
 } else {
   ggplot() + annotate("text", x=0.5, y=0.5,
                       label="Run Q2 contrasts first", size=4) +
-    theme_void() + labs(title="C  DE gene counts")
+    theme_void() + labs(title="C - DE gene counts")
 }
 ggsave(file.path(outdir_summary, "Q2_plotC.png"),
        pC_q2, width = 5, height = 5, dpi = 200)
@@ -453,14 +453,14 @@ if (!is.null(res_germline) && !is.null(res_soma_virgin)) {
     )) +
     scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
     labs(x = NULL, y = "Gene count",
-         title = "Overlap of male-biased\ngenes: germline vs soma") +
+         title = "D - Overlap of male-biased\ngenes: germline vs soma") +
     plot_theme +
     theme(legend.position = "none",
           axis.text.x = element_text(angle = 20, hjust = 1))
 } else {
   pD_q2 <- ggplot() +
     annotate("text", x=0.5, y=0.5, label="Data not found", size=4) +
-    theme_void() + labs(title="D  Overlap")
+    theme_void() + labs(title="D - Overlap")
 }
 ggsave(file.path(outdir_summary, "Q2_plotD.png"),
        pD_q2, width = 5, height = 5, dpi = 200)
@@ -468,7 +468,6 @@ ggsave(file.path(outdir_summary, "Q2_plotD.png"),
 p_q2_summary <- (pA_q2 | pB_q2) / (pC_q2 | pD_q2) +
   plot_annotation(
     title    = "Sexual Dimorphism across Germline and Soma",
-    tag_levels = "A",
     theme = theme(plot.title    = element_text(size = 14, face = "bold"),
                   plot.subtitle = element_text(size = 11, colour = "grey40"))
   )
@@ -482,14 +481,12 @@ p_q2_summary
 
 
 # save just volcano 
-pp <- (pA_q2 | pB_q2) + 
-  plot_annotation(tag_levels = "A")
+pp <- (pA_q2 | pB_q2)
 ggsave(file.path(outdir_summary, "Q2_SexualDimorphism_volcano.png"),
        pp, width = 10, height = 7, dpi = 200)
 
 # save just bar 
-pp <- (pC_q2 | pD_q2) + 
-  plot_annotation(tag_levels = "A")
+pp <- (pC_q2 | pD_q2)
 ggsave(file.path(outdir_summary, "Q2_SexualDimorphism_barplot.png"),
        pp, width = 10, height = 7, dpi = 200)
 

@@ -16,8 +16,8 @@ RUN_HOMER_DISCOVERY <- FALSE
 if (RUN_HOMER_DISCOVERY) {
   # Set paths — adjust to your HOMER installation
   HOMER_PATH   <- "/path/to/your/HOMER/bin"
-  GENOME_FASTA <- here("data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.fna")
-  GFF_FILE <- here("data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.gff")
+  GENOME_FASTA <- here("01_data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.fna")
+  GFF_FILE <- here("01_data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.gff")
   HOMER_SIZE   <- 1000   # promoter window (bp upstream of TSS)
 
   outdir_homer <- file.path(outdir_raw, "09_HOMER_motifs")

@@ -1,13 +1,13 @@
 GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
-GO:0070126	mitochondrial translational termination	69	69	39.02	6.7e-18	6.7e-18
-GO:0070125	mitochondrial translational elongation	66	66	37.32	3.8e-17	3.8e-17
-GO:0006355	regulation of DNA-templated transcriptio...	1641	1038	927.94	1.1e-10	1.1e-10
-GO:0000398	mRNA splicing, via spliceosome	314	242	177.56	1.6e-10	1.6e-10
-GO:0018393	internal peptidyl-lysine acetylation	98	82	55.42	7.1e-09	7.1e-9
-GO:0043547	positive regulation of GTPase activity	168	135	95	1.4e-08	1.4e-8
-GO:0006367	transcription initiation at RNA polymera...	166	128	93.87	2.1e-08	2.1e-8
-GO:0006888	endoplasmic reticulum to Golgi vesicle-m...	128	104	72.38	9.4e-08	9.4e-8
-GO:0008333	endosome to lysosome transport	39	38	22.05	1.1e-07	1.1e-7
-GO:0007298	border follicle cell migration	122	97	68.99	2.0e-07	2e-7
-GO:0006283	transcription-coupled nucleotide-excisio...	62	54	35.06	2.1e-07	2.1e-7
-GO:0051276	chromosome organization	842	588	476.13	2.1e-07	2.1e-7
+GO:0070126	mitochondrial translational termination	69	69	38.2	1.5e-18	1.5e-18
+GO:0070125	mitochondrial translational elongation	66	66	36.54	9.3e-18	9.3e-18
+GO:0006355	regulation of DNA-templated transcriptio...	1641	1016	908.61	2.8e-10	2.8e-10
+GO:0000398	mRNA splicing, via spliceosome	314	232	173.86	3.1e-09	3.1e-9
+GO:0018393	internal peptidyl-lysine acetylation	98	80	54.26	3.1e-08	3.1e-8
+GO:0006367	transcription initiation at RNA polymera...	166	124	91.91	3.1e-08	3.1e-8
+GO:0006888	endoplasmic reticulum to Golgi vesicle-m...	128	101	70.87	1.4e-07	1.4e-7
+GO:0051276	chromosome organization	842	570	466.21	2.0e-07	2e-7
+GO:0007298	border follicle cell migration	122	95	67.55	4.4e-07	4.4e-7
+GO:0042795	snRNA transcription by RNA polymerase II	70	58	38.76	1.0e-06	1e-6
+GO:0043547	positive regulation of GTPase activity	168	128	93.02	1.1e-06	1.1e-6
+GO:0008333	endosome to lysosome transport	39	37	21.59	1.5e-06	1.5e-6

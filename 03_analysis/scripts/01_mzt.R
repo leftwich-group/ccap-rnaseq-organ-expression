@@ -250,7 +250,8 @@ write_tsv(module_df, file.path(outdir_c3, "gene_modules.tsv"))
 for (mod in unique(module_df$module)) {
   mod_genes <- module_df %>% filter(module == mod) %>% pull(gene) %>% clean_ids()
   go_mod    <- run_topgo_all_ont(mod_genes, gene_universe_short, geneID2GO_short)
-  p_mod     <- plot_topgo_panel(go_mod, paste("Module", mod))
+  p_mod     <- plot_topgo_panel(go_mod, paste("Module", mod),
+                                letters = c("A", "B", "C"))
   if (!is.null(p_mod))
     ggsave(file.path(outdir_c3, paste0("GO_module_", mod, ".pdf")),
            p_mod, width = 8, height = 10)
@@ -370,7 +371,7 @@ pA <- ggplot(pca_egg_df, aes(PC1, PC2)) +
   labs(x      = paste0("PC1 (", round(vexp_egg[1]*100, 1), "%)"),
        y      = paste0("PC2 (", round(vexp_egg[2]*100, 1), "%)"),
        colour = "Stage", shape = "Stage",
-       title  = "Developmental stage separation") +
+       title  = "A - Developmental stage separation") +
   plot_theme +
   theme(legend.position = "bottom")
 ggsave(file.path(outdir_summary, "PCA.png"),
@@ -431,7 +432,7 @@ pB <- ggplot( mod_traj1 ,
   labs(x = "Timepoint (h post-oviposition)",
        y = "Mean log₂CPM",
        colour = NULL,
-       title  = "Temporal expression modules") +
+       title  = "B - Temporal expression modules") +
   plot_theme +
   theme(legend.position  = "bottom",
         legend.text      = element_text(size = 12),
@@ -445,7 +446,7 @@ ggsave(file.path(outdir_summary, "Temporal_modules.png"),
              label = "Run Q1 C3 first to generate\ngene_modules.tsv",
              size = 4, colour = "grey50") +
     theme_void() +
-    labs(title = "B  Temporal expression modules")
+    labs(title = "B - Temporal expression modules")
 }
 
 # ---- C: DE gene count bar --------------------------------------------------
@@ -509,7 +510,7 @@ if (nrow(de_counts_q1) > 0) {
     coord_flip() +
     labs(x = NULL, y = "DE gene count",
          fill  = NULL,
-         title = "Differentially expressed genes per contrast\n( FDR < 0.05, |log₂FC| > 1)") +
+         title = "C - Differentially expressed genes per contrast\n( FDR < 0.05, |log₂FC| > 1)") +
     plot_theme +
     theme(legend.position = "bottom")
   
@@ -521,7 +522,7 @@ if (nrow(de_counts_q1) > 0) {
     annotate("text", x = 0.5, y = 0.5,
              label = "Run Q1 contrasts first to generate\nall_contrasts_summary.tsv",
              size = 4, colour = "grey50") +
-    theme_void() + labs(title = "C  DE gene counts")
+    theme_void() + labs(title = "C - DE gene counts")
 }
 
 # ---- Assemble and save -----------------------------------------------------

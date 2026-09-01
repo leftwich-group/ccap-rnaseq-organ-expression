@@ -47,8 +47,8 @@ meta_raw <- read_csv(here("01_data/metadata.csv"), show_col_types = FALSE) %>%
 # ---------------------------------------------------------------------------
 # Short ↔ long gene ID mapping
 # ---------------------------------------------------------------------------
-gene_map_file <- here("data/gene_map_short_to_long.tsv")
-gene_map_file <-(here("data/Genomic_files/old/gene_mapping_rbh_raw.tsv"))
+gene_map_file <- here("01_data/gene_map_short_to_long.tsv")
+gene_map_file <-(here("01_data/Genomic_files/old/gene_mapping_rbh_raw.tsv"))
 # ---------------------------------------------------------------------------
 # GO annotations (pre-built in Section 2)
 # ---------------------------------------------------------------------------

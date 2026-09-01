@@ -304,20 +304,20 @@ geom_label_repel(
     coord_flip() +
     guides(fill="none")+
     labs(x = NULL, y = "DE gene count", fill = NULL,
-         title = "Differential expression gene counts \n(FDR < 0.05, |log₂FC| > 1)") +
+         title = "A - Differential expression gene counts \n(FDR < 0.05, |log₂FC| > 1)") +
     plot_theme + theme(legend.position = "bottom")
   
 
 } else {
   ggplot() + annotate("text",x=0.5,y=0.5,label="Run Q3 first",size=4) +
-    theme_void() + labs(title="A  DE counts")
+    theme_void() + labs(title="A - DE counts")
 }
   ggsave(file.path(outdir_summary, "Q3_PA.png"),
        pA_q3, width = 5, height = 5, dpi = 200)
 # ---- B: Volcano — distal ovary (largest mating effect) --------------------
 pB_q3 <- make_summary_volcano(
   q3_res_list[["Distal Ovary - \n Virgin vs Mated"]],
-  "Disytal Ovary - Virgin vs Mated  ",
+  "B - Disytal Ovary - Virgin vs Mated  ",
   pos_lab = "Mated-biased",
   neg_lab = "Virgin-biased"
 )
@@ -351,7 +351,7 @@ pC_q3 <- ggplot(shared_df, aes(fct_reorder(set, -n), n, fill = set)) +
   )) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
   labs(x = NULL, y = "Up-regulated gene count",
-       title = "Post-mating up-regulated genes\nper tissue (and shared)") +
+       title = "C - Post-mating up-regulated genes\nper tissue (and shared)") +
   plot_theme +
   theme(legend.position = "none",
         axis.text.x = element_text(angle = 20, hjust = 1))
@@ -416,7 +416,7 @@ if (!is.null(res_do)) {
                color    = circlize::colorRamp2(
                  c(-3, 0, 3),
                  c("#0072B2","white","#D55E00"))(seq(-3, 3, length.out = 100)),
-               main     = " Top DE genes \nacross all female tissues",
+               main     = "D -  Top DE genes \nacross all female tissues",
                silent   = TRUE)
       pD_q3 <- wrap_elements(
   full = grid.grabExpr(ComplexHeatmap::draw(p_hm_q3))
@@ -440,7 +440,6 @@ bot_row   <- pC_q3 | pD_q3
 p_q3_summary <- top_row / bot_row +
   plot_annotation(
     title    = "Post-mating Transcriptional Remodelling in Females",
-    tag_levels = "A",
     theme = theme(plot.title    = element_text(size = 14, face = "bold"),
                   plot.subtitle = element_text(size = 11, colour = "grey40"))
   )

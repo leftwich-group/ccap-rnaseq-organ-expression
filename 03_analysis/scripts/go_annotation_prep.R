@@ -15,7 +15,7 @@ source(here::here("03_analysis/R/setup.R"))
 # Expected input: eggNOG output TSV for both short and long genome proteins
 # Parsed to gene2go list for topGO
 
-outdir_go <- here("data/GO_terms/eggNOG-mapper/parsed_gene2go")
+outdir_go <- here("01_data/GO_terms/eggNOG-mapper/parsed_gene2go")
 dir.create(outdir_go, recursive = TRUE, showWarnings = FALSE)
 
 parse_eggnog <- function(eggnog_tsv, gff_file, genome = "short") {
@@ -64,13 +64,13 @@ parse_eggnog <- function(eggnog_tsv, gff_file, genome = "short") {
 }
 
 geneID2GO_short <- parse_eggnog(
- here("data/GO_terms/eggNOG-mapper/medfly_short.emapper.annotations"),
-  here("data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.gff.gz"),
+ here("01_data/GO_terms/eggNOG-mapper/medfly_short.emapper.annotations"),
+  here("01_data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.gff.gz"),
   genome = "short"
 )
 geneID2GO_long  <- parse_eggnog(
-  here("data/GO_terms/eggNOG-mapper/medfly_long.emapper.annotations"),
-  here("data/Genomic_files/GCA_905071925.1_EGII-3.2.1_genomic.gff.gz"),
+  here("01_data/GO_terms/eggNOG-mapper/medfly_long.emapper.annotations"),
+  here("01_data/Genomic_files/GCA_905071925.1_EGII-3.2.1_genomic.gff.gz"),
   genome = "long"
 )
 

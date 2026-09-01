@@ -561,22 +561,36 @@ plot_topgo_bar <- function(topgo_df,  title_text = "GO term summary",
 }
 
 # Patchwork panel: BP / MF / CC stacked
+# `letters` (optional, length-3, one per BP/MF/CC) bakes a panel label into
+# each sub-panel's own title ("A - <title> — BP", ...) instead of relying on
+# a separate patchwork::plot_annotation(tag_levels) corner tag -- keeps the
+# label attached to its panel when panels are combined with other letter-less
+# figures (e.g. via save_go_panel below) and matches the same house style
+# used for the housekeeping summary figure (05_tissue_landscapes.R).
 plot_topgo_panel <- function(ont_list, panel_title,
-                             n_show = 8, wrap_width = 40) {
-  plots <- lapply(c("BP", "MF", "CC"), function(ont)
-    plot_one_topgo(ont_list[[ont]],
-                   paste0(panel_title, " — ", ont),
-                   n_show, wrap_width))
+                             n_show = 8, wrap_width = 40,
+                             letters = c(NA, NA, NA)) {
+  onts <- c("BP", "MF", "CC")
+  plots <- lapply(seq_along(onts), function(i) {
+    ont <- onts[i]
+    title_text <- paste0(panel_title, " — ", ont)
+    if (!is.na(letters[i])) title_text <- paste0(letters[i], " - ", title_text)
+    plot_one_topgo(ont_list[[ont]], title_text, n_show, wrap_width)
+  })
   plots <- Filter(Negate(is.null), plots)
   if (length(plots) == 0) return(NULL)
   wrap_plots(plots, ncol = 1)
 }
 
-# Up / Down side-by-side and saved to file
+# Up / Down side-by-side and saved to file. Letters run in on-page reading
+# order (left-to-right within each ontology row): A/B = BP Up/Down,
+# C/D = MF Up/Down, E/F = CC Up/Down.
 save_go_panel <- function(up_list, down_list, outdir, label,
                           n_show = 8) {
-  p_up   <- plot_topgo_panel(up_list,   paste(label, "Up"),   n_show)
-  p_down <- plot_topgo_panel(down_list, paste(label, "Down"), n_show)
+  p_up   <- plot_topgo_panel(up_list,   paste(label, "Up"),   n_show,
+                             letters = c("A", "C", "E"))
+  p_down <- plot_topgo_panel(down_list, paste(label, "Down"), n_show,
+                             letters = c("B", "D", "F"))
   plots  <- Filter(Negate(is.null), list(p_up, p_down))
   if (length(plots) == 0) return(invisible(NULL))
   p_combined <- wrap_plots(plots, ncol = length(plots))

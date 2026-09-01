@@ -163,21 +163,21 @@ pA_q4 <- if (nrow(de_counts_q4) > 0) {
     scale_y_continuous(labels = function(x) scales::comma(abs(x))) +
     coord_flip() +
     labs(x = NULL, y = "DE gene count", fill = NULL,
-         title = "Differential expression gene counts \n( FDR < 0.05, |log₂FC| > 1)") +
+         title = "A - Differential expression gene counts \n( FDR < 0.05, |log₂FC| > 1)") +
        guides(fill="none")+
     plot_theme + theme(legend.position = "bottom")
 
     
 } else {
   ggplot() + annotate("text",x=0.5,y=0.5,label="Run Q4 first",size=4) +
-    theme_void() + labs(title="A  DE counts")
+    theme_void() + labs(title="A - DE counts")
 }
     ggsave(file.path(outdir_summary, "Q4_PA.png"),
        pA_q4, width = 5, height = 5, dpi = 200)
 # ---- B: Volcano — AG vs Testes --------------------------------------------
 pB_q4 <- make_summary_volcano(
   q4_res_list[["Testes vs Accessory Gland "]],
-  "Testes vs Accessory Gland ",
+  "B - Testes vs Accessory Gland ",
   pos_lab = "AG-biased",
   neg_lab = "Testes-biased"
 )
@@ -231,18 +231,18 @@ if (!is.null(res_ag_te) && !is.null(res_do_te)) {
       ) +
       scale_size_continuous(range = c(1, 6), guide = "none") +
       labs(x = NULL, y = NULL,
-           title = "Testes-enriched genes\nacross male tissues") +
+           title = "C - Testes-enriched genes\nacross male tissues") +
       plot_theme +
       theme(axis.text.y = element_text(size = 7))
   } else {
     pC_q4 <- ggplot() + annotate("text",x=0.5,y=0.5,
                                    label="Insufficient data",size=4) +
-      theme_void() + labs(title="C  Testes-enriched dot plot")
+      theme_void() + labs(title="C - Testes-enriched dot plot")
   }
 } else {
   pC_q4 <- ggplot() + annotate("text",x=0.5,y=0.5,
                                  label="Run Q4 C1 & C2 first",size=4) +
-    theme_void() + labs(title="C  Testes-enriched dot plot")
+    theme_void() + labs(title="C - Testes-enriched dot plot")
 }
   ggsave(file.path(outdir_summary, "Q4_PC.png"),
        pC_q4, width = 5, height = 5, dpi = 200)
@@ -297,7 +297,7 @@ if (!is.null(res_germline_q4) && !is.null(res_soma_mated_q4)) {
                                         overlap_df$category)) +
     scale_y_continuous(expand = expansion(mult = c(0, 0.18))) +
     labs(x = NULL, y = "Gene count",
-         title = "Male-biased gene overlap\n(germline × soma → Y candidates)") +
+         title = "D - Male-biased gene overlap\n(germline × soma → Y candidates)") +
     plot_theme +
     theme(legend.position = "none",
           axis.text.x = element_text(size = 9))
@@ -307,14 +307,13 @@ if (!is.null(res_germline_q4) && !is.null(res_soma_mated_q4)) {
 } else {
   pD_q4 <- ggplot() +
     annotate("text",x=0.5,y=0.5,label="Run Q2 contrasts first",size=4) +
-    theme_void() + labs(title="D  Male-biased overlap")
+    theme_void() + labs(title="D - Male-biased overlap")
 }
 
 # ---- Assemble ---------------------------------------------------------------
 p_q4_summary <- (pA_q4 | pB_q4) / (pC_q4 | pD_q4) +
   plot_annotation(
     title    = "Transcriptional Determinants of Phenotypic Maleness",
-    tag_levels = "A",
     theme = theme(plot.title    = element_text(size = 14, face = "bold"),
                   plot.subtitle = element_text(size = 11, colour = "grey40"))
   )

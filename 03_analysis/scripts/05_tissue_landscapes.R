@@ -660,7 +660,7 @@ hk_categories <- c(
 )
 
 # ---- Read eggNOG and match ------------------------------------------------
-eggnog_raw_file <- here("data/GO_terms/eggNOG-mapper/medfly_short.emapper.annotations")
+eggnog_raw_file <- here("01_data/GO_terms/eggNOG-mapper/medfly_short.emapper.annotations")
 
 hk_prot_map <- NULL
 
@@ -694,7 +694,7 @@ if (file.exists(eggnog_raw_file)) {
 }
 
 # ---- Map protein accessions → gene IDs via GFF ----------------------------
-gff_file <- here("data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.gff.gz")
+gff_file <- here("01_data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.gff.gz")
 
 ccap_hk_genes <- character(0)
 hk_full_map   <- tibble()
@@ -824,7 +824,7 @@ if (sum(hk_landscape$is_hk_ortho) > 5) {
              label = paste0("Fisher OR = ", round(ft$estimate, 2),
                             "\np = ", signif(ft$p.value, 3)),
              size = 3.5, hjust = 0.5) +
-    labs(title    = "Dmel HK orthologues enriched in high-expression class",
+    labs(title    = "A - Dmel HK orthologues enriched in high-expression class",
          subtitle = paste0(sum(hk_landscape$is_hk_ortho),
                            " HK orthologues vs ",
                            sum(!hk_landscape$is_hk_ortho),
@@ -835,6 +835,71 @@ if (sum(hk_landscape$is_hk_ortho) > 5) {
   p_hk_enrich
   ggsave(file.path(outdir_hk, "HK_ortho_expression_class.pdf"),
          p_hk_enrich, width = 6, height = 5)
+
+  # =========================================================================
+  # STEP 6: Do HK orthologues cluster in low-CV space?
+  #   Wilcoxon rank-sum test on mean cross-tissue CV, HK orthologue vs
+  #   background -- this is the second half of the Figure S3 claim (Methods
+  #   3.4 says this test was run; STEP 5 above only covers the expression-
+  #   class enrichment half of the sentence).
+  # =========================================================================
+  cv_all_genes <- all_lscps %>%
+    group_by(gene) %>%
+    summarise(mean_cv_all = mean(cv, na.rm = TRUE), .groups = "drop") %>%
+    mutate(is_hk_ortho = gene %in% ccap_hk_genes) %>%
+    filter(is.finite(mean_cv_all))
+
+  # Test on the full, unclipped data -- Wilcoxon is rank-based and robust to
+  # the small number of extreme outliers described below.
+  wt_cv <- wilcox.test(mean_cv_all ~ is_hk_ortho, data = cv_all_genes)
+  message("HK ortho vs background mean CV -- Wilcoxon p = ",
+          signif(wt_cv$p.value, 3),
+          "  (HK median = ", signif(median(cv_all_genes$mean_cv_all[cv_all_genes$is_hk_ortho]), 3),
+          ", background median = ", signif(median(cv_all_genes$mean_cv_all[!cv_all_genes$is_hk_ortho]), 3), ")")
+
+  # CV = SD(log2CPM) / (mean(log2CPM) + 0.1) is unstable for genes whose mean
+  # log2CPM sits near -0.1 (denominator near zero) -- a handful of very
+  # lowly-expressed genes get an extreme or even negative mean_cv_all that
+  # is a formula artifact, not a real variability estimate. Excluded from
+  # the *plot* only (a log10 axis needs positive values regardless); the
+  # Wilcoxon test above already ran on the complete, unfiltered data.
+  plot_df_cv <- cv_all_genes %>%
+    filter(mean_cv_all > 0) %>%
+    mutate(gene_class = if_else(is_hk_ortho, "HK orthologue", "Background"))
+
+  # Half-eye (density + median/CI point-interval) -- same ggdist idiom used
+  # in ccap-y-chromosome-synteny/04_dosage_compensation/scripts/
+  # 01_dosage_compensation_explore.R for the equivalent style choice
+  # elsewhere in this project.
+  p_hk_cv <- ggplot(plot_df_cv, aes(x = gene_class, y = mean_cv_all,
+                                     colour = gene_class, fill = gene_class)) +
+    ggdist::stat_halfeye(
+      adjust = 0.5, width = 0.6, .width = c(0.5, 0.95),
+      justification = -0.15, point_colour = "black", alpha = 0.6
+    ) +
+    scale_colour_manual(values = c(Background = "grey50", `HK orthologue` = "#009E73"), guide = "none") +
+    scale_fill_manual(values = c(Background = "grey80", `HK orthologue` = "#009E73"), guide = "none") +
+    scale_y_log10() +
+    annotate("text", x = 1.5, y = max(plot_df_cv$mean_cv_all) * 0.9,
+             label = paste0("Wilcoxon p = ", signif(wt_cv$p.value, 3)),
+             size = 3.5, hjust = 0.5) +
+    labs(title    = "B - HK orthologues show lower cross-tissue expression variability",
+         subtitle = paste0(sum(cv_all_genes$is_hk_ortho), " HK orthologues vs ",
+                           sum(!cv_all_genes$is_hk_ortho), " background genes"),
+         x = NULL, y = "Mean CV across adult tissues (log scale)") +
+    plot_theme
+
+  p_hk_cv
+  ggsave(file.path(outdir_hk, "HK_ortho_CV_comparison.pdf"),
+         p_hk_cv, width = 6, height = 5)
+
+  # Combined two-panel Figure S3: expression-class enrichment + CV comparison.
+  # Panel letters are baked into each panel's own title ("A - ...", "B - ...")
+  # rather than added via plot_annotation(tag_levels), so no separate tag is
+  # layered on top.
+  p_hk_summary <- p_hk_enrich + p_hk_cv
+  ggsave(file.path(outdir_hk, "HK_ortho_summary.pdf"),
+         p_hk_summary, width = 11, height = 5)
 }
 
 outdir_bb <- file.path(outdir_raw, "05_Tissue_landscapes", "battenberg")
@@ -1373,7 +1438,7 @@ pA_ls <- breadth_counts |>
   labs(x = "No. tissues expressed in",
        y = "Gene count",
        fill = NULL,
-       title = "Expression breadth") +
+       title = "A - Expression breadth") +
   plot_theme +
   theme(legend.position = "bottom",
         legend.text = element_text(size = 8))
@@ -1451,13 +1516,13 @@ pC_ls <- if (file.exists(sp_file)) {
     labs(x = "Total expressed genes",
          y = "% tissue-private genes",
          colour = NULL,
-         title = "Transcriptional uniqueness") +
+         title = "B - Transcriptional uniqueness") +
     plot_theme +
     theme(legend.position = "none")
 } else {
   ggplot() + annotate("text",x=0.5,y=0.5,
                       label="Run shared_private section first",size=4) +
-    theme_void() + labs(title="Transcriptional uniqueness")
+    theme_void() + labs(title="B - Transcriptional uniqueness")
 }
 ggsave(file.path(outdir_landscape_summary, "PC_ls.pdf"),
        pC_ls, width = 6, height = 6)
@@ -1521,14 +1586,13 @@ mat_go <- readRDS(file.path(outdir_raw, "05_Tissue_landscapes/GO_comparison/GO_m
            clustering_method = "ward.D2",
            fontsize_row      = 9,
            fontsize_col      = 10,
-           main              = "GO term enrichment across tissues\n(high-expressed genes, −log₁₀ p)",
+           main              = "C - GO term enrichment across tissues\n(high-expressed genes, −log₁₀ p)",
            angle_col         = "45")
     pC2_ls <- wrap_elements(
   full = grid.grabExpr(ComplexHeatmap::draw( pC2_ls)))
   
 p_landscape_summary2 <- ((pA_ls /pC_ls) |  pC2_ls )+
     plot_annotation(
-    tag_levels = "A",
     theme = theme(
       plot.title    = element_text(size = 14, face = "bold"),
       plot.subtitle = element_text(size = 11, colour = "grey40")

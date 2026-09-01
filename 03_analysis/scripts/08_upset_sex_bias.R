@@ -72,7 +72,16 @@ print(p)
                        paste0("GO_", direction, "_shared_all.pdf")),
              p_shared, width = 8, height = 10)
     
-          summary_cls <- plot_topgo_bar(go_shared)
+          # Letters match this panel's final position in Figure S13
+          # (gridExtra::arrangeGrob(g1, g2, g3, g4, ncol = 2), filled
+          # row-major): male_biased -> C, female_biased -> D.
+          summary_letter <- if (direction == "male_biased") "C" else "D"
+          summary_cls <- plot_topgo_bar(
+            go_shared,
+            title_text = paste0(summary_letter, " - GO summary (",
+                                str_replace(direction, "_", "-"),
+                                " genes shared across all tissues)")
+          )
        if (!is.null(summary_cls))
         ggsave(file.path(outdir_upset, paste0( "_GO_Summary_",direction ,".pdf")),
                summary_cls, width = 7, height = 6)

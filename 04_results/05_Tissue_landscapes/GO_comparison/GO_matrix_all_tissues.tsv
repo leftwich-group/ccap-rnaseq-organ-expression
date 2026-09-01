@@ -3,41 +3,40 @@ cytoplasmic translation	10	10	10	0	10	10
 SRP-dependent cotranslational protein ta...	10	10	10	0	10	10
 translational initiation	10	10	10	0	10	10
 protein localization to endoplasmic reti...	10	10	10	0	10	10
-purine ribonucleoside monophosphate meta...	10	10	0	0	0	9.602059991327963
-ATP metabolic process	10	10	0	3.677780705266081	0	8.568636235841012
-phosphorylation	10	10	0	0	0	9.309803919971486
+purine ribonucleoside monophosphate meta...	10	10	0	0	0	9.886056647693163
+ATP metabolic process	10	10	0	3.8239087409443187	0	8.823908740944319
+phosphorylation	10	10	0	0	0	9.638272163982407
 nuclear-transcribed mRNA catabolic proce...	10	10	10	0	10	10
 amide biosynthetic process	10	10	10	0	10	10
 peptide biosynthetic process	10	10	10	0	10	10
-neutrophil degranulation	10	10	6.1938200260161125	0	0	7.6020599913279625
+neutrophil degranulation	10	10	0	0	0	7.292429823902063
 protein localization to membrane	10	10	10	0	10	10
 mitochondrial electron transport, NADH t...	10	10	0	0	0	0
 intracellular protein transport	10	10	10	0	10	10
-purine ribonucleoside monophosphate bios...	10	10	7.886056647693163	0	0	0
-peptide transport	10	10	10	6.161150909262744	10	10
-antibiotic metabolic process	10	10	7.920818753952375	0	0	0
+purine ribonucleoside monophosphate bios...	10	10	7.013228265733755	0	0	0
+peptide transport	10	10	10	5.920818753952375	10	10
+antibiotic metabolic process	10	10	7.070581074285707	0	0	0
 mitochondrial respiratory chain complex ...	9.397940008672037	10	0	0	0	0
-monoatomic anion transmembrane transport	8.42021640338319	6.886056647693163	0	0	0	0
-energy coupled proton transport, down el...	7.721246399047171	6.920818753952375	0	0	0	0
-citrate metabolic process	7.3979400086720375	7.6020599913279625	6.958607314841775	0	0	0
-tricarboxylic acid cycle	7.356547323513813	7.5376020021010435	0	0	0	0
-proteasome-mediated ubiquitin-dependent ...	7.2441251443275085	7.468521082957745	7.6777807052660805	0	10	10
-determination of adult lifespan	7.107905397309519	8.886056647693163	8.207608310501746	3.6020599913279625	8.267606240177031	8.494850021680094
-transferrin transport	7	7.119186407719209	0	0	0	0
-ribosomal small subunit assembly	0	7	8.346787486224656	0	0	0
-multi-organism reproductive process	0	0	10	6.6020599913279625	10	10
+energy coupled proton transport, down el...	7.721246399047171	7	0	0	0	0
+inorganic ion homeostasis	7.6020599913279625	6.721246399047171	0	0	0	0
+citrate metabolic process	7.3979400086720375	7.6777807052660805	6.2441251443275085	0	0	0
+tricarboxylic acid cycle	7.356547323513813	7.619788758288394	0	0	0	0
+proteasome-mediated ubiquitin-dependent ...	7.2441251443275085	7.585026652029182	9.154901959985743	0	10	10
+determination of adult lifespan	7.107905397309519	9.09151498112135	7.886056647693163	3.638272163982407	7.036212172654444	8.309803919971486
+transferrin transport	7	7.173925197299173	0	0	0	0
+ribosomal small subunit assembly	0	7.026872146400302	7.795880017344075	0	0	0
+multi-organism reproductive process	0	0	10	6.2441251443275085	10	10
 protein deubiquitination	0	0	10	0	10	10
 negative regulation of amide metabolic p...	0	0	10	0	10	0
-oogenesis	0	0	9.337242168318426	0	10	0
-embryo development ending in birth or eg...	0	0	7.886056647693163	0	10	0
-columnar/cuboidal epithelial cell develo...	0	0	6.886056647693163	3.494850021680094	10	0
-protein export from nucleus	0	0	0	9.327902142064282	0	7.769551078621726
-ribonucleoprotein complex localization	0	0	0	9.1249387366083	0	8.638272163982407
-mRNA export from nucleus	0	0	0	6.154901959985743	0	7.920818753952375
-protein-containing complex localization	0	0	0	6.136677139879544	0	7.376750709602099
-DNA conformation change	0	0	0	3.958607314841775	10	7.309803919971486
-viral process	0	0	0	3.9208187539523753	8.259637310505756	7.4089353929735005
-regulation of peptide transport	0	0	0	3.9208187539523753	8.4089353929735	9.823908740944319
-cellular anatomical entity morphogenesis	0	0	0	3.677780705266081	8.769551078621726	0
-positive regulation of chromatin organiz...	0	0	0	3.494850021680094	0	10
-mitotic cytokinesis	0	0	0	0	7.6777807052660805	9.05551732784983
+embryo development ending in birth or eg...	0	0	10	0	10	6.920818753952375
+oogenesis	0	0	8.769551078621726	0	10	0
+columnar/cuboidal epithelial cell develo...	0	0	8.42021640338319	3.5228787452803374	10	0
+negative regulation of gene expression, ...	0	0	6.698970004336019	0	9.958607314841775	0
+negative regulation of translation	0	0	6.292429823902063	0	7.638272163982407	0
+protein export from nucleus	0	0	0	8.508638306165727	0	7.552841968657781
+ribonucleoprotein complex localization	0	0	0	8.267606240177031	0	8.3767507096021
+mRNA export from nucleus	0	0	0	5.795880017344075	0	7.522878745280337
+regulation of peptide transport	0	0	0	4.130768280269024	0	10
+DNA conformation change	0	0	0	3.769551078621726	10	7.552841968657781
+positive regulation of chromatin organiz...	0	0	0	3.638272163982407	0	9.161150909262744
+mitotic cytokinesis	0	0	0	0	7.221848749616356	8.67778070526608

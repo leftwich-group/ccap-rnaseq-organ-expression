@@ -86,6 +86,8 @@ included.
 
 Raw sequencing reads are deposited at the European Nucleotide Archive (ENA)
 under study accession [PRJEB124423](https://www.ebi.ac.uk/ena/browser/view/PRJEB124423).
+BAM files and other large intermediates not covered above are available on
+request from the repository maintainer.
 
 ## Repository layout
 
