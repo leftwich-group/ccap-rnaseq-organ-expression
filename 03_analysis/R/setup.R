@@ -139,7 +139,7 @@ clean_ids <- function(x, strip_prefix = TRUE) {
 
 # ---------------------------------------------------------------------------
 # run_reference_analysis
-#   Full edgeR QL pipeline: filter → normalise → dispersion → fit → contrasts
+#   Full edgeR QL pipeline: filter to normalise to dispersion to fit to contrasts
 #   Returns nested list: dge, fit, logcpm, pca, contrasts[[name]]
 # ---------------------------------------------------------------------------
 run_reference_analysis <- function(count_matrix,
@@ -421,10 +421,10 @@ compare_references_per_contrast <- function(short_obj, long_obj,
     geom_smooth(method = "lm", se = FALSE,
                 colour = "#D55E00") +
     geom_abline(linetype = "dashed", colour = "black") +
-    labs(title   = paste(contrast_name, "— short vs long"),
+    labs(title   = paste(contrast_name, "- short vs long"),
          subtitle = paste0("Pearson r = ", round(r_pearson, 3),
-                           "  |  Spearman ρ = ", round(r_spearman, 3)),
-         x = "log₂FC (short)", y = "log₂FC (long)") +
+                           "  |  Spearman rho = ", round(r_spearman, 3)),
+         x = "log2FC (short)", y = "log2FC (long)") +
     plot_theme
   ggsave(file.path(outdir,
                    paste0("short_vs_long_", contrast_name, "_logFC.pdf")),
@@ -562,18 +562,15 @@ plot_topgo_bar <- function(topgo_df,  title_text = "GO term summary",
 
 # Patchwork panel: BP / MF / CC stacked
 # `letters` (optional, length-3, one per BP/MF/CC) bakes a panel label into
-# each sub-panel's own title ("A - <title> — BP", ...) instead of relying on
-# a separate patchwork::plot_annotation(tag_levels) corner tag -- keeps the
-# label attached to its panel when panels are combined with other letter-less
-# figures (e.g. via save_go_panel below) and matches the same house style
-# used for the housekeeping summary figure (05_tissue_landscapes.R).
+# each sub-panel's own title ("A - <title> — BP", ...) rather than a corner
+# tag, so the label stays attached when combined with other letter-less panels.
 plot_topgo_panel <- function(ont_list, panel_title,
                              n_show = 8, wrap_width = 40,
                              letters = c(NA, NA, NA)) {
   onts <- c("BP", "MF", "CC")
   plots <- lapply(seq_along(onts), function(i) {
     ont <- onts[i]
-    title_text <- paste0(panel_title, " — ", ont)
+    title_text <- paste0(panel_title, " - ", ont)
     if (!is.na(letters[i])) title_text <- paste0(letters[i], " - ", title_text)
     plot_one_topgo(ont_list[[ont]], title_text, n_show, wrap_width)
   })
@@ -601,8 +598,8 @@ save_go_panel <- function(up_list, down_list, outdir, label,
 
 # ---------------------------------------------------------------------------
 # Tau tissue-specificity index (Yanai et al. 2005)
-#   tau = 0  →  ubiquitously expressed
-#   tau = 1  →  tissue-specific
+#   tau = 0  to  ubiquitously expressed
+#   tau = 1  to  tissue-specific
 # ---------------------------------------------------------------------------
 calc_tau <- function(expr_matrix) {
   # expr_matrix: genes × tissues (mean CPM or TPM per tissue)

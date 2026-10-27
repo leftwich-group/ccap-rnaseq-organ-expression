@@ -1,13 +1,13 @@
 GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
-GO:0006283	transcription-coupled nucleotide-excisio...	53	46	19.8	1.2e-13	1.2e-13
-GO:0000398	mRNA splicing, via spliceosome	324	180	121.05	6.6e-10	6.6e-10
-GO:0006370	7-methylguanosine mRNA capping	26	23	9.71	9.7e-08	9.7e-8
-GO:0070979	protein K11-linked ubiquitination	15	15	5.6	3.8e-07	3.8e-7
-GO:0006368	transcription elongation by RNA polymera...	94	50	35.12	5.4e-07	5.4e-7
-GO:0006367	transcription initiation at RNA polymera...	178	109	66.51	1.1e-06	1.1e-6
-GO:0006361	transcription initiation at RNA polymera...	30	25	11.21	1.3e-06	1.3e-6
-GO:0006363	termination of RNA polymerase I transcri...	23	20	8.59	1.3e-06	1.3e-6
-GO:0042795	snRNA transcription by RNA polymerase II	69	45	25.78	2.3e-06	2.3e-6
-GO:0006355	regulation of DNA-templated transcriptio...	1838	760	686.72	3.8e-06	3.8e-6
-GO:0045815	transcription initiation-coupled chromat...	47	33	17.56	4.7e-06	4.7e-6
-GO:0070887	cellular response to chemical stimulus	1621	611	605.64	2.0e-05	2e-5
+GO:0006283	transcription-coupled nucleotide-excisio...	53	46	19.89	1.4e-13	1.4e-13
+GO:0000398	mRNA splicing, via spliceosome	324	183	121.59	3.0e-10	3e-10
+GO:0006370	7-methylguanosine mRNA capping	26	23	9.76	1.1e-07	1.1e-7
+GO:0070979	protein K11-linked ubiquitination	15	15	5.63	4.0e-07	4e-7
+GO:0006368	transcription elongation by RNA polymera...	94	50	35.28	6.0e-07	6e-7
+GO:0006367	transcription initiation at RNA polymera...	178	109	66.8	1.3e-06	1.3e-6
+GO:0006361	transcription initiation at RNA polymera...	30	25	11.26	1.4e-06	1.4e-6
+GO:0006363	termination of RNA polymerase I transcri...	23	20	8.63	1.4e-06	1.4e-6
+GO:0042795	snRNA transcription by RNA polymerase II	69	45	25.9	2.7e-06	2.7e-6
+GO:0006355	regulation of DNA-templated transcriptio...	1838	762	689.79	4.6e-06	4.6e-6
+GO:0045815	transcription initiation-coupled chromat...	47	33	17.64	5.3e-06	5.3e-6
+GO:0070887	cellular response to chemical stimulus	1621	615	608.35	1.0e-05	1e-5

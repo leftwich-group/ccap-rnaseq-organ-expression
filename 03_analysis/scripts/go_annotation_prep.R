@@ -20,7 +20,7 @@ dir.create(outdir_go, recursive = TRUE, showWarnings = FALSE)
 
 parse_eggnog <- function(eggnog_tsv, gff_file, genome = "short") {
 
-  # Read GFF to build protein → gene map
+  # Read GFF to build protein to gene map
   gff <- read_tsv(gff_file, comment = "#",
                   col_names = c("seqid","source","type","start","end",
                                 "score","strand","phase","attributes"),

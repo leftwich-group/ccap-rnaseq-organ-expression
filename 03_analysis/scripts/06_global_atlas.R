@@ -50,7 +50,7 @@ p_scree  <- ggplot(scree_df, aes(PC, var_exp)) +
   geom_col(fill = "#0072B2") +
   geom_line(colour = "#D55E00") +
   geom_point(colour = "#D55E00") +
-  labs(title = "Global atlas — PCA scree", x = "PC", y = "% variance explained") +
+  labs(title = "Global atlas - PCA scree", x = "PC", y = "% variance explained") +
   plot_theme
 p_scree 
 ggsave(file.path(outdir_atlas, "PCA_scree.pdf"), p_scree, width = 6, height = 4)
@@ -64,10 +64,11 @@ p_pca_tissue <- ggplot(pca_df_a, aes(PC1, PC2,
                                       shape  = sex)) +
   geom_point(size = 4, alpha = 0.9) +
   scale_colour_manual(values = tissue_pal) +
+  guides(shape = guide_legend(override.aes = list(colour = "grey40"))) +
   labs(x = paste0("PC1 (", round(vexp_a[1]*100,1), "%)"),
        y = paste0("PC2 (", round(vexp_a[2]*100,1), "%)"),
        colour = "Tissue", shape = "Sex",
-       title = "Global tissue atlas — PCA") +
+       title = "Global tissue atlas - PCA") +
   plot_theme
 p_pca_tissue
 ggsave(file.path(outdir_atlas, "PCA_tissue_sex.pdf"), p_pca_tissue,
@@ -77,7 +78,7 @@ ggsave(file.path(outdir_atlas, "PCA_tissue_sex.pdf"), p_pca_tissue,
 p_pca_sex <- ggplot(pca_df_a, aes(PC1, PC2, colour = sex, shape = tissue_label)) +
   geom_point(size = 4, alpha = 0.9) +
   scale_colour_manual(values = annotation_colours$sex) +
-  labs(title = "Global atlas — sex overlay") +
+  labs(title = "Global atlas - sex overlay") +
   plot_theme
 p_pca_sex
 ggsave(file.path(outdir_atlas, "PCA_sex.pdf"), p_pca_sex, width = 8, height = 6)
@@ -97,7 +98,7 @@ p_umap <- ggplot(umap_df, aes(UMAP1, UMAP2,
                                colour = tissue_label, shape = sex)) +
   geom_point(size = 4, alpha = 0.9) +
   scale_colour_manual(values = tissue_pal) +
-  labs(title = "Global tissue atlas — UMAP",
+  labs(title = "Global tissue atlas - UMAP",
        colour = "Tissue", shape = "Sex") +
   plot_theme
 p_umap

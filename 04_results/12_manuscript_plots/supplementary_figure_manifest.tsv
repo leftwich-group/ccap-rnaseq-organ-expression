@@ -1,14 +1,19 @@
 figure	file	source	caption
-1	Figure_S1.pdf	06_Global_atlas/PCA_tissue_sex	Tissue identity is the dominant axis of variation across all adult samples.
-2	Figure_S2.pdf	10_CrossTissue_correlation/tissue_spearman_correlation	Adult tissues form distinct expression clusters by pairwise correlation.
-3	Figure_S3.pdf	07_Tau_specificity/tau_distribution	Most expressed genes show strong tissue specificity (tau close to 1).
-4	Figure_S4.pdf	05_Tissue_landscapes/shared_private/ovary_split_vs_merged	Splitting the ovary into two compartments reveals no strong proximal or distal ovary identity.
-5	Figure_S5.pdf	05_Tissue_landscapes/housekeeping/HK_ortho_summary	Drosophila housekeeping orthologues behave as housekeeping genes in C. capitata.
-6	Figure_S6.pdf	01_MZT/contrast_1/GO_short_unfert_vs_fert_combined	GO enrichment among genes differentially expressed between unfertilised and fertilised eggs.
-7	Figure_S7.pdf	01_MZT/contrast_3/GO_module_M1	GO enrichment for co-expression module M1 (maternal decay).
-8	Figure_S8.pdf	01_MZT/contrast_3/GO_module_M2	GO enrichment for co-expression module M2 (transient activation).
-9	Figure_S9.pdf	01_MZT/contrast_3/GO_module_M3	GO enrichment for co-expression module M3 (late activation).
-10	Figure_S10.pdf	02_Sexual_dimorphism/contrast_1/GO_short_combined	GO enrichment among genes differentially expressed between testes and ovary (germline sex bias).
-11	Figure_S11.pdf	02_Sexual_dimorphism/contrast_2/GO_short_combined	GO enrichment among genes differentially expressed between distal and proximal ovary.
-12	Figure_S12.pdf	02_Sexual_dimorphism/contrast_3/GO_short_combined	GO enrichment among genes differentially expressed between male and virgin female abdomen (somatic sex bias).
-13	Figure_S13.png	08_UpSet_sex_bias/go_summary_upset.RDS	Male- and female-biased genes are overwhelmingly germline-specific, with a small set shared with the soma.
+1	Figure_S1.pdf	06_Global_atlas/PCA_tissue_sex	Tissue identity is the dominant axis of variation across adult samples.
+2	Figure_S2.pdf	10_CrossTissue_correlation/tissue_spearman_correlation	Adult tissues form distinct clusters by pairwise correlation.
+3	Figure_S3.pdf	07_Tau_specificity/tau_distribution	Tissue specificity of expressed genes.
+4	Figure_S4.pdf	05_Tissue_landscapes/shared_private/ovary_split_vs_merged	Splitting the ovary into two compartments lowers the percentage of tissue-private genes.
+5	Figure_S5.pdf	13_Extended_analyses/A_per_organ_GO/per_organ_private_GO	Functional enrichment of genes expressed in only one adult tissue.
+6	Figure_S6.pdf	19_New_figures/Supp_HK_odds_ratios	Enrichment of housekeeping orthologues among constitutively expressed genes by tissue.
+7	Figure_S7.pdf	05_Tissue_landscapes/housekeeping/HK_ortho_summary	Drosophila housekeeping orthologues are enriched among highly expressed genes and vary little across tissues.
+8	Figure_S8.pdf	19_New_figures/Supp_GO_constitutive	Functional enrichment of highly expressed genes in each adult tissue.
+9	Figure_S9.pdf	01_MZT/contrast_1/GO_short_unfert_vs_fert_combined	Functional enrichment of genes differentially expressed between unfertilised and fertilised eggs.
+10	Figure_S10.pdf	19_New_figures/Supp_MZT_composition	Library composition, normalisation and tissue similarity of unfertilised eggs.
+11	Figure_S11.pdf	01_MZT/contrast_3/GO_module_M1	Functional enrichment of co-expression module M1 (maternal decay).
+12	Figure_S12.pdf	01_MZT/contrast_3/GO_module_M2	Functional enrichment of co-expression module M2 (transient activation).
+13	Figure_S13.pdf	01_MZT/contrast_3/GO_module_M3	Functional enrichment of co-expression module M3 (late activation).
+14	Figure_S14.pdf	02_Sexual_dimorphism/contrast_1/GO_short_combined	Functional enrichment of genes differentially expressed between testes and ovary.
+15	Figure_S15.pdf	02_Sexual_dimorphism/contrast_2/GO_short_combined	Functional enrichment of genes differentially expressed between distal and proximal ovary.
+16	Figure_S16.pdf	02_Sexual_dimorphism/contrast_3/GO_short_combined	Functional enrichment of genes differentially expressed between male and virgin female abdomen.
+17	Figure_S17.png	08_UpSet_sex_bias/go_summary_upset.RDS	Genes with higher expression in each sex are mostly specific to the germline.
+18	Figure_S18.pdf	19_New_figures/Supp_PostMating_immune	Immune gene-set tests for mated against virgin females.

@@ -62,16 +62,8 @@ message("Genes in long count matrix:  ", nrow(counts_long_raw))
 message("Samples in metadata:          ", nrow(meta_raw))
 
 # ---- DE statistics accumulator -------------------------------------------
-# ===========================================================================
-# RUNNING DE STATISTICS TABLE
-# ---------------------------------------------------------------------------
-# Every contrast in this analysis appends one row to a single master TSV.
-# This chunk initialises the file (deleting any stale version from a previous
-# run) and defines the helper.  The helper is called at the end of every
-# summary panel chunk, so the table grows automatically as you run sections.
-#
-# Output: results/final_output/DE_stats_master.tsv
-#
+# One row per contrast, appended to outdir_raw/DE_stats_master.tsv by
+# append_de_stats(), called at the end of every summary panel chunk.
 # Columns:
 #   section         – e.g. "Q1", "Q2", "Tissue_landscape", "Y_chromosome"
 #   question        – human-readable label
@@ -83,7 +75,6 @@ message("Samples in metadata:          ", nrow(meta_raw))
 #   n_down          – genes up in group_B
 #   n_sig_total     – all DE genes
 #   pct_sig         – % of tested genes that are DE
-# ===========================================================================
 
 
 de_master_file <- file.path(outdir_raw, "DE_stats_master.tsv")
@@ -142,7 +133,7 @@ append_de_stats <- function(results_obj,
   }
 
   if (is.null(genome_obj$contrasts) || length(genome_obj$contrasts) == 0) {
-    message("append_de_stats: no contrasts found for ", genome, " — skipping.")
+    message("append_de_stats: no contrasts found for ", genome, " - skipping.")
     return(invisible(NULL))
   }
 
@@ -156,7 +147,7 @@ append_de_stats <- function(results_obj,
   res   <- genome_obj$contrasts[[cname]]$table
 
   if (is.null(res) || nrow(res) == 0) {
-    message("append_de_stats: empty results table — skipping.")
+    message("append_de_stats: empty results table - skipping.")
     return(invisible(NULL))
   }
 

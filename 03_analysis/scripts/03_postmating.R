@@ -304,7 +304,7 @@ geom_label_repel(
     coord_flip() +
     guides(fill="none")+
     labs(x = NULL, y = "DE gene count", fill = NULL,
-         title = "A - Differential expression gene counts \n(FDR < 0.05, |log₂FC| > 1)") +
+         title = "A - Differential expression gene counts \n(FDR < 0.05, |log2FC| > 1)") +
     plot_theme + theme(legend.position = "bottom")
   
 
@@ -317,7 +317,7 @@ geom_label_repel(
 # ---- B: Volcano — distal ovary (largest mating effect) --------------------
 pB_q3 <- make_summary_volcano(
   q3_res_list[["Distal Ovary - \n Virgin vs Mated"]],
-  "B - Disytal Ovary - Virgin vs Mated  ",
+  "B - Distal Ovary - Virgin vs Mated  ",
   pos_lab = "Mated-biased",
   neg_lab = "Virgin-biased"
 )
@@ -466,7 +466,7 @@ q3_go_files <- list.files(
 message("q3 GO files found: ", length(q3_go_files))
 print(q3_go_files)
 # should be 2 because C2 has all 3 merged 
-if (length(q3_go_files) == 0) stop("No q3 short GO files found — check paths")
+if (length(q3_go_files) == 0) stop("No q3 short GO files found - check paths")
 
 # Read and label by contrast (parent folder name)
 q3_go <- purrr::map_dfr(q3_go_files, function(f) {
@@ -529,7 +529,7 @@ make_contrast_go_heatmap <- function(go_data,
   
   # If nothing is shared, take top terms by mean enrichment instead
   if (length(sig_terms) == 0) {
-    message("No shared terms across groups — taking top terms by mean enrichment")
+    message("No shared terms across groups - taking top terms by mean enrichment")
     sig_terms <- go_data %>%
       filter(p_value < p_threshold) %>%
       group_by(Term) %>%
@@ -591,7 +591,7 @@ make_contrast_go_heatmap <- function(go_data,
     angle_col         = "45",
     main              = title_text,
     legend_breaks     = c(0, 2, 4, 6, 8, 10),
-    legend_labels     = c("0","2","4","6","8","≥10")
+    legend_labels     = c("0","2","4","6","8",">=10")
   )
 }
 
@@ -603,7 +603,7 @@ make_contrast_go_heatmap <- function(go_data,
 # ============================================================
 p_q3_heatmap <- make_contrast_go_heatmap(
   go_data    = q3_go,
-  title_text = "MZT: GO enrichment across all contrasts\n(−log₁₀ p)",
+  title_text = "MZT: GO enrichment across all contrasts\n(-log10 p)",
   n_terms    = 30,
   min_groups = 2
 )

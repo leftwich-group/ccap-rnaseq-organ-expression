@@ -1,0 +1,4 @@
+tissue	fly_tissue	n_private	n_fly_tissue_orthologues	n_overlap	odds_ratio	p_value
+Testes	testis	1309	158	21	0.912076202643088	0.8188420345915612
+Accessory_Gland	accessory gland	133	29	0	0	0.9999999999999998
+Abdomen	midgut	422	47	7	3.739390590366595	0.004867411261090499

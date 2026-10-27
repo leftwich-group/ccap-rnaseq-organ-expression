@@ -1,11 +1,10 @@
 #!/usr/bin/env Rscript
 # Manuscript figure assembly
-# Output: 04_results/12_manuscript_plots/Figure_1..5.{pdf,png} + figure_manifest.tsv
+# Output: 04_results/12_manuscript_plots/Figure_1..6 and Figure_S1..S18 ({pdf,png}) + manifests
 # Run from the repository root:  Rscript 03_analysis/scripts/12_manuscript_plots.R
 #
-# The five main-text figures are the per-section summary panels built by the
-# 01-05 scripts. This stage just collects and renames them to match
-# de_Coriolis_et_al_Bulk_Figures. Run 01-05 first.
+# Collects the per-section summary panels (scripts 01-05, 13, 19) under the
+# figure numbers used in the manuscript. Run those scripts first.
 # ---------------------------------------------------------------------------
 if (!file.exists("03_analysis/R/init.R")) stop(
   "Run from the repository root (the folder containing 01_data/, ",
@@ -16,14 +15,21 @@ source("03_analysis/R/init.R")
 output_dir <- here("04_results/12_manuscript_plots")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
-# figure number -> source panel (built by the section scripts) + draft caption
+# figure number -> source panel (built by the section scripts) + title
 figures <- tibble::tribble(
-  ~figure, ~source_rel,                                                              ~caption,
-  1L, "05_Tissue_landscapes/summary/Tissue_landscape_summary2",                       "Tissue identity structures the adult transcriptome, and the testes are the most transcriptionally specialized tissue.",
-  2L, "01_MZT/summary_panels/Q1_MZT_summary",                                         "The maternal-to-zygotic transition unfolds as three sequential phases of gene expression.",
-  3L, "02_Sexual_dimorphism/summary_panels/Q2_SexualDimorphism_summary",              "Sexual dimorphism is concentrated in the germline, not the soma.",
-  4L, "03_PostMating/summary_panels/Q3_PostMating_summary",                           "Mating remodels the ovary, not the soma, and each reproductive compartment responds independently.",
-  5L, "04_Maleness/summary_panels/Q4_Maleness_summary",                               "The testes are the most male-defining tissue, and a small germline-soma-shared gene set marks candidate sex-linked loci."
+  ~figure, ~source_rel, ~caption,
+  1L, "05_Tissue_landscapes/summary/Tissue_landscape_summary2",
+      "Tissue identity structures the adult transcriptome, and the testes are the most transcriptionally specialised of the profiled tissues.",
+  2L, "01_MZT/summary_panels/Q1_MZT_summary",
+      "The maternal-to-zygotic transition unfolds as three sequential phases of gene expression.",
+  3L, "19_New_figures/Figure_3_MZT_intron_exon",
+      "Intronic reads indicate that the main wave of zygotic transcription occurs between 4 and 8 h after oviposition.",
+  4L, "02_Sexual_dimorphism/summary_panels/Q2_SexualDimorphism_summary",
+      "Sexual dimorphism is concentrated in the germline and is smaller in the abdomen.",
+  5L, "03_PostMating/summary_panels/Q3_PostMating_summary",
+      "Mating changes few genes in the ovary and almost none in the abdomen.",
+  6L, "04_Maleness/summary_panels/Q4_Maleness_summary",
+      "Testes are the most transcriptionally distinct male tissue, and a small set of genes is higher in males in both germline and soma."
 )
 
 missing <- character(0)
@@ -53,33 +59,43 @@ readr::write_tsv(
 )
 
 # ---- Supplementary figures ---------------------------------------------------
-# Numbered in the order each is first cited in the manuscript text (S1 = the
-# first "(Figure Sx)" a reader hits, and so on) -- NOT the order they were
-# added to this script. Two consequences of that renumbering worth noting:
-#
-#  - S11 (distal-vs-proximal ovary GO enrichment) backs a sentence that
-#    previously cited the wrong figure outright ("(Figure S4)", pointing at
-#    the UpSet composite below, which has nothing to do with ovary GO terms)
-#    -- this is the correct figure for that claim, spot-checked against the
-#    specific terms named in the text (SRP-dependent protein targeting,
-#    chitin binding, etc.) before being added here.
-#  - S13 (the UpSet composite) is the figure that mis-citation was pointing
-#    at. Its own natural home is the "small, shared" germline-soma overlap
-#    claim next to Figure 3D, which now also cites it.
+# Numbered in order of first citation in the manuscript text.
 supp_figures <- tibble::tribble(
-  ~figure, ~source_rel,                                                     ~caption,
-  1L, "06_Global_atlas/PCA_tissue_sex",                                      "Tissue identity is the dominant axis of variation across all adult samples.",
-  2L, "10_CrossTissue_correlation/tissue_spearman_correlation",              "Adult tissues form distinct expression clusters by pairwise correlation.",
-  3L, "07_Tau_specificity/tau_distribution",                                 "Most expressed genes show strong tissue specificity (tau close to 1).",
-  4L, "05_Tissue_landscapes/shared_private/ovary_split_vs_merged",           "Splitting the ovary into two compartments reveals no strong proximal or distal ovary identity.",
-  5L, "05_Tissue_landscapes/housekeeping/HK_ortho_summary",                  "Drosophila housekeeping orthologues behave as housekeeping genes in C. capitata.",
-  6L, "01_MZT/contrast_1/GO_short_unfert_vs_fert_combined",                  "GO enrichment among genes differentially expressed between unfertilised and fertilised eggs.",
-  7L, "01_MZT/contrast_3/GO_module_M1",                                     "GO enrichment for co-expression module M1 (maternal decay).",
-  8L, "01_MZT/contrast_3/GO_module_M2",                                     "GO enrichment for co-expression module M2 (transient activation).",
-  9L, "01_MZT/contrast_3/GO_module_M3",                                     "GO enrichment for co-expression module M3 (late activation).",
-  10L, "02_Sexual_dimorphism/contrast_1/GO_short_combined",                 "GO enrichment among genes differentially expressed between testes and ovary (germline sex bias).",
-  11L, "02_Sexual_dimorphism/contrast_2/GO_short_combined",                 "GO enrichment among genes differentially expressed between distal and proximal ovary.",
-  12L, "02_Sexual_dimorphism/contrast_3/GO_short_combined",                 "GO enrichment among genes differentially expressed between male and virgin female abdomen (somatic sex bias)."
+  ~figure, ~source_rel, ~caption,
+  1L, "06_Global_atlas/PCA_tissue_sex",
+      "Tissue identity is the dominant axis of variation across adult samples.",
+  2L, "10_CrossTissue_correlation/tissue_spearman_correlation",
+      "Adult tissues form distinct clusters by pairwise correlation.",
+  3L, "07_Tau_specificity/tau_distribution",
+      "Tissue specificity of expressed genes.",
+  4L, "05_Tissue_landscapes/shared_private/ovary_split_vs_merged",
+      "Splitting the ovary into two compartments lowers the percentage of tissue-private genes.",
+  5L, "13_Extended_analyses/A_per_organ_GO/per_organ_private_GO",
+      "Functional enrichment of genes expressed in only one adult tissue.",
+  6L, "19_New_figures/Supp_HK_odds_ratios",
+      "Enrichment of housekeeping orthologues among constitutively expressed genes by tissue.",
+  7L, "05_Tissue_landscapes/housekeeping/HK_ortho_summary",
+      "Drosophila housekeeping orthologues are enriched among highly expressed genes and vary little across tissues.",
+  8L, "19_New_figures/Supp_GO_constitutive",
+      "Functional enrichment of highly expressed genes in each adult tissue.",
+  9L, "01_MZT/contrast_1/GO_short_unfert_vs_fert_combined",
+      "Functional enrichment of genes differentially expressed between unfertilised and fertilised eggs.",
+  10L, "19_New_figures/Supp_MZT_composition",
+      "Library composition, normalisation and tissue similarity of unfertilised eggs.",
+  11L, "01_MZT/contrast_3/GO_module_M1",
+      "Functional enrichment of co-expression module M1 (maternal decay).",
+  12L, "01_MZT/contrast_3/GO_module_M2",
+      "Functional enrichment of co-expression module M2 (transient activation).",
+  13L, "01_MZT/contrast_3/GO_module_M3",
+      "Functional enrichment of co-expression module M3 (late activation).",
+  14L, "02_Sexual_dimorphism/contrast_1/GO_short_combined",
+      "Functional enrichment of genes differentially expressed between testes and ovary.",
+  15L, "02_Sexual_dimorphism/contrast_2/GO_short_combined",
+      "Functional enrichment of genes differentially expressed between distal and proximal ovary.",
+  16L, "02_Sexual_dimorphism/contrast_3/GO_short_combined",
+      "Functional enrichment of genes differentially expressed between male and virgin female abdomen.",
+  18L, "19_New_figures/Supp_PostMating_immune",
+      "Immune gene-set tests for mated against virgin females."
 )
 
 supp_missing <- character(0)
@@ -102,7 +118,7 @@ for (i in seq_len(nrow(supp_figures))) {
   }
 }
 
-# S13: sex-biased UpSet + GO summary composite -- assembled from its RDS
+# S17: sex-biased UpSet + GO summary composite -- assembled from its RDS
 # rather than copied, since no single pre-rendered file for it exists.
 upset_rds <- here("04_results/08_UpSet_sex_bias/go_summary_upset.RDS")
 if (file.exists(upset_rds)) {
@@ -128,19 +144,19 @@ if (file.exists(upset_rds)) {
                      "B - Female-biased gene overlap across tissues")
   g3 <- rl$male_biased$summary_cls
   g4 <- rl$female_biased$summary_cls
-  png(file.path(output_dir, "Figure_S13.png"),
+  png(file.path(output_dir, "Figure_S17.png"),
       width = 12, height = 9, units = "in", res = 300)
   grid::grid.draw(gridExtra::arrangeGrob(g1, g2, g3, g4, ncol = 2))
   dev.off()
-  message("  Figure S13  <-  08_UpSet_sex_bias/go_summary_upset.RDS")
+  message("  Figure S17  <-  08_UpSet_sex_bias/go_summary_upset.RDS")
 } else {
-  supp_missing <- c(supp_missing, "Figure S13 (08_UpSet_sex_bias/go_summary_upset.RDS)")
+  supp_missing <- c(supp_missing, "Figure S17 (08_UpSet_sex_bias/go_summary_upset.RDS)")
 }
 
 supp_figures <- dplyr::bind_rows(
   supp_figures,
-  tibble::tibble(figure = 13L, source_rel = "08_UpSet_sex_bias/go_summary_upset.RDS",
-                  caption = "Male- and female-biased genes are overwhelmingly germline-specific, with a small set shared with the soma.")
+  tibble::tibble(figure = 17L, source_rel = "08_UpSet_sex_bias/go_summary_upset.RDS",
+                  caption = "Genes with higher expression in each sex are mostly specific to the germline.")
 ) %>% dplyr::arrange(figure)
 
 readr::write_tsv(

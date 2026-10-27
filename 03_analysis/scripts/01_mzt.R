@@ -122,7 +122,7 @@ p_dend <- ggplot() +
             angle = 90, hjust = 1, size = 2.8) +
   scale_colour_manual(values = age_cols_fert, name = "Timepoint") +
   theme_minimal(base_size = 11) +
-  labs(title = "Hierarchical clustering — fertilised egg samples") +
+  labs(title = "Hierarchical clustering - fertilised egg samples") +
   theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
 
 p_dend
@@ -236,7 +236,7 @@ p_modules <- ggplot(mean_expr,
   stat_summary(fun = mean, geom = "line",  size = 0.8)+
   stat_summary(fun = mean, geom = "point", size = 2) +
   scale_colour_manual(values = okabe_ito_palette(3)) +
-  labs(x = "Timepoint (h)", y = "log₂CPM",
+  labs(x = "Timepoint (h)", y = "log2CPM",
        colour = "Module") +
   plot_theme
 
@@ -308,19 +308,19 @@ pca_egg_df <- as.data.frame(pca_egg$x[, 1:2]) %>%
   mutate(
     stage = case_when(
       age == 0  ~ "Unfertilised",
-      age %in% c(1,2,3,4)  ~ "Early (1–4 h)",
-      TRUE      ~ "Late (8–24 h)"
+      age %in% c(1,2,3,4)  ~ "Early (1-4 h)",
+      TRUE      ~ "Late (8-24 h)"
     ),
-    stage = factor(stage, levels = c("Unfertilised","Early (1–4 h)","Late (8–24 h)"))
+    stage = factor(stage, levels = c("Unfertilised","Early (1-4 h)","Late (8-24 h)"))
   )
 
 stage_cols <- c("Unfertilised" = "#E69F00",
-                "Early (1–4 h)" = "#56B4E9",
-                "Late (8–24 h)"  = "#009E73")
+                "Early (1-4 h)" = "#56B4E9",
+                "Late (8-24 h)"  = "#009E73")
 
 pA <- ggplot(pca_egg_df, aes(PC1, PC2)) +
 
-  # ---- 1. Convex hull shading per stage (works with n ≥ 1) ----------------
+  # ---- 1. Convex hull shading per stage (works with n >= 1) ----------------
   geom_polygon(
     data = pca_egg_df %>%
       group_by(stage) %>%
@@ -430,7 +430,7 @@ pB <- ggplot( mod_traj1 ,
   guides(fill = "none",
          colour = guide_legend(nrow = 3)) +
   labs(x = "Timepoint (h post-oviposition)",
-       y = "Mean log₂CPM",
+       y = "Mean log2CPM",
        colour = NULL,
        title  = "B - Temporal expression modules") +
   plot_theme +
@@ -510,7 +510,7 @@ if (nrow(de_counts_q1) > 0) {
     coord_flip() +
     labs(x = NULL, y = "DE gene count",
          fill  = NULL,
-         title = "C - Differentially expressed genes per contrast\n( FDR < 0.05, |log₂FC| > 1)") +
+         title = "C - Differentially expressed genes per contrast\n( FDR < 0.05, |log2FC| > 1)") +
     plot_theme +
     theme(legend.position = "bottom")
   
@@ -557,7 +557,7 @@ q1_go_files <- list.files(
 message("Q1 GO files found: ", length(q1_go_files))
 print(q1_go_files)
 # should be 2 because C2 has all 3 merged 
-if (length(q1_go_files) == 0) stop("No Q1 short GO files found — check paths")
+if (length(q1_go_files) == 0) stop("No Q1 short GO files found - check paths")
 
 # Read and label by contrast (parent folder name)
 q1_go <- map_dfr(q1_go_files, function(f) {
@@ -598,7 +598,7 @@ make_contrast_go_heatmap <- function(go_data,
   
   # If nothing is shared, take top terms by mean enrichment instead
   if (length(sig_terms) == 0) {
-    message("No shared terms across groups — taking top terms by mean enrichment")
+    message("No shared terms across groups - taking top terms by mean enrichment")
     sig_terms <- go_data %>%
       filter(p_value < p_threshold) %>%
       group_by(Term) %>%
@@ -660,7 +660,7 @@ make_contrast_go_heatmap <- function(go_data,
     angle_col         = "45",
     main              = title_text,
     legend_breaks     = c(0, 2, 4, 6, 8, 10),
-    legend_labels     = c("0","2","4","6","8","≥10")
+    legend_labels     = c("0","2","4","6","8",">=10")
   )
 }
 
@@ -672,7 +672,7 @@ make_contrast_go_heatmap <- function(go_data,
 # ============================================================
 p_q1_heatmap <- make_contrast_go_heatmap(
   go_data    = q1_go,
-  title_text = "MZT: GO enrichment across all contrasts\n(−log₁₀ p)",
+  title_text = "MZT: GO enrichment across all contrasts\n(-log10 p)",
   n_terms    = 30,
   min_groups = 2
 )

@@ -1,0 +1,4 @@
+contrast	Intron and exon up	Intron up only	Exon down, intron not up	Exon up, intron not up	Other
+early_vs_unfert	5	11	385	319	3172
+late_vs_unfert	1134	1298	373	382	705
+late_vs_early	1512	1940	232	61	147

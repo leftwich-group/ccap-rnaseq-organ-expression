@@ -56,7 +56,7 @@ print(p)
 
   # Genes shared across ALL tissues (most stringent sex-biased set)
   shared_all <- Reduce(intersect, set_list)
-  message(direction, " — shared across all tissues: ", length(shared_all))
+  message(direction, " - shared across all tissues: ", length(shared_all))
   
   if (length(shared_all) > 0) {
     write_lines(shared_all,
@@ -66,7 +66,7 @@ print(p)
     go_shared <- run_topgo_all_ont(clean_ids(shared_all),
                                    gene_universe_short, geneID2GO_short)
     p_shared  <- plot_topgo_panel(go_shared,
-                                  paste0(direction, " — shared across tissues"))
+                                  paste0(direction, " - shared across tissues"))
     if (!is.null(p_shared))
       ggsave(file.path(outdir_upset,
                        paste0("GO_", direction, "_shared_all.pdf")),

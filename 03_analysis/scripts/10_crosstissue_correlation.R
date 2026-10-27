@@ -46,7 +46,7 @@ pheatmap(cor_mat,
          number_format   = "%.2f",
          fontsize_number = 10,
          clustering_method = "ward.D2",
-         main = "Tissue–tissue Spearman correlation (mean logCPM)")
+         main = "Tissue-tissue Spearman correlation (mean logCPM)")
 dev.off()
 
 # Scatter: testes vs distal ovary (germline comparison)
@@ -66,10 +66,10 @@ if ("TE" %in% names(tissue_means) && "YO" %in% names(tissue_means)) {
     geom_abline(linetype = "dashed") +
     geom_text_repel(aes(label = label_gene), size = 2.5, max.overlaps = 20) +
     labs(title = "Germline comparison: testes vs distal ovary",
-         subtitle = paste0("Spearman ρ = ",
+         subtitle = paste0("Spearman rho = ",
                            round(cor_mat["Testes","Distal_Ovary"], 3)),
-         x = "Testes (mean log₂CPM)",
-         y = "Distal ovary (mean log₂CPM)") +
+         x = "Testes (mean log2CPM)",
+         y = "Distal ovary (mean log2CPM)") +
     plot_theme
   p_germ_scatter
   ggsave(file.path(outdir_cor, "scatter_testes_vs_distal_ovary.pdf"),

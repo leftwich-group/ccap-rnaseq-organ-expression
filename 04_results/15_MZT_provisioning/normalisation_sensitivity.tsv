@@ -1,0 +1,11 @@
+contrast	normalisation	n_higher_in_unfertilised	n_higher_in_fertilised	median_logFC	n_tested
+unfert_vs_1h	TMM	2044	51	-0.0676378098580455	7734
+unfert_vs_1h	TMMwsp	2013	63	-0.10926952734507704	7734
+unfert_vs_1h	RLE	2072	43	-0.02949136146258185	7734
+unfert_vs_1h	upperquartile	1669	650	-0.5828882076148313	7734
+unfert_vs_1h	none	1021	5430	-1.9553044598790308	7734
+unfert_vs_early	TMM	1697	1407	-0.6012734309678487	7944
+unfert_vs_early	TMMwsp	2121	73	-0.0365708018486568	7944
+unfert_vs_early	RLE	2089	87	-0.0868238402070794	7944
+unfert_vs_early	upperquartile	1721	1242	-0.5585183618812865	7944
+unfert_vs_early	none	1065	5536	-1.9191284937482145	7944

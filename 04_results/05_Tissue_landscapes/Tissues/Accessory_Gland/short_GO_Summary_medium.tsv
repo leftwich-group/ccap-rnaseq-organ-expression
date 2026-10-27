@@ -1,13 +1,13 @@
 GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
-GO:0000398	mRNA splicing, via spliceosome	314	236	153.66	1.2e-17	1.2e-17
-GO:0006283	transcription-coupled nucleotide-excisio...	62	54	30.34	2.8e-10	2.8e-10
-GO:0051276	chromosome organization	842	547	412.05	9.2e-10	9.2e-10
-GO:0006367	transcription initiation at RNA polymera...	166	128	81.24	9.5e-10	9.5e-10
-GO:0070126	mitochondrial translational termination	69	57	33.77	6.2e-09	6.2e-9
-GO:0006368	transcription elongation by RNA polymera...	89	68	43.55	1.6e-08	1.6e-8
-GO:0018393	internal peptidyl-lysine acetylation	98	75	47.96	2.0e-08	2e-8
-GO:0000288	nuclear-transcribed mRNA catabolic proce...	61	52	29.85	1.1e-07	1.1e-7
-GO:0010628	positive regulation of gene expression	1239	710	606.34	1.7e-07	1.7e-7
-GO:0071166	ribonucleoprotein complex localization	114	84	55.79	1.7e-07	1.7e-7
-GO:0006611	protein export from nucleus	149	101	72.92	1.9e-07	1.9e-7
-GO:0042795	snRNA transcription by RNA polymerase II	70	55	34.26	3.1e-07	3.1e-7
+GO:0000398	mRNA splicing, via spliceosome	314	236	154.14	1.7e-17	1.7e-17
+GO:0006283	transcription-coupled nucleotide-excisio...	62	54	30.43	3.2e-10	3.2e-10
+GO:0006367	transcription initiation at RNA polymera...	166	127	81.49	1.1e-09	1.1e-9
+GO:0051276	chromosome organization	842	548	413.32	1.2e-09	1.2e-9
+GO:0070126	mitochondrial translational termination	69	57	33.87	7.1e-09	7.1e-9
+GO:0006368	transcription elongation by RNA polymera...	89	68	43.69	1.8e-08	1.8e-8
+GO:0018393	internal peptidyl-lysine acetylation	98	75	48.11	2.4e-08	2.4e-8
+GO:0006611	protein export from nucleus	149	102	73.14	8.0e-08	8e-8
+GO:0000288	nuclear-transcribed mRNA catabolic proce...	61	52	29.94	1.2e-07	1.2e-7
+GO:0071166	ribonucleoprotein complex localization	114	84	55.96	2.0e-07	2e-7
+GO:0030307	positive regulation of cell growth	152	99	74.61	3.4e-07	3.4e-7
+GO:0042795	snRNA transcription by RNA polymerase II	70	55	34.36	3.5e-07	3.5e-7

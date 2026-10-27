@@ -196,7 +196,7 @@ plots_combined <- Filter(Negate(is.null),
 if (length(plots_combined) > 0) {
   p_homer_panel <- wrap_plots(plots_combined, ncol = 1) +
     plot_annotation(
-      title    = "Transcription factor motif enrichment — HOMER",
+      title    = "Transcription factor motif enrichment - HOMER",
       subtitle = "Known motifs in promoters of DE gene sets (1 kb upstream of TSS)",
       tag_levels = "A"
     )

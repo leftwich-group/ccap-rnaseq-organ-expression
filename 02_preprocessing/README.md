@@ -25,6 +25,10 @@ analysis in `../03_analysis/`.
   included pending a re-run of that pipeline branch. Both are available on
   request from the repository maintainer in the meantime.
 
+- **`06_intron_exon_counts/`** - recounts the embryo samples from the existing
+  STAR alignments as exonic and intronic fragments per gene, for
+  `../03_analysis/scripts/14_mzt_intron_exon.R`. See its README.
+
 Scripts use a `PROJECT_ROOT` placeholder variable in place of a real HPC
 absolute path — set it near the top of each script before running.
 `#SBATCH` log-path directives are relative to the submission directory

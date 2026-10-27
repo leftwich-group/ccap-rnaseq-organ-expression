@@ -38,6 +38,12 @@ before sourcing scripts.
 │   ├── 11_developmental_confirmation.R -> 04_results/11_developmental_confirmation/
 │   ├── 12_manuscript_plots.R      -> 04_results/12_manuscript_plots/ (reads 08)
 │   ├── 99_de_stats_master.R       -> 04_results/DE_stats_master_wide.tsv + overview figure
+│   ├── 14_mzt_intron_exon.R       -> 04_results/14_MZT_intron_exon/  (needs 02_preprocessing/06_intron_exon_counts; run by hand)
+│   ├── 15_mzt_provisioning.R      -> 04_results/15_MZT_provisioning/ (run by hand)
+│   ├── 16_postmating_genesets.R   -> 04_results/16_PostMating_genesets/ (reads 03; run by hand)
+│   ├── 17_supp_go_tissues.R       -> 04_results/17_Supp_GO_tissues/ (reads 05; run by hand)
+│   ├── 18_housekeeping_tests.R    -> 04_results/18_Housekeeping_tests/ (reads 05; run by hand)
+│   ├── 19_new_figures.R           -> 04_results/19_New_figures/ (assembles Figure 3 and Figures S14-S17 from 14-18; run by hand)
 │   └── go_annotation_prep.R       -> 02_preprocessing/04_go_annotation/geneID2GO_*.rds (opt-in)
 └── _archive/
     └── Ccap_Bulk_Transcriptomics.Rmd   # the original monolithic document

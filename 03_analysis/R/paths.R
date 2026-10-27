@@ -19,5 +19,12 @@ RES <- list(
   homer        = "09_HOMER_motifs",
   crosstissue  = "10_CrossTissue_correlation",
   devconfirm   = "11_developmental_confirmation",
-  manuscript   = "12_manuscript_plots"
+  manuscript   = "12_manuscript_plots",
+  extended     = "13_Extended_analyses",
+  mzt_intron   = "14_MZT_intron_exon",
+  mzt_provision = "15_MZT_provisioning",
+  mating_sets  = "16_PostMating_genesets",
+  supp_go      = "17_Supp_GO_tissues",
+  hk_tests     = "18_Housekeeping_tests",
+  new_figs     = "19_New_figures"
 )

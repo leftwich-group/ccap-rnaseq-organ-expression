@@ -1,13 +1,13 @@
 GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
-GO:0002181	cytoplasmic translation	118	94	14.33	< 1e-30	9.999999999999999e-31
-GO:0006413	translational initiation	142	94	17.25	< 1e-30	9.999999999999999e-31
-GO:0006614	SRP-dependent cotranslational protein ta...	63	55	7.65	< 1e-30	9.999999999999999e-31
-GO:0043043	peptide biosynthetic process	392	144	47.62	< 1e-30	9.999999999999999e-31
-GO:0043604	amide biosynthetic process	418	151	50.78	< 1e-30	9.999999999999999e-31
-GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	61	10.08	< 1e-30	9.999999999999999e-31
-GO:0070972	protein localization to endoplasmic reti...	87	60	10.57	< 1e-30	9.999999999999999e-31
-GO:0044703	multi-organism reproductive process	1448	296	175.9	1.8e-27	1.8e-27
-GO:0015833	peptide transport	1019	229	123.79	4.9e-22	4.900000000000001e-22
-GO:0006886	intracellular protein transport	689	182	83.7	7.3e-18	7.3e-18
-GO:0072657	protein localization to membrane	367	102	44.58	2.1e-17	2.1e-17
-GO:0016579	protein deubiquitination	146	52	17.74	1.2e-12	1.2e-12
+GO:0002181	cytoplasmic translation	118	94	14.18	< 1e-30	9.999999999999999e-31
+GO:0006413	translational initiation	142	94	17.07	< 1e-30	9.999999999999999e-31
+GO:0006614	SRP-dependent cotranslational protein ta...	63	55	7.57	< 1e-30	9.999999999999999e-31
+GO:0043043	peptide biosynthetic process	392	144	47.12	< 1e-30	9.999999999999999e-31
+GO:0043604	amide biosynthetic process	418	151	50.25	< 1e-30	9.999999999999999e-31
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	61	9.98	< 1e-30	9.999999999999999e-31
+GO:0070972	protein localization to endoplasmic reti...	87	60	10.46	< 1e-30	9.999999999999999e-31
+GO:0044703	multi-organism reproductive process	1448	294	174.06	1.8e-27	1.8e-27
+GO:0015833	peptide transport	1019	228	122.49	4.6e-22	4.600000000000001e-22
+GO:0072657	protein localization to membrane	367	101	44.12	1.3e-17	1.3e-17
+GO:0006886	intracellular protein transport	689	181	82.82	1.3e-17	1.3e-17
+GO:0016579	protein deubiquitination	146	51	17.55	3.8e-12	3.8e-12

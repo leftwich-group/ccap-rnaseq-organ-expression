@@ -1,13 +1,13 @@
 GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
-GO:0070126	mitochondrial translational termination	59	49	24.85	1.1e-10	1.1e-10
-GO:0006283	transcription-coupled nucleotide-excisio...	53	45	22.32	1.4e-10	1.4e-10
-GO:0070125	mitochondrial translational elongation	56	45	23.59	5.0e-09	5e-9
-GO:0000398	mRNA splicing, via spliceosome	324	198	136.47	1.9e-08	1.9e-8
-GO:0018393	internal peptidyl-lysine acetylation	93	63	39.17	1.2e-07	1.2e-7
-GO:0032543	mitochondrial translation	101	80	42.54	1.5e-07	1.5e-7
-GO:0051276	chromosome organization	880	481	370.67	2.2e-07	2.2e-7
-GO:0006368	transcription elongation by RNA polymera...	94	55	39.59	3.6e-07	3.6e-7
-GO:0045814	negative regulation of gene expression, ...	122	83	51.39	5.9e-07	5.9e-7
-GO:0045815	transcription initiation-coupled chromat...	47	35	19.8	6.6e-06	6.6e-6
-GO:0006888	endoplasmic reticulum to Golgi vesicle-m...	119	72	50.12	7.1e-06	7.1e-6
-GO:0006370	7-methylguanosine mRNA capping	26	22	10.95	1.0e-05	1e-5
+GO:0006283	transcription-coupled nucleotide-excisio...	53	45	22.17	1.1e-10	1.1e-10
+GO:0070126	mitochondrial translational termination	59	47	24.67	2.9e-09	2.9e-9
+GO:0018393	internal peptidyl-lysine acetylation	93	64	38.89	2.7e-08	2.7e-8
+GO:0000398	mRNA splicing, via spliceosome	324	197	135.5	3.0e-08	3e-8
+GO:0070125	mitochondrial translational elongation	56	43	23.42	1.0e-07	1e-7
+GO:0051276	chromosome organization	880	481	368.03	1.3e-07	1.3e-7
+GO:0032543	mitochondrial translation	101	78	42.24	1.3e-07	1.3e-7
+GO:0006368	transcription elongation by RNA polymera...	94	55	39.31	3.0e-07	3e-7
+GO:0045814	negative regulation of gene expression, ...	122	82	51.02	1.4e-06	1.4e-6
+GO:0045815	transcription initiation-coupled chromat...	47	35	19.66	5.4e-06	5.4e-6
+GO:0006888	endoplasmic reticulum to Golgi vesicle-m...	119	72	49.77	5.6e-06	5.6e-6
+GO:0006370	7-methylguanosine mRNA capping	26	22	10.87	8.9e-06	8.9e-6

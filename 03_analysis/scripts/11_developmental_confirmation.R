@@ -49,7 +49,7 @@ p_pca_dev <- ggplot(pca_df, aes(PC1, PC2, colour = factor(age), label = id)) +
   labs(x = paste0("PC1 (", round(var_e[1]*100,1), "%)"),
        y = paste0("PC2 (", round(var_e[2]*100,1), "%)"),
        colour = "Timepoint (h)",
-       title = "Embryo developmental timepoints — PCA") +
+       title = "Embryo developmental timepoints - PCA") +
   plot_theme
 
 p_pca_dev
@@ -90,7 +90,7 @@ p_traj <- ggplot(traj_df, aes(as.numeric(as.character(age)), log2cpm)) +
   ggdist::stat_lineribbon(.width = c(0.5, 0.8, 0.95),
                           fill = "#0072B2", colour = "#0072B2", alpha = 0.25) +
   scale_x_continuous(breaks = sort(unique(as.numeric(as.character(traj_df$age))))) +
-  labs(x = "Timepoint (h)", y = "log₂(counts + 1)") +
+  labs(x = "Timepoint (h)", y = "log2(counts + 1)") +
   plot_theme +
   theme(legend.position = "none")
 

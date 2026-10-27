@@ -1,0 +1,9 @@
+test	universe	n_universe	n_hk	n_hk_constitutive	odds_ratio	ci_low	ci_high	odds_ratio_haldane	p_value	median_cv_hk	median_cv_other
+HK orthologue x constitutive	Accessory_Gland	8706	311	308	12.52650314613122	4.231778390351919	61.22487847417356	10.760908787170063	1.0553312509744315e-11	NA	NA
+HK orthologue x constitutive	Abdomen	9646	314	311	20.565773305433932	6.957000224037284	100.48994190351269	17.662857142857142	3.681553921709254e-20	NA	NA
+HK orthologue x constitutive	Testes	10023	324	324	Inf	8.498970028482102	Inf	63.33946251768034	2.0116451718501296e-13	NA	NA
+HK orthologue x constitutive	Distal_Ovary	8100	309	309	Inf	6.92347134205018	Inf	51.687339219912396	4.849013702390069e-11	NA	NA
+HK orthologue x constitutive	Proximal_Ovary	8205	309	309	Inf	7.133652439607953	Inf	53.24685415663893	3.435775954872138e-11	NA	NA
+HK orthologue x constitutive in all five tissues	all five tissues	7119	309	307	22.508366587629716	6.156815389581003	186.5824929538118	18.04773129051267	2.262002321957098e-15	NA	NA
+Mean cross-tissue CV, HK orthologue vs other	all expressed genes	11519	324	NA	NA	NA	NA	NA	2.837462721492195e-58	0.014359705957577431	0.03521510373300232
+Mean cross-tissue CV, HK orthologue vs other	genes expressed in all five tissues	7119	309	NA	NA	NA	NA	NA	1.4108595728450965e-54	0.01429455795542842	0.02641773909580686

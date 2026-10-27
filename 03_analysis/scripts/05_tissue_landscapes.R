@@ -62,7 +62,7 @@ build_tissue_landscape <- function(tissue_code, tissue_label,
     names(obs_disp) <- rownames(dge)
     overdisp <- log2((obs_disp + 0.001) / (fitted_disp + 0.001))
 
-    # Constitutive: expressed in ≥ 80% of samples at ≥ 1 log-CPM
+    # Constitutive: expressed in >= 80% of samples at >= 1 log-CPM
     is_const <- rowSums(lcpm >= 1) >= 0.8 * ncol(lcpm)
 
     cv <- apply(lcpm, 1, function(x) sd(x) / (mean(x) + 0.1))
@@ -88,7 +88,7 @@ build_tissue_landscape <- function(tissue_code, tissue_label,
       ggplot(aes(expr_class, n, fill = expr_class)) +
       geom_col() +
       scale_fill_manual(values = okabe_ito_palette(3)) +
-      labs(title = paste(tissue_label, genome, "— expression classes"),
+      labs(title = paste(tissue_label, genome, "- expression classes"),
            x = NULL, y = "Gene count") +
       plot_theme + theme(legend.position = "none")
 
@@ -151,7 +151,7 @@ build_tissue_landscape <- function(tissue_code, tissue_label,
             geom_smooth(method = "lm", se = FALSE,
                         colour = "#D55E00") +
             geom_abline(linetype = "dashed") +
-            labs(title = paste(tissue_label, "— short vs long mean logCPM"),
+            labs(title = paste(tissue_label, "- short vs long mean logCPM"),
                  x = "Short read", y = "Long read") +
             plot_theme
           ggsave(file.path(outdir, "short_vs_long_comparison.pdf"),
@@ -249,8 +249,8 @@ p_rank <- ggplot(rank_df, aes(rank_pct, mean_logcpm,
   geom_hline(yintercept = 0, linetype = "dashed", colour = "grey60") +
   scale_colour_manual(values = tissue_pal_adult) +
   labs(title  = "Expression rank plot ",
-       x      = "Gene rank (percentile, highest → lowest)",
-       y      = "Mean log₂CPM",
+       x      = "Gene rank (percentile, highest to lowest)",
+       y      = "Mean log2CPM",
        colour = "Tissue") +
   plot_theme
 p_rank
@@ -263,7 +263,7 @@ p_ecdf <- ggplot(tissue_mean_lcpm, aes(mean_logcpm,
   stat_ecdf(linewidth = 0.9) +
   scale_colour_manual(values = tissue_pal_adult) +
   labs(title  = "Cumulative distribution of mean expression",
-       x      = "Mean log₂CPM",
+       x      = "Mean log2CPM",
        y      = "Cumulative fraction of genes",
        colour = "Tissue") +
   plot_theme
@@ -318,7 +318,7 @@ p_violin <- ggplot(tissue_mean_lcpm,
   scale_fill_manual(values = tissue_pal_adult) +
   scale_colour_manual(values = tissue_pal_adult) +
   labs(title = "Gene level expression distribution per tissue",
-       x = NULL, y = "Mean log₂CPM") +
+       x = NULL, y = "Mean log2CPM") +
   plot_theme +
   theme(legend.position = "none",
         axis.text.x = element_text(angle = 30, hjust = 1))
@@ -372,13 +372,13 @@ breadth_summary <- breadth_mat %>%
     n_tissues_expressed == 0 ~ "Not expressed",
     n_tissues_expressed == 1 ~ "Single-tissue",
     n_tissues_expressed == n_tissues_total ~ "Ubiquitous",
-    TRUE ~ "Multi-tissue (2–4)"
+    TRUE ~ "Multi-tissue (2-4)"
   )) %>%
   dplyr::count(category) %>%
   mutate(pct = n / sum(n) * 100,
          category = factor(category,
                            levels = c("Not expressed","Single-tissue",
-                                      "Multi-tissue (2–4)","Ubiquitous")))
+                                      "Multi-tissue (2-4)","Ubiquitous")))
 
 p_donut <- ggplot(breadth_summary, aes(x = "", y = n, fill = category)) +
   geom_col(colour = "white", linewidth = 0.5, width = 0.6) +
@@ -437,8 +437,8 @@ for (tc in adult_tissues) {
              label = paste0("Common BCV = ",
                             round(unique(bcv_df$sqrt_disp_common), 3)),
              hjust = 0, size = 3, colour = "#0072B2") +
-    labs(title = paste0(tissues[tc], " — BCV plot"),
-         x = "Average log₂CPM",
+    labs(title = paste0(tissues[tc], " - BCV plot"),
+         x = "Average log2CPM",
          y = "Biological coefficient of variation") +
     plot_theme
   ggsave(file.path(outdir_bcv, paste0(tc, "_BCV.pdf")), p_bcv,
@@ -521,7 +521,7 @@ if (!is.null(go_const_bp) && nrow(go_const_bp) > 0) {
     geom_col() +
     coord_flip() +
     scale_fill_gradientn(colours = enrichment_palette(100)) +
-    labs(title    = "GO: Biological Process — empirical constitutive genes",
+    labs(title    = "GO: Biological Process - empirical constitutive genes",
          subtitle = paste0("n = ", nrow(constitutive_all),
                            " genes constitutive across all adult tissues"),
          x = NULL, y = "Significant genes",
@@ -534,7 +534,7 @@ if (!is.null(go_const_bp) && nrow(go_const_bp) > 0) {
 
 # ===========================================================================
 # STEP 4: Orthology-based prong
-#   Map eggNOG Preferred_name → FlyAtlas2 ubiquitous gene list
+#   Map eggNOG Preferred_name to FlyAtlas2 ubiquitous gene list
 #   Then get gene IDs matching the landscape table via the GFF
 #   Finally: category bar chart showing which HK functional classes
 #   are represented in C. capitata
@@ -693,7 +693,7 @@ if (file.exists(eggnog_raw_file)) {
   }
 }
 
-# ---- Map protein accessions → gene IDs via GFF ----------------------------
+# ---- Map protein accessions to gene IDs via GFF ----------------------------
 gff_file <- here("01_data/Genomic_files/GCF_000347755.3_Ccap_2.1_genomic.gff.gz")
 
 ccap_hk_genes <- character(0)
@@ -733,7 +733,7 @@ if (!is.null(hk_prot_map) && nrow(hk_prot_map) > 0 && file.exists(gff_file)) {
             file.path(outdir_hk, "Ccap_FlyAtlas2_HK_mapping.tsv"))
   
 } else {
-  message("GFF mapping failed — falling back to GO-term HK proxy")
+  message("GFF mapping failed - falling back to GO-term HK proxy")
   gene2go_tbl <- tibble(
     gene  = rep(names(geneID2GO_short), lengths(geneID2GO_short)),
     go_id = unlist(geneID2GO_short)
@@ -839,9 +839,7 @@ if (sum(hk_landscape$is_hk_ortho) > 5) {
   # =========================================================================
   # STEP 6: Do HK orthologues cluster in low-CV space?
   #   Wilcoxon rank-sum test on mean cross-tissue CV, HK orthologue vs
-  #   background -- this is the second half of the Figure S3 claim (Methods
-  #   3.4 says this test was run; STEP 5 above only covers the expression-
-  #   class enrichment half of the sentence).
+  #   background.
   # =========================================================================
   cv_all_genes <- all_lscps %>%
     group_by(gene) %>%
@@ -867,10 +865,7 @@ if (sum(hk_landscape$is_hk_ortho) > 5) {
     filter(mean_cv_all > 0) %>%
     mutate(gene_class = if_else(is_hk_ortho, "HK orthologue", "Background"))
 
-  # Half-eye (density + median/CI point-interval) -- same ggdist idiom used
-  # in ccap-y-chromosome-synteny/04_dosage_compensation/scripts/
-  # 01_dosage_compensation_explore.R for the equivalent style choice
-  # elsewhere in this project.
+  # Half-eye: density with median and interval.
   p_hk_cv <- ggplot(plot_df_cv, aes(x = gene_class, y = mean_cv_all,
                                      colour = gene_class, fill = gene_class)) +
     ggdist::stat_halfeye(
@@ -1108,7 +1103,7 @@ ggsave(file.path(outdir_sp, "uniqueness_dot.pdf"),
        p_sp_dot, width = 6, height = 5)
 
 # ---- Side-by-side: split vs merged ovary ----------------------------------
-# Shows the effect of merging — makes the reasoning explicit for the paper
+# Unique and total expressed genes with the ovary regions split and merged.
 split_df <- tibble(
   organ           = c("Distal ovary", "Proximal ovary"),
   total_expressed = c(length(expressed_raw$Distal_Ovary),
@@ -1154,7 +1149,7 @@ ggsave(file.path(outdir_sp, "ovary_split_vs_merged.pdf"),
 # Summary table
 summary_sp %>%
   mutate(across(where(is.numeric), round, 1)) %>%
-  knitr::kable(caption = "Expressed gene sharing — organs (ovary merged)")
+  knitr::kable(caption = "Expressed gene sharing - organs (ovary merged)")
 
 outdir_gomap <- file.path(outdir_raw, "05_Tissue_landscapes", "GO_comparison")
 dir.create(outdir_gomap, recursive = TRUE, showWarnings = FALSE)
@@ -1198,7 +1193,7 @@ go_per_tissue <- lapply(tissue_list, collect_go_terms) %>%
   bind_rows()
 
 if (nrow(go_per_tissue) > 0) {
-  # Union of all terms that appear in ≥ 2 tissues
+  # Union of all terms that appear in >= 2 tissues
   term_freq <- go_per_tissue %>%
     dplyr::count(Term, sort = TRUE) %>%
     filter(n >= 2)
@@ -1242,7 +1237,7 @@ if (nrow(go_per_tissue) > 0) {
            clustering_method = "ward.D2",
            fontsize_row      = 9,
            fontsize_col      = 10,
-           main              = "GO term enrichment across tissues\n(high-expressed genes, −log₁₀ p)",
+           main              = "GO term enrichment across tissues\n(high-expressed genes, -log10 p)",
            angle_col         = "45")
   dev.off()
 
@@ -1253,10 +1248,7 @@ if (nrow(go_per_tissue) > 0) {
 outdir_traj <- file.path(outdir_raw, "05_Tissue_landscapes", "category_trajectories")
 dir.create(outdir_traj, recursive = TRUE, showWarnings = FALSE)
 
-# Define functional categories via GO terms
-# Each category = a named list of GO IDs from GO.db
-# We use clusterProfiler's GO-to-gene mapping here
-
+# Each category is a named list of GO IDs, mapped to genes via geneID2GO_short.
 gene2go_tbl <- tibble(
   gene  = rep(names(geneID2GO_short), sapply(geneID2GO_short, length)),
   go_id = unlist(geneID2GO_short)
@@ -1339,7 +1331,7 @@ if (nrow(traj_list) > 0) {
     scale_colour_manual(values = okabe_ito_palette(length(category_genes))) +
     labs(title  = "Functional category expression profiles across tissues",
          x      = NULL,
-         y      = "Mean log₂CPM",
+         y      = "Mean log2CPM",
          colour = "Category") +
     plot_theme +
     theme(axis.text.x = element_text(angle = 30, hjust = 1),
@@ -1544,7 +1536,7 @@ pD_ls <- if (file.exists(tau_file)) {
                linetype = "dashed",
                colour = "#D55E00", linewidth = 0.8) +
     annotate("text", x = 0.87, y = Inf, vjust = 1.5, hjust = 0,
-             label = paste0("τ > 0.85\n(tissue-specific)\n",
+             label = paste0("tau > 0.85\n(tissue-specific)\n",
                             pct_ts, "% of genes"),
              size = 3.2, colour = "#D55E00") +
     labs(x = "Tau (0 = ubiquitous,  1 = tissue-specific)",
@@ -1586,7 +1578,7 @@ mat_go <- readRDS(file.path(outdir_raw, "05_Tissue_landscapes/GO_comparison/GO_m
            clustering_method = "ward.D2",
            fontsize_row      = 9,
            fontsize_col      = 10,
-           main              = "C - GO term enrichment across tissues\n(high-expressed genes, −log₁₀ p)",
+           main              = "C - GO term enrichment across tissues\n(high-expressed genes, -log10 p)",
            angle_col         = "45")
     pC2_ls <- wrap_elements(
   full = grid.grabExpr(ComplexHeatmap::draw( pC2_ls)))
@@ -1697,7 +1689,7 @@ make_go_heatmap <- function(go_data, cls, title_text,
     angle_col         = "45",
     main              = title_text,
     legend_breaks     = c(0, 2, 4, 6, 8, 10),
-    legend_labels     = c("0", "2", "4", "6", "8", "≥10")
+    legend_labels     = c("0", "2", "4", "6", "8", ">=10")
   )
 }
 
@@ -1705,7 +1697,7 @@ make_go_heatmap <- function(go_data, cls, title_text,
 p_high <- make_go_heatmap(
   merged_go,
   cls        = "high",
-  title_text = "GO enrichment — high expressed genes\n(−log₁₀ p, shared terms across ≥ 2 tissues)",
+  title_text = "GO enrichment - high expressed genes\n(-log10 p, shared terms across >= 2 tissues)",
   n_terms    = 25,
   min_tissues = 2
 )
@@ -1724,7 +1716,7 @@ if (!is.null(p_high)) {
 p_med <- make_go_heatmap(
   merged_go,
   cls        = "medium",
-  title_text = "GO enrichment — medium expressed genes\n(−log₁₀ p, shared terms across ≥ 2 tissues)",
+  title_text = "GO enrichment - medium expressed genes\n(-log10 p, shared terms across >= 2 tissues)",
   n_terms    = 25,
   min_tissues = 2
 )
@@ -1770,7 +1762,7 @@ p_facet <- ggplot(top_per_tissue,
                        name    = expression(-log[10](p))) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
   labs(
-    title    = "Top GO terms per tissue — high expressed genes",
+    title    = "Top GO terms per tissue - high expressed genes",
     subtitle = "Top 8 significant BP terms per tissue (p < 0.05)",
     x = NULL, y = expression(-log[10](p))
   ) +
@@ -1809,7 +1801,7 @@ p_facet_med <- ggplot(top_per_tissue_med,
                        name    = expression(-log[10](p))) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
   labs(
-    title    = "Top GO terms per tissue — medium expressed genes",
+    title    = "Top GO terms per tissue - medium expressed genes",
     subtitle = "Top 8 significant BP terms per tissue (p < 0.05)",
     x = NULL, y = expression(-log[10](p))
   ) +

@@ -78,7 +78,7 @@ geom_richtext(
     labs(x = NULL, y = "DE gene count",
          fill = NULL,
          title = "DE gene counts across all contrasts",
-         subtitle = "FDR < 0.05  |  |log₂FC| > 1") +
+         subtitle = "FDR < 0.05  |  |log2FC| > 1") +
     plot_theme +
     theme(
       legend.position   = "bottom",
@@ -103,10 +103,10 @@ geom_richtext(
   # Print wide table as knitr table
   knitr::kable(
     de_wide,
-    caption = "DE statistics — all contrasts (short and long genome)",
+    caption = "DE statistics - all contrasts (short and long genome)",
     format  = "html"
   )
 
 } else {
-  message("DE master file not found — run contrasts first.")
+  message("DE master file not found - run contrasts first.")
 }

@@ -46,9 +46,9 @@ p_tau_dist <- ggplot(tau_df, aes(tau)) +
   geom_vline(xintercept = 0.85, linetype = "dashed",
              colour = "#D55E00") +
   annotate("text", x = 0.87, y = Inf, hjust = 0, vjust = 1.5,
-           label = "τ > 0.85\n(tissue-specific)", size = 3.5,
+           label = "tau > 0.85\n(tissue-specific)", size = 3.5,
            colour = "#D55E00") +
-  labs(title = "Tissue-specificity distribution — tau index",
+  labs(title = "Tissue-specificity distribution - tau index",
        x = "Tau (0 = ubiquitous, 1 = tissue-specific)",
        y = "Gene count") +
   plot_theme

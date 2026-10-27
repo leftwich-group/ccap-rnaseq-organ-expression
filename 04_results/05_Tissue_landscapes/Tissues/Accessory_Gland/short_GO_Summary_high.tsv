@@ -1,13 +1,13 @@
 GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
-GO:0002181	cytoplasmic translation	118	95	24.57	< 1e-30	9.999999999999999e-31
-GO:0016310	phosphorylation	1144	339	238.18	< 1e-30	9.999999999999999e-31
-GO:0006614	SRP-dependent cotranslational protein ta...	63	56	13.12	< 1e-30	9.999999999999999e-31
-GO:0006413	translational initiation	142	93	29.56	< 1e-30	9.999999999999999e-31
-GO:0043043	peptide biosynthetic process	392	176	81.61	1.3e-30	1.3000000000000001e-30
-GO:0070972	protein localization to endoplasmic reti...	87	69	18.11	1.7e-30	1.7e-30
-GO:0043604	amide biosynthetic process	418	201	87.03	3.1e-30	3.1000000000000003e-30
-GO:0009167	purine ribonucleoside monophosphate meta...	207	129	43.1	3.6e-30	3.6e-30
-GO:0046034	ATP metabolic process	219	134	45.6	2.5e-29	2.5e-29
-GO:0015833	peptide transport	1019	348	212.15	1.5e-25	1.5e-25
-GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	61	17.28	7.3e-25	7.2999999999999995e-25
-GO:0072657	protein localization to membrane	367	151	76.41	4.2e-24	4.2e-24
+GO:0002181	cytoplasmic translation	118	95	24.36	< 1e-30	9.999999999999999e-31
+GO:0016310	phosphorylation	1144	338	236.2	< 1e-30	9.999999999999999e-31
+GO:0006614	SRP-dependent cotranslational protein ta...	63	56	13.01	< 1e-30	9.999999999999999e-31
+GO:0006413	translational initiation	142	93	29.32	< 1e-30	9.999999999999999e-31
+GO:0043043	peptide biosynthetic process	392	176	80.93	< 1e-30	9.999999999999999e-31
+GO:0070972	protein localization to endoplasmic reti...	87	69	17.96	1.0e-30	1e-30
+GO:0043604	amide biosynthetic process	418	201	86.3	1.1e-30	1.1000000000000001e-30
+GO:0009167	purine ribonucleoside monophosphate meta...	207	129	42.74	1.9e-30	1.9e-30
+GO:0046034	ATP metabolic process	219	134	45.22	1.4e-29	1.3999999999999998e-29
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	61	17.14	4.6e-25	4.6e-25
+GO:0015833	peptide transport	1019	344	210.39	9.2e-25	9.2e-25
+GO:0072657	protein localization to membrane	367	150	75.77	2.5e-24	2.5e-24

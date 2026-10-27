@@ -163,7 +163,7 @@ pA_q4 <- if (nrow(de_counts_q4) > 0) {
     scale_y_continuous(labels = function(x) scales::comma(abs(x))) +
     coord_flip() +
     labs(x = NULL, y = "DE gene count", fill = NULL,
-         title = "A - Differential expression gene counts \n( FDR < 0.05, |log₂FC| > 1)") +
+         title = "A - Differential expression gene counts \n( FDR < 0.05, |log2FC| > 1)") +
        guides(fill="none")+
     plot_theme + theme(legend.position = "bottom")
 
@@ -227,7 +227,7 @@ if (!is.null(res_ag_te) && !is.null(res_do_te)) {
       geom_point() +
       scale_colour_gradientn(
         colours = enrichment_palette(3),
-        name = "Mean\nlog₂CPM"
+        name = "Mean\nlog2CPM"
       ) +
       scale_size_continuous(range = c(1, 6), guide = "none") +
       labs(x = NULL, y = NULL,
@@ -270,7 +270,7 @@ if (!is.null(res_germline_q4) && !is.null(res_soma_mated_q4)) {
 
   overlap_df <- tibble(
     category = c("Germline\nonly", "Soma\nonly",
-                 "Germline\n& soma\n(Y candidates)"),
+                 "Germline\n& soma"),
     n = c(
       length(setdiff(male_gl,   male_soma)),
       length(setdiff(male_soma, male_gl)),
@@ -283,7 +283,7 @@ if (!is.null(res_germline_q4) && !is.null(res_soma_mated_q4)) {
                    aes(factor(category, levels  = c(
                      "Germline\nonly",
                      "Soma\nonly",
-                     "Germline\n& soma\n(Y candidates)"
+                     "Germline\n& soma"
                    )), n, fill = category)) +
     geom_col(width = 0.55) +
     geom_richtext(
@@ -297,7 +297,7 @@ if (!is.null(res_germline_q4) && !is.null(res_soma_mated_q4)) {
                                         overlap_df$category)) +
     scale_y_continuous(expand = expansion(mult = c(0, 0.18))) +
     labs(x = NULL, y = "Gene count",
-         title = "D - Male-biased gene overlap\n(germline × soma → Y candidates)") +
+         title = "D - Male-biased gene overlap\n(germline vs soma)") +
     plot_theme +
     theme(legend.position = "none",
           axis.text.x = element_text(size = 9))
@@ -340,7 +340,7 @@ q4_go_files <- list.files(
 message("q4 GO files found: ", length(q4_go_files))
 print(q4_go_files)
 # should be 2 because C2 has all 3 merged 
-if (length(q4_go_files) == 0) stop("No q4 short GO files found — check paths")
+if (length(q4_go_files) == 0) stop("No q4 short GO files found - check paths")
 
 # Read and label by contrast (parent folder name)
 q4_go <- purrr::map_dfr(q4_go_files, function(f) {
@@ -403,7 +403,7 @@ make_contrast_go_heatmap <- function(go_data,
   
   # If nothing is shared, take top terms by mean enrichment instead
   if (length(sig_terms) == 0) {
-    message("No shared terms across groups — taking top terms by mean enrichment")
+    message("No shared terms across groups - taking top terms by mean enrichment")
     sig_terms <- go_data %>%
       filter(p_value < p_threshold) %>%
       group_by(Term) %>%
@@ -465,7 +465,7 @@ make_contrast_go_heatmap <- function(go_data,
     angle_col         = "45",
     main              = title_text,
     legend_breaks     = c(0, 2, 4, 6, 8, 10),
-    legend_labels     = c("0","2","4","6","8","≥10")
+    legend_labels     = c("0","2","4","6","8",">=10")
   )
 }
 
@@ -477,7 +477,7 @@ make_contrast_go_heatmap <- function(go_data,
 # ============================================================
 p_q4_heatmap <- make_contrast_go_heatmap(
   go_data    = q4_go,
-  title_text = "MZT: GO enrichment across all contrasts\n(−log₁₀ p)",
+  title_text = "MZT: GO enrichment across all contrasts\n(-log10 p)",
   n_terms    = 30,
   min_groups = 2
 )

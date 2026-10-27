@@ -1,0 +1,10 @@
+name: fc_exon_intron
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - subread>=2.0.6
+  - r-base>=4.3
+  - r-data.table
+  - bioconductor-genomicranges
+  - bioconductor-rtracklayer

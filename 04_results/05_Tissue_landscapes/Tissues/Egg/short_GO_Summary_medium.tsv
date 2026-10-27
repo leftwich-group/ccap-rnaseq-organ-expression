@@ -1,13 +1,13 @@
 GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
-GO:0043043	peptide biosynthetic process	392	313	219.95	< 1e-30	9.999999999999999e-31
-GO:0043604	amide biosynthetic process	418	332	234.53	< 1e-30	9.999999999999999e-31
-GO:0002181	cytoplasmic translation	118	112	66.21	1.1e-17	1.1e-17
-GO:0006614	SRP-dependent cotranslational protein ta...	63	58	35.35	6.1e-13	6.1e-13
-GO:0006413	translational initiation	142	127	79.67	6.5e-13	6.5e-13
-GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	76	46.57	4.4e-12	4.4e-12
-GO:0015833	peptide transport	1019	648	571.75	1.6e-11	1.6e-11
-GO:0006886	intracellular protein transport	689	467	386.59	8.3e-10	8.3e-10
-GO:0070126	mitochondrial translational termination	69	62	38.71	9.5e-10	9.5e-10
-GO:0044703	multi-organism reproductive process	1448	863	812.45	1.7e-09	1.7e-9
-GO:0070972	protein localization to endoplasmic reti...	87	74	48.81	3.0e-09	3e-9
-GO:0072657	protein localization to membrane	367	234	205.92	3.6e-09	3.6e-9
+GO:0043043	peptide biosynthetic process	392	314	221.17	< 1e-30	9.999999999999999e-31
+GO:0043604	amide biosynthetic process	418	333	235.84	< 1e-30	9.999999999999999e-31
+GO:0002181	cytoplasmic translation	118	112	66.58	1.6e-17	1.6e-17
+GO:0006413	translational initiation	142	128	80.12	6.8e-14	6.8e-14
+GO:0006614	SRP-dependent cotranslational protein ta...	63	58	35.54	8.3e-13	8.3e-13
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	76	46.83	6.3e-12	6.3e-12
+GO:0015833	peptide transport	1019	650	574.92	4.2e-11	4.2e-11
+GO:0070126	mitochondrial translational termination	69	62	38.93	1.3e-09	1.3e-9
+GO:0006886	intracellular protein transport	689	469	388.74	1.5e-09	1.5e-9
+GO:0070972	protein localization to endoplasmic reti...	87	74	49.09	4.1e-09	4.1e-9
+GO:0072657	protein localization to membrane	367	237	207.06	5.2e-09	5.2e-9
+GO:0044703	multi-organism reproductive process	1448	864	816.97	6.5e-09	6.5e-9

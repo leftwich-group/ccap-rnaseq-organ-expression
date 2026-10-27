@@ -1,13 +1,13 @@
 GO.ID	Term	Annotated	Significant	Expected	weight01_fisher	p_value
-GO:0002181	cytoplasmic translation	118	98	24.04	< 1e-30	9.999999999999999e-31
-GO:0044703	multi-organism reproductive process	1448	470	294.95	< 1e-30	9.999999999999999e-31
-GO:0006614	SRP-dependent cotranslational protein ta...	63	56	12.83	< 1e-30	9.999999999999999e-31
-GO:0006413	translational initiation	142	101	28.92	< 1e-30	9.999999999999999e-31
-GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	65	16.91	7.1e-30	7.1e-30
-GO:0043043	peptide biosynthetic process	392	161	79.85	6.2e-28	6.200000000000001e-28
-GO:0070972	protein localization to endoplasmic reti...	87	65	17.72	1.6e-27	1.6000000000000001e-27
-GO:0043604	amide biosynthetic process	418	171	85.14	2.5e-26	2.5e-26
-GO:0015833	peptide transport	1019	342	207.57	7.7e-23	7.700000000000001e-23
-GO:0072657	protein localization to membrane	367	144	74.76	6.2e-20	6.2e-20
-GO:0043161	proteasome-mediated ubiquitin-dependent ...	295	140	60.09	1.3e-18	1.3e-18
-GO:0006886	intracellular protein transport	689	259	140.35	1.2e-17	1.2e-17
+GO:0044703	multi-organism reproductive process	1448	498	313.84	< 1e-30	9.999999999999999e-31
+GO:0002181	cytoplasmic translation	118	98	25.58	< 1e-30	9.999999999999999e-31
+GO:0006614	SRP-dependent cotranslational protein ta...	63	57	13.65	< 1e-30	9.999999999999999e-31
+GO:0006413	translational initiation	142	102	30.78	< 1e-30	9.999999999999999e-31
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	83	65	17.99	3.2e-28	3.2000000000000003e-28
+GO:0070972	protein localization to endoplasmic reti...	87	67	18.86	4.2e-27	4.2e-27
+GO:0043043	peptide biosynthetic process	392	166	84.96	1.3e-26	1.3e-26
+GO:0043604	amide biosynthetic process	418	177	90.6	1.6e-25	1.5999999999999998e-25
+GO:0015833	peptide transport	1019	369	220.86	8.3e-25	8.3e-25
+GO:0043161	proteasome-mediated ubiquitin-dependent ...	295	151	63.94	2.5e-21	2.5e-21
+GO:0072657	protein localization to membrane	367	153	79.54	1.6e-20	1.6e-20
+GO:0006886	intracellular protein transport	689	278	149.34	1.5e-18	1.5e-18
